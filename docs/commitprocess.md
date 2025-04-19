@@ -25,3 +25,7 @@ Commit the changes via **GitHub Desktop**, but **never** commit to **main**, ins
 - **feature-branch_name**
 - **bug-branch_name**
 - **doc-branch_name**
+
+## Environment
+
+Before merging to main, make sure the [environment variable](../src/environments/environment.prod.ts) is on **true**
