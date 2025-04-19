@@ -1,31 +1,15 @@
-# Talesofcyber
+# TalesOfCyber
 
-# Project Setup
+## Project Setup
 
-## Creation
+Finde here all setps that were taken, when creating the repository
 
-First thing is always the creation of a project itself
+- [ProjectSetup](docs/projectsetup.md)
 
-```
-ng new talesofcyber
-```
+## Commit Process
 
-- Choosen Options: **Sass SCSS** & **No Serverside Rendering**
+Find here all steps that are taken before each commit
 
-To see if it worked, try starting to project
+- [CommitProcess](docs/commitprocess.md)
 
-```
-npm start
-```
-
-- See your Webside on **http://localhost:4200**
-
-## GitHub
-
-To safe your Project, create a git repo and connect it with your Angular Project
-
-```
-git remote add origin git@github.com:xxxx
-```
-
-- Check and update the **.gitignore** File
+npm audit
