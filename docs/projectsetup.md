@@ -63,3 +63,17 @@ npm install --save-dev sonarqube-scanner
 Create and configure the **sonar-project.properties** file
 
 - Run the tests like described in [CommitProcess](commitprocess.md)
+
+## Logging
+
+Change the [environment variable](../src/environments/environment.prod.ts) to **false** inorder to see the logs
+
+Implementing the logger in your component:
+
+```
+constructor(private logger: LoggerService) {}
+
+  ngOnInit() {
+    this.logger.log(`-> Logging something`);
+  }
+```
