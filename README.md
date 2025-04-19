@@ -11,3 +11,5 @@ Finde here all setps that were taken, when creating the repository
 Find here all steps that are taken before each commit
 
 - [CommitProcess](docs/commitprocess.md)
+
+npm audit
