@@ -1,4 +1,4 @@
-# c-toolbar
+# cs-toolbar
 
 ## Introduction
 
@@ -11,8 +11,8 @@ A toolbar wich can show a variaty of Icons. By default all Icons are disabled, w
 
 ## Example on how to use
 
-If you have a screen where you wanna add a toolbar wich shows an Menu Icon, then open the **your-component.component.html** file and add the toolbar:
+If you have a screen where you wanna add a toolbar wich shows a **Menu Icon**, then open the **your-component.component.html** file and add the toolbar:
 
 ```html
-<app-c-toolbar [showMenuIcon]="true"></app-c-toolbar>
+<app-cs-toolbar [showMenuIcon]="true"></app-cs-toolbar>
 ```

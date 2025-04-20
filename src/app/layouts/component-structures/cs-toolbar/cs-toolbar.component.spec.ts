@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CToolbarComponent } from './c-toolbar.component';
+import { CsToolbarComponent } from './cs-toolbar.component';
 
-describe('CToolbarComponent', () => {
-  let component: CToolbarComponent;
-  let fixture: ComponentFixture<CToolbarComponent>;
+describe('CsToolbarComponent', () => {
+  let component: CsToolbarComponent;
+  let fixture: ComponentFixture<CsToolbarComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [CToolbarComponent]
+      imports: [CsToolbarComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(CToolbarComponent);
+    fixture = TestBed.createComponent(CsToolbarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

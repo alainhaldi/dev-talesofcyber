@@ -2,8 +2,8 @@
 
 Find here all Component Structures wich can be used
 
-## c-toolbar
+## cs-toolbar
 
 A customizable Toolbar
 
-- [c-toolbar](c-toolbar.md)
+- [cs-toolbar](cs-toolbar.md)
