@@ -19,3 +19,5 @@ Component Structures are reusable components like **Toolbar**, **Topic Card**
 - [Component Structures](docs/component_structures/component_structures.md)
 
 npm audit
+
+ng serve --host 0.0.0.0
