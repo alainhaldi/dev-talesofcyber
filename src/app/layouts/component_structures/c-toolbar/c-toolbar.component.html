@@ -1,0 +1,24 @@
+<mat-toolbar class="c-toolbar">
+  @if (showHomeIcon()) {
+  <button
+    mat-icon-button
+    class="c-icon-button"
+    aria-label="Home Icon"
+    [routerLink]="'/'"
+  >
+    <span class="material-symbols-outlined"> home </span>
+  </button>
+  }
+  <!-- Spacer -->
+  <span class="c-spacer"></span>
+  @if (showMenuIcon()) {
+  <button
+    mat-icon-button
+    class="c-icon-button"
+    aria-label="Menu Icon"
+    [routerLink]="'/'"
+  >
+    <span class="material-symbols-outlined"> menu </span>
+  </button>
+  }
+</mat-toolbar>

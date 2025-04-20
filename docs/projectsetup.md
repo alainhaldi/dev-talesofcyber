@@ -77,3 +77,13 @@ constructor(private logger: LoggerService) {}
     this.logger.log(`-> Logging something`);
   }
 ```
+
+## Styling & Components
+
+To make use of the existing [Angular Material Components](https://material.angular.io/components/categories), you can install it with
+
+```
+ng add @angular/material
+```
+
+For easier handling, you can use [Google Icons](https://fonts.google.com/icons) and [Google Fonts](https://fonts.google.com)

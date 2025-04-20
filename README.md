@@ -12,4 +12,10 @@ Find here all steps that are taken before each commit
 
 - [CommitProcess](docs/commitprocess.md)
 
+## Manual Component Structures
+
+Component Structures are reusable components like **Toolbar**, **Topic Card**
+
+- [Component Structures](docs/component_structures/component_structures.md)
+
 npm audit
