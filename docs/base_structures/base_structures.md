@@ -13,3 +13,9 @@ An Component for inserting Rive projects (Animations and Images)
 An Component for simply add an empty Container
 
 - [bs-spacer-container](bs-spacer-container.md)
+
+## bs-title
+
+An Component for simply displaying a Title
+
+- [bs-title](bs-title.md)
