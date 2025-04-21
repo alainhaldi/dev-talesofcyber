@@ -1,5 +1,25 @@
 # TalesOfCyber
 
+## Basic Commands
+
+Start in Dev Mode
+
+```bash
+npm start
+```
+
+Start in Dev Mode and make accessable in local Network
+
+```bash
+ng serve --host 0.0.0.0
+```
+
+Check Packages for vulnerabilities
+
+```bash
+npm audit
+```
+
 ## Project Setup
 
 Finde here all setps that were taken, when creating the repository
@@ -14,10 +34,12 @@ Find here all steps that are taken before each commit
 
 ## Manual Component Structures
 
-Component Structures are reusable components like **Toolbar**, **Topic Card**
+Component Structures are reusable, complex components like **Toolbar**, **Topic Card**
 
 - [Component Structures](docs/component_structures/component_structures.md)
 
-npm audit
+## Manual Base Structures
 
-ng serve --host 0.0.0.0
+Base Structures are reusable, simple components like **Text**, **Title**, **Rive**
+
+- [Base Structures](docs/base_structures/base_structures.md)

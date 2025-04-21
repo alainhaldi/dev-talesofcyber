@@ -4,7 +4,7 @@
 
 First thing is always the creation of a project itself
 
-```
+```bash
 ng new talesofcyber
 ```
 
@@ -12,7 +12,7 @@ ng new talesofcyber
 
 To see if it worked, try starting to project
 
-```
+```bash
 npm start
 ```
 
@@ -22,7 +22,7 @@ npm start
 
 To safe your Project, create a git repo and connect it with your Angular Project
 
-```
+```bash
 git remote add origin git@github.com:xxxx
 ```
 
@@ -46,7 +46,7 @@ Get a custom domain
 
 Create the local docker container
 
-```
+```bash
 docker run -d --name sonarqube -p 9000:9000 sonarqube
 ```
 
@@ -56,7 +56,7 @@ Login to the [UI](http://localhost:9000) and create a **UserToken**
 
 Install the package
 
-```
+```bash
 npm install --save-dev sonarqube-scanner
 ```
 
@@ -70,7 +70,7 @@ Change the [environment variable](../src/environments/environment.prod.ts) to **
 
 Implementing the logger in your component:
 
-```
+```ts
 constructor(private logger: LoggerService) {}
 
   ngOnInit() {
@@ -82,8 +82,34 @@ constructor(private logger: LoggerService) {}
 
 To make use of the existing [Angular Material Components](https://material.angular.io/components/categories), you can install it with
 
-```
+```bash
 ng add @angular/material
 ```
 
 For easier handling, you can use [Google Icons](https://fonts.google.com/icons) and [Google Fonts](https://fonts.google.com)
+
+## Rive
+
+You can install the Rive package with:
+
+```bash
+npm install @rive-app/canvas
+```
+
+Make sure in your **angular.json** file you have the following lines (2 places):
+
+```json
+"assets": [
+              {
+                "glob": "**/*",
+                "input": "public"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/assets",
+                "output": "assets"
+              }
+            ],
+```
+
+Find more information on the [Offical Rive Website](https://rive.app/docs/getting-started/introduction)
