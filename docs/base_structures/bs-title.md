@@ -1,4 +1,4 @@
-# bs-rive
+# bs-title
 
 ## Introduction
 
@@ -22,5 +22,13 @@ If you have a screen where you wanna add a Title as an h1 element, then open the
 For a cleaner html file, add all Paths to the i18n json values in the **your-component.component.ts** file:
 
 ```ts
-pathToHotTopics = "Top Themen";
+pathToHotTopics = "bs_title_hot_topics";
+```
+
+In the **languge.json** file, refer to the title like (bs_title_custom_name):
+
+```json
+{
+  "bs_title_hot_topics": "Top Themen"
+}
 ```

@@ -1,4 +1,4 @@
-# Commit Process
+# Merge Process
 
 ## Static Code Analysis - SonarQube
 

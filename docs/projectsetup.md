@@ -113,3 +113,33 @@ Make sure in your **angular.json** file you have the following lines (2 places):
 ```
 
 Find more information on the [Offical Rive Website](https://rive.app/docs/getting-started/introduction)
+
+## Translation i18n
+
+Install the package:
+
+```bash
+npm install @ngx-translate/core @ngx-translate/http-loader
+```
+
+Create a Language Service at:
+
+```bash
+src/app/core/language.service.ts
+```
+
+Update the **app.config.ts** file and create a language file at:
+
+```bash
+public/i18n/de.json
+```
+
+Make sure the **assets** folder is add in your **angular.json** file
+
+Finally, make sure you inject the service in your **app.component.ts** file, to activate it once the project gets started:
+
+```ts
+constructor(private languageService: LanguageService) {}
+```
+
+Note: For more detailed instructions on how to add languages, read [translation](translation.md)

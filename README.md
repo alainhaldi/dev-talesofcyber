@@ -26,19 +26,19 @@ Finde here all setps that were taken, when creating the repository
 
 - [ProjectSetup](docs/projectsetup.md)
 
-## Commit Process
+## Merge Process
 
-Find here all steps that are taken before each commit
+Find here all steps that are taken before each merge
 
-- [CommitProcess](docs/commitprocess.md)
+- [MergeProcess](docs/mergeprocess.md)
 
-## Manual Component Structures
+## Component Structures Manual
 
 Component Structures are reusable, complex components like **Toolbar**, **Topic Card**
 
 - [Component Structures](docs/component_structures/component_structures.md)
 
-## Manual Base Structures
+## Base Structures Manual
 
 Base Structures are reusable, simple components like **Text**, **Title**, **Rive**
 

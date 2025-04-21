@@ -16,5 +16,5 @@ import { BsTitleComponent } from '../../layouts/base-structures/bs-title/bs-titl
   styleUrl: './home-page.component.scss',
 })
 export class HomePageComponent {
-  pathToHotTopics = 'Top Themen';
+  pathToHotTopics = 'home_page.bs_title_hot_topics';
 }
