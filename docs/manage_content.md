@@ -34,3 +34,9 @@ hot_topics_ids: string[] = [
     '...'
   ];
 ```
+
+### Remove Topic from Hot Topics
+
+Move the topic from **hot_topics** to **all_topics** and update the **hot_topics_id** array in [home-page.component.ts](../src/app/pages/home-page/home-page.component.ts)
+
+\*For more detail infos, read the **Add Topic to Hot Topics** chapter

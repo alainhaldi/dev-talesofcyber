@@ -14,8 +14,7 @@
         "topic_1": {
           "infos": {
             "bs_title_topic": "Passwörter",
-            "bs_text_description": "Dein digitaler Hausschlüssel",
-            "xxximage": ""
+            "bs_text_description": "Dein digitaler Hausschlüssel"
           },
           "questions": {},
           "story": {}
