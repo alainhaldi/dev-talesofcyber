@@ -43,3 +43,15 @@ Component Structures are reusable, complex components like **Toolbar**, **Topic 
 Base Structures are reusable, simple components like **Text**, **Title**, **Rive**
 
 - [Base Structures](docs/base_structures/base_structures.md)
+
+## Manage Content
+
+Find here informations about how to add new languages, new topics or hot topics
+
+- [Manage Content](docs/manage_content.md)
+
+## Temp for developement
+
+title = input.required<string>();
+
+### Improvments

@@ -4,5 +4,24 @@
     "bs_title_hot_topics": "Top Themen",
     "bs_button_all_topics": "Alle Themen"
   },
-  "topic_page": {}
+  "topic_page": {
+    "global": {
+      "bs_button_story": "Geschichte",
+      "story_pages": {}
+    },
+    "topics": {
+      "hot_topics": {
+        "topic_1": {
+          "infos": {
+            "bs_title_topic": "Passwörter",
+            "bs_text_description": "Dein digitaler Hausschlüssel",
+            "xxximage": ""
+          },
+          "questions": {},
+          "story": {}
+        }
+      },
+      "all_topics": {}
+    }
+  }
 }

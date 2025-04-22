@@ -12,3 +12,10 @@
 .c-spacer {
     flex: 1 1 auto;
   }
+
+  .container-hot-topics{
+    background-color: rgb(184, 184, 51);
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+}

@@ -15,3 +15,10 @@
     [isLarge]="false"
   ></app-bs-button>
 </div>
+<div class="container-hot-topics">
+  @for (id of hot_topics_ids; track id) {
+  <app-cs-topic-card
+    pathToTitle="{{ pathToHotTopics + id + pathToTitleTopic }}"
+  ></app-cs-topic-card>
+  }
+</div>
