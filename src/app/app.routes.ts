@@ -9,4 +9,9 @@ export const routes: Routes = [
   },
   { path: 'menu', component: MenuPageComponent },
   //   { path: 'contact', component: MenuPageComponent },
+  //   Fallback
+  //   {
+  //     path: '**',
+  //     component: NotFoundComponent,
+  //   },
 ];

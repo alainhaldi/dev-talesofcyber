@@ -55,3 +55,5 @@ Find here informations about how to add new languages, new topics or hot topics
 title = input.required<string>();
 
 ### Improvments
+
+- Not Found Component wich links back to Home Screen, with hero saying something
