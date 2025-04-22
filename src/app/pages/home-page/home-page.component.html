@@ -7,6 +7,11 @@
   [stateMachines]="['State Machine 1']"
 ></app-bs-rive>
 <app-bs-spacer-container></app-bs-spacer-container>
-<div>
-  <app-bs-title title="{{ pathToHotTopics }}" [isH1]="true"></app-bs-title>
+<div class="container-title-button">
+  <app-bs-title title="{{ pathToTitleHotTopics }}" [isH1]="true"></app-bs-title>
+  <span class="c-spacer"></span>
+  <app-bs-button
+    text="{{ pathToButtonAllTopics }}"
+    [isLarge]="false"
+  ></app-bs-button>
 </div>

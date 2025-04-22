@@ -1,0 +1,5 @@
+@if(!isLarge()){
+<button class="button-small">{{ text() | translate }}</button>
+} @if (isLarge()) {
+<button class="button-large">{{ text() | translate }}</button>
+}

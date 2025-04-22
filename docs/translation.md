@@ -11,7 +11,7 @@ imports: [TranslatePipe],
 Make sure you use the translate Pipe in **your-component.component.html** file
 
 ```html
-<h1>{{ "page.hot_topics" | translate }}</h1>
+<h1>{{ pathToHotTopics() | translate }}</h1>
 ```
 
 Make sure you use the correct path. Example for a path:

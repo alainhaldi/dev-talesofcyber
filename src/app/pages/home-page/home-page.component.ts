@@ -3,6 +3,7 @@ import { CsToolbarComponent } from '../../layouts/component-structures/cs-toolba
 import { BsSpacerContainerComponent } from '../../layouts/base-structures/bs-spacer-container/bs-spacer-container.component';
 import { BsRiveComponent } from '../../layouts/base-structures/bs-rive/bs-rive.component';
 import { BsTitleComponent } from '../../layouts/base-structures/bs-title/bs-title.component';
+import { BsButtonComponent } from '../../layouts/base-structures/bs-button/bs-button.component';
 
 @Component({
   selector: 'app-home-page',
@@ -11,10 +12,12 @@ import { BsTitleComponent } from '../../layouts/base-structures/bs-title/bs-titl
     BsSpacerContainerComponent,
     BsRiveComponent,
     BsTitleComponent,
+    BsButtonComponent,
   ],
   templateUrl: './home-page.component.html',
   styleUrl: './home-page.component.scss',
 })
 export class HomePageComponent {
-  pathToHotTopics = 'home_page.bs_title_hot_topics';
+  pathToTitleHotTopics = 'home_page.bs_title_hot_topics';
+  pathToButtonAllTopics = 'home_page.bs_button_all_topics';
 }

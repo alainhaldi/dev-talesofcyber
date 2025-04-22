@@ -2,3 +2,13 @@
     height: 50vh;
     background-color: orange;
 }
+
+.container-title-button {
+    background-color: beige;
+    display: flex;
+    align-items: center;
+}
+
+.c-spacer {
+    flex: 1 1 auto;
+  }
