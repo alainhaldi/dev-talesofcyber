@@ -1,5 +1,11 @@
 {
-  "menu_page": {},
+  "menu_page": {
+    "bs_title_contact": "Kontakt",
+    "bs_title_feedback": "Rückmeldung",
+    "bs_title_dictionary": "Wörterbuch",
+    "bs_title_further_infos": "Weitere Infoseiten",
+    "bs_title_liability": "Haftungsausschluss"
+  },
   "home_page": {
     "bs_title_hot_topics": "Top Themen",
     "bs_button_all_topics": "Alle Themen"

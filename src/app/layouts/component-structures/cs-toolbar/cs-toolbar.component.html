@@ -16,9 +16,18 @@
     mat-icon-button
     class="c-icon-button"
     aria-label="Menu Icon"
-    [routerLink]="'/'"
+    [routerLink]="'menu'"
   >
     <span class="material-symbols-outlined"> menu </span>
+  </button>
+  } @if (showCloseIcon()) {
+  <button
+    mat-icon-button
+    class="c-icon-button"
+    aria-label="Close Icon"
+    [routerLink]="'/'"
+  >
+    <span class="material-symbols-outlined"> close </span>
   </button>
   }
 </mat-toolbar>
