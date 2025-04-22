@@ -19,6 +19,7 @@
   @for (id of hot_topics_ids; track id) {
   <app-cs-topic-card
     pathToTitle="{{ pathToHotTopics + id + pathToTitleTopic }}"
+    pathToText="{{ pathToHotTopics + id + pathToTextDescription }}"
   ></app-cs-topic-card>
   }
 </div>

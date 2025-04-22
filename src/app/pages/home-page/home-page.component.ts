@@ -32,4 +32,5 @@ export class HomePageComponent {
   ];
   pathToHotTopics = 'topic_page.topics.hot_topics.';
   pathToTitleTopic = '.infos.bs_title_topic';
+  pathToTextDescription = '.infos.bs_text_description';
 }
