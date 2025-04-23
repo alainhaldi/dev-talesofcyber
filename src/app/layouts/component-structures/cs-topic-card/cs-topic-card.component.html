@@ -1,4 +1,4 @@
-<a [routerLink]="'ho'">
+<a [routerLink]="['/topic', topicUrlId()]">
   <div class="container-card">
     <app-bs-rive
       width="300"
@@ -7,8 +7,8 @@
       [stateMachines]="['State Machine 1']"
     ></app-bs-rive>
     <div class="container-card-text">
-      <app-bs-title title="{{ pathToTitle() }}"></app-bs-title>
-      <app-bs-text text="{{ pathToText() }}"></app-bs-text>
+      <app-bs-title title="{{ pathToTitle }}"></app-bs-title>
+      <app-bs-text text="{{ pathToDescription }}"></app-bs-text>
     </div>
   </div>
 </a>

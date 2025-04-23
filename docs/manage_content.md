@@ -4,39 +4,26 @@
 
 ### Add Topic to Hot Topics
 
-If you want to add a topic to the hot topics, you first need to restructure the **language.json** file
-
-```bash
-public/i18n/language.json
-```
-
-There you need to move the topic (example: topic_54) from **all_topics** to **hot_topics**:
+If you want to add a topic to the hot topics, you need to add the **topid_id** to the **hot_topics_ids** array in the [topics.component.ts](../src/app/topics.config.ts) file
 
 ```json
 {
   "topic_page": {
     "global": {},
     "topics": {
-      "hot_topics": {
-        "topic_54": {}
-      }
-    },
-    "all_topics": {}
+      "topic_1": {}
+    }
   }
 }
 ```
 
-Afterwards, you need to update the **hot_topics_id** array in [home-page.component.ts](../src/app/pages/home-page/home-page.component.ts)
+The id in the language.json file should be the same as the jsonId
 
 ```ts
-hot_topics_ids: string[] = [
-    'topic_54',
-    '...'
-  ];
+export const topics = [
+  {
+    jsonId: "1",
+    urlId: "passwords",
+  },
+];
 ```
-
-### Remove Topic from Hot Topics
-
-Move the topic from **hot_topics** to **all_topics** and update the **hot_topics_id** array in [home-page.component.ts](../src/app/pages/home-page/home-page.component.ts)
-
-\*For more detail infos, read the **Add Topic to Hot Topics** chapter

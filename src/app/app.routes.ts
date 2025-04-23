@@ -8,6 +8,13 @@ export const routes: Routes = [
     component: HomePageComponent,
   },
   { path: 'menu', component: MenuPageComponent },
+  {
+    path: 'topic/:id',
+    loadComponent: () =>
+      import('./pages/topic-page/topic-page.component').then(
+        (m) => m.TopicPageComponent
+      ),
+  },
   //   { path: 'contact', component: MenuPageComponent },
   //   Fallback
   //   {

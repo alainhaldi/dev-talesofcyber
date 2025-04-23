@@ -16,10 +16,10 @@
   ></app-bs-button>
 </div>
 <div class="container-hot-topics">
-  @for (id of hot_topics_ids; track id) {
+  @for (hot_topic of local_hot_topics; track hot_topic.jsonId) {
   <app-cs-topic-card
-    pathToTitle="{{ pathToHotTopics + id + pathToTitleTopic }}"
-    pathToText="{{ pathToHotTopics + id + pathToTextDescription }}"
+    topicJsonId="{{ hot_topic.jsonId }}"
+    topicUrlId="{{ hot_topic.urlId }}"
   ></app-cs-topic-card>
   }
 </div>

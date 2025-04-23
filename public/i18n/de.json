@@ -16,17 +16,20 @@
       "story_pages": {}
     },
     "topics": {
-      "hot_topics": {
-        "topic_1": {
-          "infos": {
-            "bs_title_topic": "Passwörter",
-            "bs_text_description": "Dein digitaler Hausschlüssel"
-          },
-          "questions": {},
-          "story": {}
-        }
+      "topic_1": {
+        "infos": {
+          "bs_title_topic": "Passwörter",
+          "bs_text_description": "Dein digitaler Hausschlüssel"
+        },
+        "questions": {},
+        "story": {}
       },
-      "all_topics": {}
+      "topic_2": {
+        "infos": {
+          "bs_title_topic": "Testing",
+          "bs_text_description": "Testing Description"
+        }
+      }
     }
   }
 }
