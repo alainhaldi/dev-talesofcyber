@@ -1,11 +1,18 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
+import { CsToolbarComponent } from '../../../../layouts/component-structures/cs-toolbar/cs-toolbar.component';
+import { BsSpacerContainerComponent } from '../../../../layouts/base-structures/bs-spacer-container/bs-spacer-container.component';
+import { CsTopicQuestionHeaderComponent } from '../../../../layouts/component-structures/cs-topic-question-header/cs-topic-question-header.component';
 
 @Component({
   selector: 'app-questions-passwords',
-  imports: [],
+  imports: [
+    CsToolbarComponent,
+    BsSpacerContainerComponent,
+    CsTopicQuestionHeaderComponent,
+  ],
   templateUrl: './questions-passwords.component.html',
-  styleUrl: './questions-passwords.component.scss'
+  styleUrl: './questions-passwords.component.scss',
 })
 export class QuestionsPasswordsComponent {
-
+  jsonId = '1';
 }
