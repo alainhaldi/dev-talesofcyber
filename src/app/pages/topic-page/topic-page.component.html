@@ -1,1 +1,5 @@
-<p>topic-page works!</p>
+@if(componentToLoad()){
+<!-- <ng-container *ngIf="componentToLoad" [ngComponentOutlet]="componentToLoad()" /> -->
+<ng-container [ngComponentOutlet]="componentToLoad()" />
+
+}

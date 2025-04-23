@@ -5,7 +5,7 @@ import { BsRiveComponent } from '../../layouts/base-structures/bs-rive/bs-rive.c
 import { BsTitleComponent } from '../../layouts/base-structures/bs-title/bs-title.component';
 import { BsButtonComponent } from '../../layouts/base-structures/bs-button/bs-button.component';
 import { CsTopicCardComponent } from '../../layouts/component-structures/cs-topic-card/cs-topic-card.component';
-import { hot_topics_ids } from '../../topics.config';
+import { hot_topics } from '../../topics.config';
 
 @Component({
   selector: 'app-home-page',
@@ -23,9 +23,5 @@ import { hot_topics_ids } from '../../topics.config';
 export class HomePageComponent {
   pathToTitleHotTopics = 'home_page.bs_title_hot_topics';
   pathToButtonAllTopics = 'home_page.bs_button_all_topics';
-  // Topic Card
-  local_hot_topics = hot_topics_ids;
-  // pathToHotTopics = 'topic_page.topics.topic_';
-  // pathToTitleTopic = '.infos.bs_title_topic';
-  // pathToTextDescription = '.infos.bs_text_description';
+  local_hot_topics = hot_topics;
 }
