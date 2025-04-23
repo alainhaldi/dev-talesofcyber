@@ -1,12 +1,11 @@
+// Paths for JSON files
 export const pathToTopic = 'topic_page.topics.topic_';
 export const pathToTopicTitle = '.infos.bs_title_topic';
 export const pathToTopicDescription = '.infos.bs_text_description';
-
 export const getTopicTitle = (topicId: string): string => {
   return pathToTopic + topicId + pathToTopicTitle;
 };
 
-// Array used in home-page.component.ts, ids based on language.json file
 export const hot_topics = [
   { jsonId: '1', urlId: 'passwords' },
   { jsonId: '2', urlId: 'testing' },

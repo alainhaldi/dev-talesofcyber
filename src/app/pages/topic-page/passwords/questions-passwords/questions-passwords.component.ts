@@ -14,5 +14,5 @@ import { CsTopicQuestionHeaderComponent } from '../../../../layouts/component-st
   styleUrl: './questions-passwords.component.scss',
 })
 export class QuestionsPasswordsComponent {
-  jsonId = '1';
+  jsonId = input.required<string>();
 }
