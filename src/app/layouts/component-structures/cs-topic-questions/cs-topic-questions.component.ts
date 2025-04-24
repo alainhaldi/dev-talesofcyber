@@ -1,24 +1,15 @@
-import { Component, input, OnInit, signal, Type } from '@angular/core';
+import { Component, input, OnInit, signal, Type, inject } from '@angular/core';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatListModule } from '@angular/material/list';
 import { BsHeadingComponent } from '../../base-structures/bs-heading/bs-heading.component';
 import { pathToTopic, topics } from '../../../topics.config';
 import de from '../../../../../public/i18n/de.json';
 import { LoggerService } from '../../../core/logger.service';
-// Dialog Imports
-import { ChangeDetectionStrategy, inject } from '@angular/core';
-import { MatButtonModule } from '@angular/material/button';
-import { MatDialog, MatDialogModule } from '@angular/material/dialog';
+import { MatDialog } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-cs-topic-questions',
-  imports: [
-    MatListModule,
-    MatDividerModule,
-    BsHeadingComponent,
-    MatButtonModule,
-    MatDialogModule,
-  ],
+  imports: [MatListModule, MatDividerModule, BsHeadingComponent],
   templateUrl: './cs-topic-questions.component.html',
   styleUrl: './cs-topic-questions.component.scss',
 })
@@ -93,13 +84,15 @@ export class CsTopicQuestionsComponent implements OnInit {
   // Dialog
   readonly dialog = inject(MatDialog);
 
-  openDialog() {
+  openDialog(questionId: number) {
     if (!this.loadedDialogComponent) {
       this.logger.error('Dialog component not loaded yet.');
       return;
     }
 
-    const dialogRef = this.dialog.open(this.loadedDialogComponent);
+    const dialogRef = this.dialog.open(this.loadedDialogComponent, {
+      data: { questionId },
+    });
 
     dialogRef.afterClosed().subscribe((result) => {
       console.log(`Dialog result: ${result}`);

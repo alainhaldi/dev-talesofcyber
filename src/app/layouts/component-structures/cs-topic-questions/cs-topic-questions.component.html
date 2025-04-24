@@ -1,7 +1,7 @@
 <mat-list>
   @for(id of questionPages[currentPageIdx]; let j = $index; track j) {
   <mat-list-item>
-    <button mat-button (click)="openDialog()">
+    <button (click)="openDialog(id)">
       <app-bs-heading
         [heading]="
           pathToQuestions() + '.question_' + id + '.bs_heading_question'

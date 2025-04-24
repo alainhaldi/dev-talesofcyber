@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Inject, input } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
-import { MatDialogModule } from '@angular/material/dialog';
+import { MAT_DIALOG_DATA, MatDialogModule } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-questions-dialog-password',
@@ -8,4 +8,10 @@ import { MatDialogModule } from '@angular/material/dialog';
   templateUrl: './questions-dialog-password.component.html',
   styleUrl: './questions-dialog-password.component.scss',
 })
-export class QuestionsDialogPasswordComponent {}
+export class QuestionsDialogPasswordComponent {
+  localQuestionId = 0;
+
+  constructor(@Inject(MAT_DIALOG_DATA) public data: { questionId: number }) {
+    this.localQuestionId = data.questionId;
+  }
+}
