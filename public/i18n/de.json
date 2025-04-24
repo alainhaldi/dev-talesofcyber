@@ -21,7 +21,32 @@
           "bs_title_topic": "Passwörter",
           "bs_text_description": "Dein digitaler Hausschlüssel"
         },
-        "questions": {},
+        "questions": {
+          "question_1": {
+            "bs_heading_question": "Frage 1",
+            "answer": {}
+          },
+          "question_2": {
+            "bs_heading_question": "Frage 2",
+            "answer": {}
+          },
+          "question_3": {
+            "bs_heading_question": "Frage 3",
+            "answer": {}
+          },
+          "question_4": {
+            "bs_heading_question": "Frage 4",
+            "answer": {}
+          },
+          "question_5": {
+            "bs_heading_question": "Frage 5",
+            "answer": {}
+          },
+          "question_6": {
+            "bs_heading_question": "Frage 6",
+            "answer": {}
+          }
+        },
         "story": {}
       },
       "topic_2": {
