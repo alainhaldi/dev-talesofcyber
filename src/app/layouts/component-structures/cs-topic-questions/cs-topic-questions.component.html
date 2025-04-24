@@ -1,9 +1,13 @@
 <mat-list>
   @for(id of questionPages[currentPageIdx]; let j = $index; track j) {
   <mat-list-item>
-    <app-bs-heading
-      [heading]="pathToQuestions() + '.question_' + id + '.bs_heading_question'"
-    ></app-bs-heading>
+    <button mat-button (click)="openDialog()">
+      <app-bs-heading
+        [heading]="
+          pathToQuestions() + '.question_' + id + '.bs_heading_question'
+        "
+      ></app-bs-heading>
+    </button>
   </mat-list-item>
   <mat-divider></mat-divider>
   }

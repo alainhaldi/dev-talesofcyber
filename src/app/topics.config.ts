@@ -22,6 +22,10 @@ export const topics = [
       import(
         './pages/topic-page/passwords/questions-passwords/questions-passwords.component'
       ).then((m) => m.QuestionsPasswordsComponent),
+    dialogComponent: () =>
+      import(
+        './pages/topic-page/passwords/questions-dialog-password/questions-dialog-password.component'
+      ).then((m) => m.QuestionsDialogPasswordComponent),
   },
   // {
   //   jsonId: '2',
