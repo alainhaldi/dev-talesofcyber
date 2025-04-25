@@ -1,4 +1,4 @@
-import { Component, Inject, input } from '@angular/core';
+import { Component, Inject, input, OnInit } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MAT_DIALOG_DATA, MatDialogModule } from '@angular/material/dialog';
 import { getAnswer, getQuestion } from '../../../../topics.config';
@@ -25,12 +25,11 @@ import deJson from '../../../../../../public/i18n/de.json';
   templateUrl: './questions-dialog-password.component.html',
   styleUrl: './questions-dialog-password.component.scss',
 })
-export class QuestionsDialogPasswordComponent {
+export class QuestionsDialogPasswordComponent implements OnInit {
   localTopicId: string = '0';
   localQuestionId: string = '0';
   localPathToQuestion = '';
   localPathToAnswer = '';
-  localPathToAnswerHeading = '';
   localPathToBullets = '';
 
   answerArray: { key: string; type: string; value: any }[] = [];
@@ -51,11 +50,14 @@ export class QuestionsDialogPasswordComponent {
 
     this.localPathToBullets =
       getAnswer(this.localTopicId, this.localQuestionId) + '.bs_bullets';
+  }
 
+  ngOnInit(): void {
+    // Read and extract Values from the JSON file
     const topicKey = 'topic_' + this.localTopicId;
     const questionKey = 'question_' + this.localQuestionId;
 
-    const topic = deJson.topic_page.topics as Record<string, any>; // <-- Typumgehung
+    const topic = deJson.topic_page.topics as Record<string, any>;
     const question = topic[topicKey].questions[questionKey];
     const answer = question.answer;
 
