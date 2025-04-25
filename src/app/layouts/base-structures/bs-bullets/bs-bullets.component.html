@@ -1,5 +1,7 @@
 <ul>
-  @for (item of list; track item) {
-  <li>{{ item }}</li>
+  @for (id of bulletsId; track id) {
+  <li>
+    {{ pathToBullets() + ".bs_text_" + id.toString() | translate }}
+  </li>
   }
 </ul>

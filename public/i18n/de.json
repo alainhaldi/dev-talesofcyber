@@ -25,7 +25,7 @@
           "question_1": {
             "bs_heading_question": "Passwort gehackt - was tun?",
             "answer": {
-              "bullets": {
+              "bs_bullets": {
                 "bs_text_1": "Ändere dein Passwort sofort.",
                 "bs_text_2": "Falls du dasselbe Passwort auch bei anderen Accounts genutzt hast: auch dort sofort ändern.",
                 "bs_text_3": "Wähle ein neues, starkes Passwort und speichere es in einem Passwortmanager.",
@@ -43,13 +43,14 @@
             "bs_heading_question": "Was ist ein gutes Passwort?",
             "answer": {
               "bs_text_1": "Grundsätzlich gilt: Je länger und komplexer, desto besser. Folgende Punkte sollte ein sicheres Passwort erfüllen:",
-              "bullets": {
+              "bs_bullets": {
                 "bs_text_1": "Mindestens 16 Zeichen lang",
                 "bs_text_2": "Gross- und Kleinbuchstaben",
                 "bs_text_3": "Zahlen und Sonderzeichen",
                 "bs_text_4": "Keine gängigen Wörter",
                 "bs_text_5": "Keine persönlichen Informationen"
-              }
+              },
+              "bs_rive_1": ""
             }
           },
           "question_4": {
