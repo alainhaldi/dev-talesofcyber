@@ -14,40 +14,29 @@ export const getQuestion = (topicId: string, questionId: string): string => {
     '.bs_heading_question'
   );
 };
-export const getAnswer = (topicId: string, questionId: string): string => {
-  return (
-    pathToTopic + topicId + '.questions.question_' + questionId + '.answer'
-  );
-};
+export const getAnswer = (topicId: string, questionId: string): string =>
+  `${pathToTopic}${topicId}.questions.question_${questionId}.answer`;
 
+// Topics
 export const hot_topics = [
-  { jsonId: '1', urlId: 'passwords' },
-  { jsonId: '2', urlId: 'testing' },
-  { jsonId: '3', urlId: '333' },
-  { jsonId: '4', urlId: '444' },
-  { jsonId: '5', urlId: '555' },
+  { topicId: '1', urlId: 'passwords' },
+  { topicId: '2', urlId: 'testing' },
+  { topicId: '3', urlId: '333' },
+  { topicId: '4', urlId: '444' },
+  { topicId: '5', urlId: '555' },
 ];
 
 export const topics = [
   {
-    jsonId: '1',
+    topicId: '1',
     urlId: 'passwords',
-    loadComponent: () =>
-      import(
-        './pages/topic-page/passwords/questions-passwords/questions-passwords.component'
-      ).then((m) => m.QuestionsPasswordsComponent),
-    dialogComponent: () =>
-      import(
-        './pages/topic-page/passwords/questions-dialog-password/questions-dialog-password.component'
-      ).then((m) => m.QuestionsDialogPasswordComponent),
+    // loadComponent: () =>
+    //   import(
+    //     './pages/topic-page/passwords/questions-passwords/questions-passwords.component'
+    //   ).then((m) => m.QuestionsPasswordsComponent),
+    // dialogComponent: () =>
+    //   import(
+    //     './pages/topic-page/passwords/questions-dialog-password/questions-dialog-password.component'
+    //   ).then((m) => m.QuestionsDialogPasswordComponent),
   },
-  // {
-  //   jsonId: '2',
-  //   urlId: 'testing',
-  //   loadComponent: () =>
-  //     import(
-  //       './pages/topic-page/passwords/story-passwords/story-passwords.component'
-  //     ).then((m) => m.StoryPasswordsComponent),
-  // },
-  // weitere...
 ];

@@ -3,44 +3,40 @@ import {
   inject,
   OnInit,
   signal,
-  Type,
   ViewChild,
   ViewContainerRef,
 } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { topics } from '../../topics.config';
 import { CommonModule } from '@angular/common';
+import { CsToolbarComponent } from '../../layouts/component-structures/cs-toolbar/cs-toolbar.component';
+import { BsSpacerContainerComponent } from '../../layouts/base-structures/bs-spacer-container/bs-spacer-container.component';
+import { CsTopicQuestionHeaderComponent } from '../../layouts/component-structures/cs-topic-question-header/cs-topic-question-header.component';
+import { CsTopicQuestionsComponent } from '../../layouts/component-structures/cs-topic-questions/cs-topic-questions.component';
 
 @Component({
   selector: 'app-topic-page',
-  imports: [CommonModule],
+  imports: [
+    CommonModule,
+    CsToolbarComponent,
+    BsSpacerContainerComponent,
+    CsTopicQuestionHeaderComponent,
+    CsTopicQuestionsComponent,
+  ],
   templateUrl: './topic-page.component.html',
   styleUrl: './topic-page.component.scss',
 })
 export class TopicPageComponent implements OnInit {
-  // Placeholder for the dynamic component
-  @ViewChild('container', { read: ViewContainerRef })
-  viewContainer!: ViewContainerRef;
-
   // Access current route
-  route = inject(ActivatedRoute);
-  jsonId = signal('');
+  currentRoute = inject(ActivatedRoute);
+  topicId = signal('');
 
   async ngOnInit() {
-    // Get the urlId from the route
-    const urlId = this.route.snapshot.paramMap.get('id')!;
+    const urlId = this.currentRoute.snapshot.paramMap.get('id')!;
     // Find the topic in the topics array
     const topic = topics.find((topic) => topic.urlId === urlId);
     if (topic) {
-      this.jsonId.set(topic.jsonId);
-      const cmp = await topic.loadComponent();
-
-      // Clear the container and create the component
-      this.viewContainer.clear();
-      const ref = this.viewContainer.createComponent(cmp);
-
-      // pass the jsonId to the component
-      ref.setInput?.('jsonId', topic.jsonId);
+      this.topicId.set(topic.topicId);
     }
   }
 }

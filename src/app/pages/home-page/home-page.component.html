@@ -16,10 +16,10 @@
   ></app-bs-button>
 </div>
 <div class="container-hot-topics">
-  @for (hot_topic of local_hot_topics; track hot_topic.jsonId) {
+  @for (hot_topic of local_hot_topics; track hot_topic.topicId) {
   <app-cs-topic-card
-    topicJsonId="{{ hot_topic.jsonId }}"
-    topicUrlId="{{ hot_topic.urlId }}"
+    topicId="{{ hot_topic.topicId }}"
+    urlId="{{ hot_topic.urlId }}"
   ></app-cs-topic-card>
   }
 </div>

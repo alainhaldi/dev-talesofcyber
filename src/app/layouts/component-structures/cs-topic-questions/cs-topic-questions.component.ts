@@ -6,6 +6,7 @@ import { pathToTopic, topics } from '../../../topics.config';
 import de from '../../../../../public/i18n/de.json';
 import { LoggerService } from '../../../core/logger.service';
 import { MatDialog } from '@angular/material/dialog';
+import { CsTopicQuestionDialogComponent } from '../cs-topic-question-dialog/cs-topic-question-dialog.component';
 
 @Component({
   selector: 'app-cs-topic-questions',
@@ -14,7 +15,7 @@ import { MatDialog } from '@angular/material/dialog';
   styleUrl: './cs-topic-questions.component.scss',
 })
 export class CsTopicQuestionsComponent implements OnInit {
-  jsonId = input.required<string>();
+  topicId = input.required<string>();
   pathToQuestions = signal('');
   countQuestions: number = 0;
   // A array of all question IDs
@@ -23,20 +24,21 @@ export class CsTopicQuestionsComponent implements OnInit {
   questionPages: number[][] = [];
   currentPageIdx: number = 0;
 
-  private loadedDialogComponent: Type<any> | null = null;
+  // private loadedDialogComponent: Type<any> | null = null;
+  // private loadedDialogComponent: CsTopicQuestionDialogComponent | null = null;
 
   constructor(private logger: LoggerService) {}
 
   ngOnInit() {
-    this.pathToQuestions.set(pathToTopic + this.jsonId() + '.questions');
+    this.pathToQuestions.set(pathToTopic + this.topicId() + '.questions');
     this.countQuestions = this.GetCountQuestions(this.pathToQuestions());
     // Search for the topic in the topics array and load the dialog component
-    const topic = topics.find((topic) => topic.jsonId === this.jsonId());
-    if (topic?.dialogComponent) {
-      topic.dialogComponent().then((component) => {
-        this.loadedDialogComponent = component;
-      });
-    }
+    // const topic = topics.find((topic) => topic.jsonId === this.jsonId());
+    // if (topic?.dialogComponent) {
+    //   topic.dialogComponent().then((component) => {
+    //     this.loadedDialogComponent = component;
+    //   });
+    // }
 
     // Add all question IDs to one array
     for (let i = 1; i <= this.countQuestions; i++) {
@@ -85,13 +87,8 @@ export class CsTopicQuestionsComponent implements OnInit {
   readonly dialog = inject(MatDialog);
 
   openDialog(questionId: number) {
-    if (!this.loadedDialogComponent) {
-      this.logger.error('Dialog component not loaded yet.');
-      return;
-    }
-
-    const dialogRef = this.dialog.open(this.loadedDialogComponent, {
-      data: { questionId: questionId.toString(), topicId: this.jsonId() },
+    const dialogRef = this.dialog.open(CsTopicQuestionDialogComponent, {
+      data: { questionId: questionId.toString(), topicId: this.topicId() },
     });
 
     dialogRef.afterClosed().subscribe((result) => {

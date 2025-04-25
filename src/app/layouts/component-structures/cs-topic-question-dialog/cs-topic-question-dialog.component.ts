@@ -1,17 +1,17 @@
 import { Component, Inject, input, OnInit } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MAT_DIALOG_DATA, MatDialogModule } from '@angular/material/dialog';
-import { getAnswer, getQuestion } from '../../../../topics.config';
 import { TranslatePipe } from '@ngx-translate/core';
-import { BsBulletsComponent } from '../../../../layouts/base-structures/bs-bullets/bs-bullets.component';
-import { BsTextComponent } from '../../../../layouts/base-structures/bs-text/bs-text.component';
-import { BsHeadingComponent } from '../../../../layouts/base-structures/bs-heading/bs-heading.component';
-import { BsTitleComponent } from '../../../../layouts/base-structures/bs-title/bs-title.component';
-import { BsRiveComponent } from '../../../../layouts/base-structures/bs-rive/bs-rive.component';
-import deJson from '../../../../../../public/i18n/de.json';
+import { BsBulletsComponent } from '../../base-structures/bs-bullets/bs-bullets.component';
+import { BsTextComponent } from '../../base-structures/bs-text/bs-text.component';
+import { BsHeadingComponent } from '../../base-structures/bs-heading/bs-heading.component';
+import { BsTitleComponent } from '../../base-structures/bs-title/bs-title.component';
+import { BsRiveComponent } from '../../base-structures/bs-rive/bs-rive.component';
+import { getAnswer, getQuestion } from '../../../topics.config';
+import deJson from '../../../../../public/i18n/de.json';
 
 @Component({
-  selector: 'app-questions-dialog-password',
+  selector: 'app-cs-topic-question-dialog',
   imports: [
     TranslatePipe,
     MatButtonModule,
@@ -22,10 +22,10 @@ import deJson from '../../../../../../public/i18n/de.json';
     BsTitleComponent,
     BsRiveComponent,
   ],
-  templateUrl: './questions-dialog-password.component.html',
-  styleUrl: './questions-dialog-password.component.scss',
+  templateUrl: './cs-topic-question-dialog.component.html',
+  styleUrl: './cs-topic-question-dialog.component.scss',
 })
-export class QuestionsDialogPasswordComponent implements OnInit {
+export class CsTopicQuestionDialogComponent implements OnInit {
   localTopicId: string = '0';
   localQuestionId: string = '0';
   localPathToQuestion = '';

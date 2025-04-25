@@ -22,8 +22,8 @@ export class CsTopicCardComponent implements OnInit {
   localPathToTopicDescription = pathToTopicDescription;
 
   // Local Variables
-  topicJsonId = input.required<string>();
-  topicUrlId = input.required<string>();
+  topicId = input.required<string>();
+  urlId = input.required<string>();
   pathToTitle!: string;
   pathToDescription!: string;
 
@@ -32,10 +32,8 @@ export class CsTopicCardComponent implements OnInit {
   // at the time of the component initialization
   ngOnInit() {
     this.pathToTitle =
-      this.localPathToTopic + this.topicJsonId() + this.localPathToTopicTitle;
+      this.localPathToTopic + this.topicId() + this.localPathToTopicTitle;
     this.pathToDescription =
-      this.localPathToTopic +
-      this.topicJsonId() +
-      this.localPathToTopicDescription;
+      this.localPathToTopic + this.topicId() + this.localPathToTopicDescription;
   }
 }

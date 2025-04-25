@@ -11,10 +11,12 @@ import { getTopicTitle } from '../../../topics.config';
   styleUrl: './cs-topic-question-header.component.scss',
 })
 export class CsTopicQuestionHeaderComponent implements OnInit {
-  jsonId = input.required<string>();
+  topicId = input.required<string>();
   topicTitle = signal('');
+  topicDescription = signal('');
 
   ngOnInit() {
-    this.topicTitle.set(getTopicTitle(this.jsonId()));
+    this.topicTitle.set(getTopicTitle(this.topicId()));
+    // this.topicDescription.
   }
 }
