@@ -91,7 +91,7 @@ export class CsTopicQuestionsComponent implements OnInit {
     }
 
     const dialogRef = this.dialog.open(this.loadedDialogComponent, {
-      data: { questionId },
+      data: { questionId: questionId.toString(), topicId: this.jsonId() },
     });
 
     dialogRef.afterClosed().subscribe((result) => {

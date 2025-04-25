@@ -5,6 +5,20 @@ export const pathToTopicDescription = '.infos.bs_text_description';
 export const getTopicTitle = (topicId: string): string => {
   return pathToTopic + topicId + pathToTopicTitle;
 };
+export const getQuestion = (topicId: string, questionId: string): string => {
+  return (
+    pathToTopic +
+    topicId +
+    '.questions.question_' +
+    questionId +
+    '.bs_heading_question'
+  );
+};
+export const getAnswer = (topicId: string, questionId: string): string => {
+  return (
+    pathToTopic + topicId + '.questions.question_' + questionId + '.answer'
+  );
+};
 
 export const hot_topics = [
   { jsonId: '1', urlId: 'passwords' },

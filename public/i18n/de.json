@@ -23,28 +23,86 @@
         },
         "questions": {
           "question_1": {
-            "bs_heading_question": "Frage 1",
-            "answer": {}
+            "bs_heading_question": "Passwort gehackt - was tun?",
+            "answer": {
+              "bullets": {
+                "bs_text_1": "Ändere dein Passwort sofort.",
+                "bs_text_2": "Falls du dasselbe Passwort auch bei anderen Accounts genutzt hast: auch dort sofort ändern.",
+                "bs_text_3": "Wähle ein neues, starkes Passwort und speichere es in einem Passwortmanager.",
+                "bs_text_4": "Aktiviere die Multi-Faktor-Authentifizierung (MFA), falls möglich."
+              }
+            }
           },
           "question_2": {
-            "bs_heading_question": "Frage 2",
-            "answer": {}
+            "bs_heading_question": "Warum brauche ich ein sicheres Passwort?",
+            "answer": {
+              "bs_text_1": "Warum hast du einen einzigartigen Hausschlüssel? Ganz einfach: Du willst nicht, dass Fremde in deinem Zuhause herumschnüffeln. Dasselbe gilt für Passwörter - sie schützen dein digitales Zuhause."
+            }
           },
           "question_3": {
-            "bs_heading_question": "Frage 3",
-            "answer": {}
+            "bs_heading_question": "Was ist ein gutes Passwort?",
+            "answer": {
+              "bs_text_1": "Grundsätzlich gilt: Je länger und komplexer, desto besser. Folgende Punkte sollte ein sicheres Passwort erfüllen:",
+              "bullets": {
+                "bs_text_1": "Mindestens 16 Zeichen lang",
+                "bs_text_2": "Gross- und Kleinbuchstaben",
+                "bs_text_3": "Zahlen und Sonderzeichen",
+                "bs_text_4": "Keine gängigen Wörter",
+                "bs_text_5": "Keine persönlichen Informationen"
+              }
+            }
           },
           "question_4": {
-            "bs_heading_question": "Frage 4",
-            "answer": {}
+            "bs_heading_question": "Warum soll ich unterschiedliche Passwörter verwenden?",
+            "answer": {
+              "bs_text_1": "Warum haben Keller, Garage und Haustür nicht denselben Schlüssel? Würdest du denselben Schlüssel verlieren, könnten Fremde überall hinein. Du müsstest alle Schlösser austauschen - aufwendig und unsicher. Genauso ist es mit Passwörtern: Wird eines geknackt, sind bei Wiederverwendung alle Accounts in Gefahr."
+            }
           },
           "question_5": {
-            "bs_heading_question": "Frage 5",
-            "answer": {}
+            "bs_heading_question": "Wie kann ich mir all diese Passwörter merken?",
+            "answer": {
+              "bs_heading_1": "Passwortmanager",
+              "bs_text_1": "Kannst du alle Telefonnummern deiner Freunde auswendig? Wahrscheinlich nicht und musst du auch nicht! Dasselbe gilt für Passwörter: Die besten sind die, die nur dein Passwortmanager kennt.",
+              "bs_heading_2": "Merk-Satz",
+              "bs_text_2": "Willst du dir trotzdem mal ein Passwort merken, nutze diese Technik:",
+              "bs_bullets": {
+                "bs_text_1": "Überlege dir einen Satz.",
+                "bs_text_2": "Nimm die Anfangsbuchstaben jedes Wortes.",
+                "bs_text_3": "Integriere Satzzeichen.",
+                "bs_text_4": "Baue, wenn möglich, eine Zahl ein."
+              },
+              "bs_rive_1": ""
+            }
           },
           "question_6": {
-            "bs_heading_question": "Frage 6",
+            "bs_heading_question": "Was ist ein Passwortmanager?",
+            "answer": {
+              "bs_text_1": "Ein Passwortmanager ist wie eine Bank - nur für Passwörter statt Geld. Der Vorteil: Diese „Bank“ hast du immer dabei, auf deinem Smartphone. So hast du jederzeit sicheren Zugriff auf all deine Passwörter."
+            }
+          },
+          "question_7": {
+            "bs_heading_question": "Sind Passwortmanager sicher?",
+            "answer": {
+              "bs_text_1": "Passwortmanager sind wie Banken - sie schützen deine sensiblen Daten mit hohen Sicherheitsstandards. Doch wie bei echten Banken gilt: Nicht jede ist gleich vertrauenswürdig.Wähle einen Passwortmanager, der von einem bekannten Unternehmen stammt, einen guten Ruf hat und regelmässig Sicherheitsprüfungen durchläuft. Nur so kannst du sicher sein, dass deine Passwörter gut geschützt sind."
+            }
+          },
+          "question_8": {
+            "bs_heading_question": "Ist es schlimm, wenn ich meine Passwörter aufschreibe?",
+            "answer": {
+              "bs_text_1": "Passwörter aufzuschreiben ist nicht ideal - aber: Wenn du dafür starke und einzigartige Passwörter verwendest, ist es immer noch besser, als überall dasselbe zu nutzen. Wichtig ist dann, dass du den Zettel wie einen Schatz schützt - er darf nie in falsche Hände geraten.",
+              "bs_text_2": "Allerdings bist du damit unflexibel. Unterwegs hast du keinen Zugriff, und ein verlorener Zettel bedeutet hohes Risiko. Ein Passwortmanager ist hier klar die bessere, sicherere und flexiblere Lösung."
+            }
+          },
+          "question_9": {
+            "bs_heading_question": "Wie erkenne ich, ob mein Passwort gestohlen wurde?",
             "answer": {}
+          },
+          "question_10": {
+            "bs_heading_question": "Was ist die Multi-Faktor-Authentifizierung (MFA)?",
+            "answer": {
+              "bs_text_1": "Stell dir MFA wie einen Wachhund vor: Selbst wenn jemand deinen Hausschlüssel (also dein Passwort) hat, lässt dich nur der Wachhund rein - weil er genau weiss, wer der echte Besitzer ist.",
+              "bs_text_2": "Technisch bedeutet das: Neben deinem Passwort brauchst du noch einen zweiten Faktor - zum Beispiel einen Code auf deinem Smartphone. Erst wenn du diesen bestätigst, bekommst du Zugriff. Das macht es für Angreifer deutlich schwerer, in deinen Account zu gelangen."
+            }
           }
         },
         "story": {}
