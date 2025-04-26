@@ -23,7 +23,15 @@
     src="assets/home-page/hero_image.riv"
     [stateMachines]="['State Machine 1']"
   ></app-bs-rive>
-  } } }
+  <!-- <app-bs-rive
+  pathToRive="{{ `${localPathToAnswer()}.${obj.key}`}}"
+  ></app-bs-rive> -->
+  <!-- Link Component -->
+  } @case ('link') {
+  <app-bs-link
+    pathToLink="{{ `${localPathToAnswer()}.${obj.key}`}}"
+  ></app-bs-link>
+  }} }
 </mat-dialog-content>
 <mat-dialog-actions align="end">
   <button mat-dialog-close>Schliessen</button>

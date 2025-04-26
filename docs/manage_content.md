@@ -84,6 +84,19 @@ Each answer can be build from the following components:
 }
 ```
 
+#### Link
+
+```json
+{
+  "bs_link_1": {
+    "bs_text_before": "",
+    "alias": "haveibeenpwned.com",
+    "url": "https://haveibeenpwned.com/",
+    "bs_text_after": ""
+  }
+}
+```
+
 #### Image
 
 ```json

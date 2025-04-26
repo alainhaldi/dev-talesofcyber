@@ -97,10 +97,11 @@
           "question_9": {
             "bs_heading_question": "Wie erkenne ich, ob mein Passwort gestohlen wurde?",
             "answer": {
-              "bs_text_1": "Viele moderne Passwortmanager benachrichtigen dich automatisch, wenn eines deiner Passwörter in einem Datenleck auftaucht. Alternativ kannst du Webseiten wie haveibeenpwned.com nutzen, um manuell zu prüfen, ob deine E-Mail-Adresse oder Passwörter bereits gehackt wurden.",
               "bs_link_1": {
+                "bs_text_before": "Viele moderne Passwortmanager benachrichtigen dich automatisch, wenn eines deiner Passwörter in einem Datenleck auftaucht. Alternativ kannst du Webseiten wie ",
                 "alias": "haveibeenpwned.com",
-                "url": "https://haveibeenpwned.com/"
+                "url": "https://haveibeenpwned.com/",
+                "bs_text_after": " nutzen, um manuell zu prüfen, ob deine E-Mail-Adresse oder Passwörter bereits gehackt wurden."
               }
             }
           },

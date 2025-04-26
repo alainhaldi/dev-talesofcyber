@@ -9,6 +9,7 @@ import { BsTitleComponent } from '../../base-structures/bs-title/bs-title.compon
 import { BsRiveComponent } from '../../base-structures/bs-rive/bs-rive.component';
 import { getAnswer, getQuestion } from '../../../topics.config';
 import deJson from '../../../../../public/i18n/de.json';
+import { BsLinkComponent } from '../../base-structures/bs-link/bs-link.component';
 
 @Component({
   selector: 'app-cs-topic-question-dialog',
@@ -21,6 +22,7 @@ import deJson from '../../../../../public/i18n/de.json';
     BsHeadingComponent,
     BsTitleComponent,
     BsRiveComponent,
+    BsLinkComponent,
   ],
   templateUrl: './cs-topic-question-dialog.component.html',
   styleUrl: './cs-topic-question-dialog.component.scss',
@@ -72,6 +74,8 @@ export class CsTopicQuestionDialogComponent implements OnInit {
         ? 'bullets'
         : key.startsWith('bs_rive')
         ? 'rive'
+        : key.startsWith('bs_link')
+        ? 'link'
         : 'unknown';
 
       return { key, type, value };
