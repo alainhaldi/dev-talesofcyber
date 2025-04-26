@@ -1,5 +1,16 @@
-@if(!isLarge()){
+<!-- Without Routing -->
+@if(!activatedRouterlink()){ @if(!isLarge()){
 <button class="button-small">{{ text() | translate }}</button>
 } @if (isLarge()) {
 <button class="button-large">{{ text() | translate }}</button>
-}
+}}
+<!-- With Routing -->
+@if(activatedRouterlink()){ @if(!isLarge()){
+<button [routerLink]="customRouterLink()" class="button-small">
+  {{ text() | translate }}
+</button>
+} @if (isLarge()) {
+<button [routerLink]="customRouterLink()" class="button-large">
+  {{ text() | translate }}
+</button>
+} }

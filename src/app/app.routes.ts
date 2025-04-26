@@ -15,6 +15,13 @@ export const routes: Routes = [
         (m) => m.TopicPageComponent
       ),
   },
+  {
+    path: 'topic/:id/story',
+    loadComponent: () =>
+      import('./pages/story-page/story-page.component').then(
+        (m) => m.StoryPageComponent
+      ),
+  },
   //   { path: 'contact', component: MenuPageComponent },
   //   Fallback
   //   {
