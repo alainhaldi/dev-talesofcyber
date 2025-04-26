@@ -1,7 +1,7 @@
-<p>
-  {{ textBefore() | translate }}
+<span>
+  <app-bs-text text="{{ textBefore() | translate }}"> </app-bs-text>
   <a href="{{ url() | translate }}" target="_blank" rel="noopener noreferrer">{{
     alias() | translate
   }}</a>
-  {{ textAfter() | translate }}
-</p>
+  <app-bs-text text="{{ textAfter() | translate }}"> </app-bs-text>
+</span>

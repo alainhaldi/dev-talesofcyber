@@ -10,6 +10,7 @@ import { BsRiveComponent } from '../../base-structures/bs-rive/bs-rive.component
 import { getAnswer, getQuestion } from '../../../topics.config';
 import deJson from '../../../../../public/i18n/de.json';
 import { BsLinkComponent } from '../../base-structures/bs-link/bs-link.component';
+import { LoggerService } from '../../../core/logger.service';
 
 @Component({
   selector: 'app-cs-topic-question-dialog',
@@ -38,7 +39,8 @@ export class CsTopicQuestionDialogComponent implements OnInit {
 
   constructor(
     @Inject(MAT_DIALOG_DATA)
-    public data: { questionId: string; topicId: string }
+    public data: { questionId: string; topicId: string },
+    private logger: LoggerService
   ) {
     this.localQuestionId.set(data.questionId);
     this.localTopicId.set(data.topicId);
@@ -64,6 +66,8 @@ export class CsTopicQuestionDialogComponent implements OnInit {
     const topic = deJson.topic_page.topics as Record<string, any>;
     const question = topic[topicKey].questions[questionKey];
     const answer = question.answer;
+
+    this.logger.log('?>>? answer = ' + answer);
 
     this.answerArray = Object.entries(answer).map(([key, value]) => {
       const type = key.startsWith('bs_heading')

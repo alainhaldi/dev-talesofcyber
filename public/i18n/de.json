@@ -194,16 +194,22 @@
               "bs_heading_3": "Hilfestellen",
               "bs_bullets_3": {
                 "bs_link_1": {
+                  "bs_text_before": "",
                   "alias": "Schweizerische Kriminalprävention",
-                  "url": "https://www.skppsc.ch/de/themen/internet/sextortion-erpressung/"
+                  "url": "https://www.skppsc.ch/de/themen/internet/sextortion-erpressung/",
+                  "bs_text_after": ""
                 },
                 "bs_link_2": {
+                  "bs_text_before": "",
                   "alias": "clickandSTOP.ch",
-                  "url": "https://www.clickandstop.ch/de/cybersexualdelikte/sextortion-30.html"
+                  "url": "https://www.clickandstop.ch/de/cybersexualdelikte/sextortion-30.html",
+                  "bs_text_after": ""
                 },
                 "bs_link_3": {
+                  "bs_text_before": "",
                   "alias": "Bundesamt für Cybersicherheit BACS",
-                  "url": "https://www.ncsc.admin.ch/ncsc/de/home/cyberbedrohungen/sextortion.html"
+                  "url": "https://www.ncsc.admin.ch/ncsc/de/home/cyberbedrohungen/sextortion.html",
+                  "bs_text_after": ""
                 }
               }
             }
@@ -291,16 +297,22 @@
               "bs_heading_3": "Hilfestellen",
               "bs_bullets_3": {
                 "bs_link_1": {
+                  "bs_text_before": "",
                   "alias": "Schweizerische Kriminalprävention",
-                  "url": "https://www.skppsc.ch/de/themen/internet/romance-scam/"
+                  "url": "https://www.skppsc.ch/de/themen/internet/romance-scam/",
+                  "bs_text_after": ""
                 },
                 "bs_link_2": {
+                  "bs_text_before": "",
                   "alias": "selbsthilfeschweiz.ch",
-                  "url": "https://www.selbsthilfeschweiz.ch/shch/de/selbsthilfeangebote/suche/detail/romance-scam/Aarau.html"
+                  "url": "https://www.selbsthilfeschweiz.ch/shch/de/selbsthilfeangebote/suche/detail/romance-scam/Aarau.html",
+                  "bs_text_after": ""
                 },
                 "bs_link_3": {
+                  "bs_text_before": "",
                   "alias": "Bundesamt für Cybersicherheit BACS",
-                  "url": "https://www.ncsc.admin.ch/ncsc/de/home/cyberbedrohungen/romance-scam.html"
+                  "url": "https://www.ncsc.admin.ch/ncsc/de/home/cyberbedrohungen/romance-scam.html",
+                  "bs_text_after": ""
                 }
               }
             }
@@ -378,12 +390,16 @@
               "bs_heading_4": "Hilfestellen",
               "bs_bullets_4": {
                 "bs_link_1": {
+                  "bs_text_before": "",
                   "alias": "antiphishing.ch",
-                  "url": "https://www.antiphishing.ch/de/"
+                  "url": "https://www.antiphishing.ch/de/",
+                  "bs_text_after": ""
                 },
                 "bs_link_2": {
+                  "bs_text_before": "",
                   "alias": "Bundesamt für Cybersicherheit BACS",
-                  "url": "https://www.report.ncsc.admin.ch/de/"
+                  "url": "https://www.report.ncsc.admin.ch/de/",
+                  "bs_text_after": ""
                 }
               }
             }

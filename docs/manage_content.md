@@ -79,7 +79,8 @@ Each answer can be build from the following components:
   "bs_bullets_1": {
     "bs_text_1": "",
     "bs_text_2": "",
-    "bs_text_3": ""
+    "bs_link_1": {},
+    "bs_link_2": {}
   }
 }
 ```

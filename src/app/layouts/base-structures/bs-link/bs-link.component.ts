@@ -1,9 +1,10 @@
 import { Component, input, OnInit, signal } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
+import { BsTextComponent } from '../bs-text/bs-text.component';
 
 @Component({
   selector: 'app-bs-link',
-  imports: [TranslatePipe],
+  imports: [TranslatePipe, BsTextComponent],
   templateUrl: './bs-link.component.html',
   styleUrl: './bs-link.component.scss',
 })
