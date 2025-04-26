@@ -20,8 +20,8 @@ export const getAnswer = (topicId: string, questionId: string): string =>
 // Topics
 export const hot_topics = [
   { topicId: '1', urlId: 'passwords' },
-  { topicId: '2', urlId: 'testing' },
-  { topicId: '3', urlId: '333' },
+  { topicId: '2', urlId: 'fake-call' },
+  { topicId: '3', urlId: 'sextorsion' },
   { topicId: '4', urlId: '444' },
   { topicId: '5', urlId: '555' },
 ];
@@ -30,13 +30,13 @@ export const topics = [
   {
     topicId: '1',
     urlId: 'passwords',
-    // loadComponent: () =>
-    //   import(
-    //     './pages/topic-page/passwords/questions-passwords/questions-passwords.component'
-    //   ).then((m) => m.QuestionsPasswordsComponent),
-    // dialogComponent: () =>
-    //   import(
-    //     './pages/topic-page/passwords/questions-dialog-password/questions-dialog-password.component'
-    //   ).then((m) => m.QuestionsDialogPasswordComponent),
+  },
+  {
+    topicId: '2',
+    urlId: 'fake-call',
+  },
+  {
+    topicId: '3',
+    urlId: 'sextorsion',
   },
 ];

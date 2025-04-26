@@ -12,7 +12,9 @@
   <app-bs-text text="{{ localPathToAnswer + '.' + obj.key }}"></app-bs-text>
   <!-- Bullet Component -->
   } @case ('bullets') {
-  <app-bs-bullets pathToBullets="{{ localPathToBullets }}"></app-bs-bullets>
+  <app-bs-bullets
+    pathToBullets="{{ localPathToAnswer + '.' + obj.key }}"
+  ></app-bs-bullets>
   <!-- Rive Component -->
   } @case ('rive') {
   <app-bs-rive

@@ -25,7 +25,7 @@
           "question_1": {
             "bs_heading_question": "Passwort gehackt - was tun?",
             "answer": {
-              "bs_bullets": {
+              "bs_bullets_1": {
                 "bs_text_1": "Ändere dein Passwort sofort.",
                 "bs_text_2": "Falls du dasselbe Passwort auch bei anderen Accounts genutzt hast: auch dort sofort ändern.",
                 "bs_text_3": "Wähle ein neues, starkes Passwort und speichere es in einem Passwortmanager.",
@@ -43,7 +43,7 @@
             "bs_heading_question": "Was ist ein gutes Passwort?",
             "answer": {
               "bs_text_1": "Grundsätzlich gilt: Je länger und komplexer, desto besser. Folgende Punkte sollte ein sicheres Passwort erfüllen:",
-              "bs_bullets": {
+              "bs_bullets_1": {
                 "bs_text_1": "Mindestens 16 Zeichen lang",
                 "bs_text_2": "Gross- und Kleinbuchstaben",
                 "bs_text_3": "Zahlen und Sonderzeichen",
@@ -66,7 +66,7 @@
               "bs_text_1": "Kannst du alle Telefonnummern deiner Freunde auswendig? Wahrscheinlich nicht und musst du auch nicht! Dasselbe gilt für Passwörter: Die besten sind die, die nur dein Passwortmanager kennt.",
               "bs_heading_2": "Merk-Satz",
               "bs_text_2": "Willst du dir trotzdem mal ein Passwort merken, nutze diese Technik:",
-              "bs_bullets": {
+              "bs_bullets_1": {
                 "bs_text_1": "Überlege dir einen Satz.",
                 "bs_text_2": "Nimm die Anfangsbuchstaben jedes Wortes.",
                 "bs_text_3": "Integriere Satzzeichen.",
@@ -110,8 +110,65 @@
       },
       "topic_2": {
         "infos": {
-          "bs_title_topic": "Testing",
-          "bs_text_description": "Testing Description"
+          "bs_title_topic": "Fake-Anrufe",
+          "bs_text_description": "Behörden, die Hilfe brauchen"
+        },
+        "questions": {
+          "question_1": {
+            "bs_heading_question": "Wie erkenne ich einen Fake-Anruf?",
+            "answer": {
+              "bs_heading_1": "Sofort reagieren",
+              "bs_bullets_1": {
+                "bs_text_1": "Beende den Anruf sofort.",
+                "bs_text_2": "Hast du Kreditkarteninfos weitergegeben oder bezahlt? Melde dich umgehend bei deiner Bank.",
+                "bs_text_3": "Informiere Freunde und Familie, damit sie nicht in dieselbe Falle tappen."
+              },
+              "bs_heading_2": "Fernzugriff",
+              "bs_bullets_2": {
+                "bs_text_1": "Wurdest du aufgefordert, ein Programm zu installieren? Deinstalliere es sofort.",
+                "bs_text_2": "Scanne dein Gerät mit einem aktuellen Virenprogramm.",
+                "bs_text_3": "Falls du unsicher bist, ob dein Gerät gehackt wurde: Lass es von einer Fachperson überprüfen."
+              }
+            }
+          },
+          "question_2": {
+            "bs_heading_question": "Woran erkenne ich einen Fake-Anruf?",
+            "answer": {
+              "bs_heading_1": "Druck",
+              "bs_text_1": "Behörden setzen dich nicht unter Zeitdruck. Wenn jemand ständig etwas fordert und keine Zeit zum Nachdenken lässt, handelt es sich sehr wahrscheinlich um Betrug.",
+              "bs_heading_2": "Emotionen",
+              "bs_text_2": "Spürst du Angst, Stress oder Panik? Seriöse Behörden erzeugen keine emotionalen Drohszenarien. Das ist ein Warnsignal für einen Fake-Anruf.",
+              "bs_heading_3": "Computerstimme",
+              "bs_text_3": "Echte Behörden rufen dich nicht mit automatisierten Ansagen an. Eine Computerstimme ist ein klares Zeichen für Betrugsversuche."
+            }
+          },
+          "question_3": {
+            "bs_heading_question": "Wie verhalte ich mich, wenn ich mir unsicher bin, ob der Anruf echt ist?",
+            "answer": {
+              "bs_text_1": "Wenn du ein schlechtes Gefühl hast: Leg auf. Während des Anrufs denkt man oft nicht klar - nach dem Auflegen kannst du die Situation besser einschätzen. Besprich den Vorfall mit Familie oder Freunden - ein zweiter Blick hilft oft, Betrug zu erkennen."
+            }
+          },
+          "question_4": {
+            "bs_heading_question": "Was wollen Betrüger mit so einem Anruf erreichen?",
+            "answer": {
+              "bs_text_1": "Ihr Ziel ist es, dich zu überrumpeln und unter Druck zu setzen, damit du unüberlegt handelst. Am Ende geht es immer ums Gleiche: dein Geld. Oft fordern sie dich auf, Geld zu überweisen oder eine Software zu installieren - damit verschaffen sie sich Zugriff auf deinen Computer und deine Daten."
+            }
+          },
+          "question_5": {
+            "bs_heading_question": "Wie verhindere ich solche Anrufe?",
+            "answer": {
+              "bs_text_1": "Ganz verhindern lassen sie sich nicht - aber du kannst das Risiko senken. Gib deine Daten nur weiter, wenn es wirklich nötig ist, und achte darauf, wem du sie anvertraust. Der beste Schutz: Bleib aufmerksam, misstrauisch und leg im Zweifel einfach auf."
+            }
+          }
+        }
+      },
+      "topic_3": {
+        "infos": {
+          "bs_title_topic": "Sextorsion",
+          "bs_text_description": "Drohung mit Bildern"
+        },
+        "questions": {
+          "question_1": {}
         }
       }
     }
