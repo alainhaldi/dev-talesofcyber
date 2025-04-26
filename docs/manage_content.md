@@ -40,7 +40,10 @@ Each topic has to follow a ceratin base structure in order to work:
           "bs_text_description": "Dein digitaler Hausschlüssel"
         },
         "questions": {
-          "question_1": {}
+          "question_1": {
+            "bs_heading_question": "",
+            "answer": {}
+          }
           // ... question_n
         }
       }
@@ -57,7 +60,7 @@ Each answer can be build from the following components:
 
 ```json
 {
-  "bs_heading_1": "Heading 1"
+  "bs_heading_1": ""
 }
 ```
 
@@ -65,7 +68,7 @@ Each answer can be build from the following components:
 
 ```json
 {
-  "bs_text_1": "Text 1"
+  "bs_text_1": ""
 }
 ```
 
@@ -74,9 +77,9 @@ Each answer can be build from the following components:
 ```json
 {
   "bs_bullets_1": {
-    "bs_text_1": "1",
-    "bs_text_2": "2",
-    "bs_text_3": "3"
+    "bs_text_1": "",
+    "bs_text_2": "",
+    "bs_text_3": ""
   }
 }
 ```
@@ -91,6 +94,37 @@ Each answer can be build from the following components:
     "weight": "",
     "StateMachines": {
       "StateMachine_1": ""
+    }
+  }
+}
+```
+
+Find here a Total Example for an possible Answer
+
+```json
+{
+  "topic_page": {
+    "topics": {
+      "topic_1": {
+        "infos": {},
+        "questions": {
+          "question_5": {
+            "bs_heading_question": "Wie kann ich mir all diese Passwörter merken?",
+            "answer": {
+              "bs_heading_1": "Passwortmanager",
+              "bs_text_1": "Kannst du alle Telefonnummern deiner Freunde auswendig? Wahrscheinlich nicht und musst du auch nicht! Dasselbe gilt für Passwörter: Die besten sind die, die nur dein Passwortmanager kennt.",
+              "bs_heading_2": "Merk-Satz",
+              "bs_text_2": "Willst du dir trotzdem mal ein Passwort merken, nutze diese Technik:",
+              "bs_bullets_1": {
+                "bs_text_1": "Überlege dir einen Satz.",
+                "bs_text_2": "Nimm die Anfangsbuchstaben jedes Wortes.",
+                "bs_text_3": "Integriere Satzzeichen.",
+                "bs_text_4": "Baue, wenn möglich, eine Zahl ein."
+              }
+            }
+          }
+        }
+      }
     }
   }
 }

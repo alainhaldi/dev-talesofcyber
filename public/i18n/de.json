@@ -168,7 +168,292 @@
           "bs_text_description": "Drohung mit Bildern"
         },
         "questions": {
-          "question_1": {}
+          "question_1": {
+            "bs_heading_question": "Ich bin Opfer von Sextorsion - was nun?",
+            "answer": {
+              "bs_heading_1": "Bei echter Sextorsion",
+              "bs_bullets_1": {
+                "bs_text_1": "Lass dich nicht einschüchtern - du bist nicht allein.",
+                "bs_text_2": "Sichere alle Beweise (z.B. Screenshots).",
+                "bs_text_3": "Rede mit Vertrauenspersonen - Hilfe holen ist Stärke.",
+                "bs_text_4": "Melde den Vorfall umgehend der Polizei."
+              },
+              "bs_heading_2": "Bei Fake-Sextorsion (leere Drohung)",
+              "bs_bullets_2": {
+                "bs_text_1": "Auch hier: Keine Panik.",
+                "bs_text_2": "Die Täter bluffen meist - sie haben keine echten Daten oder Aufnahmen.",
+                "bs_text_3": "Ignoriere die Nachricht und lösche sie."
+              },
+              "bs_heading_3": "Hilfestellen",
+              "bs_bullets_3": {
+                "bs_link_1": {
+                  "alias": "Schweizerische Kriminalprävention",
+                  "url": "https://www.skppsc.ch/de/themen/internet/sextortion-erpressung/"
+                },
+                "bs_link_2": {
+                  "alias": "clickandSTOP.ch",
+                  "url": "https://www.clickandstop.ch/de/cybersexualdelikte/sextortion-30.html"
+                },
+                "bs_link_3": {
+                  "alias": "Bundesamt für Cybersicherheit BACS",
+                  "url": "https://www.ncsc.admin.ch/ncsc/de/home/cyberbedrohungen/sextortion.html"
+                }
+              }
+            }
+          },
+          "question_2": {
+            "bs_heading_question": "Was ist Sextortion?",
+            "answer": {
+              "bs_text_1": "Sextortion ist Erpressung mit intimen Bildern oder Videos. Wenn dir jemand mit der Veröffentlichung solcher Inhalte droht - z.B. nachdem du private Aufnahmen geteilt hast - dann bist du betroffen. Ziel der Täter ist meist Geld oder weitere intime Inhalte zu erpressen."
+            }
+          },
+          "question_3": {
+            "bs_heading_question": "Was ist Fake-Sextortion?",
+            "answer": {
+              "bs_text_1": "Bei Fake-Sextortion bekommst du Nachrichten von Fremden, die behaupten, sie hätten intime Bilder von dir und drohen mit deren Veröffentlichung. In Wahrheit ist das gelogen - sie haben keine echten Bilder, sondern wollen dich nur unter Druck setzen und erpressen."
+            }
+          },
+          "question_4": {
+            "bs_heading_question": "Warum ich?",
+            "answer": {
+              "bs_text_1": "Solche Nachrichten sind Teil von Massenangriffen. Kriminelle verschicken sie an tausende Personen gleichzeitig - es geht nicht gezielt gegen dich. Du bist einfach zufällig betroffen, wie viele andere auch."
+            }
+          },
+          "question_5": {
+            "bs_heading_question": "Woran erkenne ich eine Fake-Sextortion?",
+            "answer": {
+              "bs_bullets_1": {
+                "bs_text_1": "Allgemeine Formulierungen ohne persönliche Details.",
+                "bs_text_2": "Drohung mit Veröffentlichung, aber keine echten Beweise oder Bilder",
+                "bs_text_3": "Forderung nach Geld (meist in Kryptowährung)"
+              }
+            }
+          },
+          "question_6": {
+            "bs_heading_question": "Was ist, wenn ich wirklich etwas Peinliches gemacht habe?",
+            "answer": {
+              "bs_text_1": "Peinliche Situationen passieren jedem - das macht dich nicht angreifbar. In den meisten Fällen ist es sehr unwahrscheinlich, dass Fremde wirklich Bildmaterial haben. Falls du aber sicher bist, dass etwas Echtes im Umlauf ist: Hol dir Unterstützung von Freunden, Familie und der Polizei. Du bist nicht allein - und es gibt Hilfe."
+            }
+          },
+          "question_7": {
+            "bs_heading_question": "Was passiert, wenn ich antworte?",
+            "answer": {
+              "bs_text_1": "Mit einer Antwort zeigst du den Angreifern, dass du reagierst - und damit angreifbar bist. Das motiviert sie, noch mehr Druck auszuüben und dich weiter zu verunsichern.",
+              "bs_text_2": "Deshalb: Niemals antworten!"
+            }
+          },
+          "question_8": {
+            "bs_heading_question": "Wie kann ich mich davor schützen?",
+            "answer": {
+              "bs_bullets_1": {
+                "bs_text_1": "Decke deine Webcam ab, wenn du sie nicht brauchst.",
+                "bs_text_2": "Versende keine privaten oder intimen Bilder.",
+                "bs_text_3": "Verwende starke, einzigartige Passwörter.",
+                "bs_text_4": "Aktiviere Multi-Faktor-Authentifizierung (MFA) für deine Accounts.",
+                "bs_text_5": "Drohnachrichten nicht beachten - einfach löschen."
+              }
+            }
+          }
+        }
+      },
+      "topic_4": {
+        "infos": {
+          "bs_title_topic": "Romance Scam",
+          "bs_text_description": "Herz und Geld gestohlen"
+        },
+        "questions": {
+          "question_1": {
+            "bs_heading_question": "Ich bin Opfer eines Romance Scams - was tun?",
+            "answer": {
+              "bs_heading_1": "Wenn du selbst betroffen bist",
+              "bs_bullets_1": {
+                "bs_text_1": "Brich den Kontakt sofort ab.",
+                "bs_text_2": "Überweise auf keinen Fall Geld.",
+                "bs_text_3": "Sichere alle Beweise (z.B. Screenshots).",
+                "bs_text_4": "Informiere die Polizei.",
+                "bs_text_5": "Sprich mit vertrauten Personen - du musst das nicht alleine durchstehen."
+              },
+              "bs_heading_2": "Wenn jemand anderes betroffen ist",
+              "bs_bullets_2": {
+                "bs_text_1": "Bewahre Ruhe und mach keine Vorwürfe.",
+                "bs_text_2": "Sprich das Thema vorsichtig an und zeige mit Beweisen, dass es ein Scam ist.",
+                "bs_text_3": "Unterstütze die Person emotional, ohne Druck auszuüben.",
+                "bs_text_4": "Ermutige, den Kontakt abzubrechen und zur Polizei zu gehen.",
+                "bs_text_5": "Hilf beim Sichern der Beweise."
+              },
+              "bs_heading_3": "Hilfestellen",
+              "bs_bullets_3": {
+                "bs_link_1": {
+                  "alias": "Schweizerische Kriminalprävention",
+                  "url": "https://www.skppsc.ch/de/themen/internet/romance-scam/"
+                },
+                "bs_link_2": {
+                  "alias": "selbsthilfeschweiz.ch",
+                  "url": "https://www.selbsthilfeschweiz.ch/shch/de/selbsthilfeangebote/suche/detail/romance-scam/Aarau.html"
+                },
+                "bs_link_3": {
+                  "alias": "Bundesamt für Cybersicherheit BACS",
+                  "url": "https://www.ncsc.admin.ch/ncsc/de/home/cyberbedrohungen/romance-scam.html"
+                }
+              }
+            }
+          },
+          "question_2": {
+            "bs_heading_question": "Was ist ein Romance Scam?",
+            "answer": {
+              "bs_text_1": "Beim Romance Scam geben sich Kriminelle online als attraktive, liebevolle Personen aus. Sie investieren viel Zeit, schreiben intensiv mit dir und bauen eine emotionale Verbindung auf - oft bis hin zur vermeintlichen Beziehung.",
+              "bs_text_2": "Sobald Vertrauen da ist, beginnt die Manipulation: Es folgen Geldforderungen - für Notfälle, Reisen oder angebliche Probleme. Am Ende bleiben oft ein gebrochenes Herz und finanzielle Schäden."
+            }
+          },
+          "question_3": {
+            "bs_heading_question": "Was wollen Romance-Scammer von mir?",
+            "answer": {
+              "bs_text_1": "Ihr Ziel ist klar: Geld.",
+              "bs_text_2": "Anfangs fordern sie oft kleine Beträge - für vermeintliche Notlagen oder Reisekosten. Doch mit der Zeit werden die Forderungen grösser und immer dringlicher. Sie nutzen dein Vertrauen und deine Gefühle, um dich finanziell auszunehmen."
+            }
+          },
+          "question_4": {
+            "bs_heading_question": "Was soll ich tun, wenn ich Geld geschickt habe?",
+            "answer": {
+              "bs_text_1": "Versuche sofort, die Überweisung zu stoppen - je früher, desto besser. Ist das Geld bereits überwiesen, informiere umgehend die Polizei. Die Chancen auf Rückerstattung sind zwar gering, aber nur so kann der Fall dokumentiert und gegen die Täter ermittelt werden.",
+              "bs_text_2": "Merke dir: Überweise niemals Geld an Personen, die du nur online kennst - egal, wie sympathisch sie wirken."
+            }
+          },
+          "question_5": {
+            "bs_heading_question": "Wie kann ich so etwas verhindern?",
+            "answer": {
+              "bs_text_1": "Am besten ignorierst du solche Nachrichten sofort und löschst sie direkt. Antworte niemals - auch nicht aus Neugier. Die Täter sind geschickt und wissen genau, wie sie Vertrauen aufbauen. Sprich offen mit Freunden und Familie darüber - so schützt du auch dein Umfeld vor dieser Masche."
+            }
+          },
+          "question_6": {
+            "bs_heading_question": "Wem kann ich mich anvertrauen?",
+            "answer": {
+              "bs_text_1": "Sprich mit jemandem, dem du vertraust - sei es ein Freund, ein Familienmitglied oder eine Fachperson wie ein Psychologe. Auch die Polizei ist eine wichtige Anlaufstelle. Wichtig ist: Du musst da nicht allein durch. Es gibt Menschen, die dir helfen wollen - du musst nur den ersten Schritt machen."
+            }
+          },
+          "question_7": {
+            "bs_heading_question": "Ist das peinlich? Bin ich selbst schuld?",
+            "answer": {
+              "bs_text_1": "Nein - es ist nicht peinlich, und du trägst keine Schuld. Du wurdest Opfer von professionellen Betrügern, die genau wissen, wie man Menschen täuscht und manipuliert. Das kann wirklich jedem passieren. Schäme dich nicht - sprich darüber. Deine Geschichte kann anderen helfen, nicht in die gleiche Falle zu tappen."
+            }
+          }
+        }
+      },
+      "topic_5": {
+        "infos": {
+          "bs_title_topic": "Phishing",
+          "bs_text_description": "Neuerdings in 3D"
+        },
+        "questions": {
+          "question_1": {
+            "bs_heading_question": "Ich wurde gephisht - was nun?",
+            "answer": {
+              "bs_heading_1": "Wenn du ein Passwort eingegeben hast",
+              "bs_bullets_1": {
+                "bs_text_1": "Ändere dein Passwort sofort.",
+                "bs_text_2": "Falls du dasselbe Passwort auch bei anderen Accounts genutzt hast: auch dort sofort ändern.",
+                "bs_text_3": "Aktiviere die Multi-Faktor-Authentifizierung (MFA), falls möglich.",
+                "bs_text_4": "Informiere andere über die Phishing-Mail."
+              },
+              "bs_heading_2": "Wenn du Kreditkarteninfos angegeben hast",
+              "bs_bullets_2": {
+                "bs_text_1": "Sperre deine Kreditkarte sofort.",
+                "bs_text_2": "Informiere deine Bank und bestelle eine neue Karte.",
+                "bs_text_3": "Warne andere vor dem Angriff."
+              },
+              "bs_heading_3": "Wenn du eine Datei heruntergeladen hast",
+              "bs_bullets_3": {
+                "bs_text_1": "Lösche die Datei sofort und leere den Papierkorb.",
+                "bs_text_2": "Scanne dein Gerät mit einem aktuellen Virenprogramm.",
+                "bs_text_3": "Falls du unsicher bist, ob dein Gerät gehackt wurde: Lass es von einer Fachperson überprüfen.",
+                "bs_text_4": "Informiere andere über den Vorfall."
+              },
+              "bs_heading_4": "Hilfestellen",
+              "bs_bullets_4": {
+                "bs_link_1": {
+                  "alias": "antiphishing.ch",
+                  "url": "https://www.antiphishing.ch/de/"
+                },
+                "bs_link_2": {
+                  "alias": "Bundesamt für Cybersicherheit BACS",
+                  "url": "https://www.report.ncsc.admin.ch/de/"
+                }
+              }
+            }
+          },
+          "question_2": {
+            "bs_heading_question": "Was ist Phishing?",
+            "answer": {
+              "bs_text_1": "Phishing ist ein Betrugsversuch per E-Mail oder Nachricht. Du bekommst z.B. eine Mail vom angeblichen Google-Support oder der Post - mit der Behauptung, es gäbe ein Problem mit deinem Konto oder du müsstest etwas bezahlen.",
+              "bs_text_2": "Die Nachrichten wirken echt, stammen aber in Wahrheit von Betrügern. Ziel ist es, dass du vertrauliche Daten wie Passwörter oder Kreditkarteninfos eingibst - damit sie Zugang zu deinen Accounts oder deinem Geld bekommen."
+            }
+          },
+          "question_3": {
+            "bs_heading_question": "Was ist Smishing?",
+            "answer": {
+              "bs_text_1": "Smishing ist Phishing per SMS - der Begriff setzt sich aus SMS und Phishing zusammen. Das Ziel bleibt gleich: Betrüger wollen dich dazu bringen, persönliche Daten wie Logins oder Kreditkarteninformationen preiszugeben."
+            }
+          },
+          "question_4": {
+            "bs_heading_question": "Was ist Vishing?",
+            "answer": {
+              "bs_text_1": "Vishing ist Phishing per Telefon - der Begriff setzt sich aus Voice (Stimme) und Phishing zusammen. Betrüger rufen an und versuchen, dich am Telefon zu täuschen, um an persönliche Daten wie Passwörter, Kontoinformationen oder Kreditkartendaten zu gelangen."
+            }
+          },
+          "question_5": {
+            "bs_heading_question": "Was ist 3D Phishing?",
+            "answer": {
+              "bs_text_1": "3D Phishing ist ein kombinierter Angriff über mehrere Kanäle - z.B. E-Mail, SMS und Telefon. Du bekommst etwa eine Phishing-Mail, kurz darauf eine SMS oder sogar einen Anruf. Ziel ist es, dich unter Druck zu setzen und zur Preisgabe deiner Login- oder Zahlungsdaten zu bringen.",
+              "bs_text_2": "Der Name „3D“ steht für die dreifache Täuschung: Phishing + Smishing + Vishing."
+            }
+          },
+          "question_6": {
+            "bs_heading_question": "Wie erkenne ich eine Phishing-Mail oder -Nachricht?",
+            "answer": {
+              "bs_bullets_1": {
+                "bs_text_1": "Prüfe den Absender genau - gefälschte Adressen ähneln oft echten.",
+                "bs_text_2": "Achte auf Rechtschreib- und Grammatikfehler.",
+                "bs_text_3": "Fahre mit der Maus über Links (nicht klicken!) und überprüfe, wohin sie wirklich führen.",
+                "bs_text_4": "Phishing-Mails erzeugen oft künstliche Dringlichkeit („Sofort handeln!“).",
+                "bs_text_5": "Misstraue ungewöhnlichen Anhängen - auch Word- und PDF-Dateien können manipuliert sein. Öffne sie nur, wenn du dem Absender vertraust."
+              }
+            }
+          },
+          "question_7": {
+            "bs_heading_question": "Wie erkenne ich, ob ein Link echt ist?",
+            "answer": {
+              "bs_text_1": "Fahre mit der Maus über den Link, ohne zu klicken - so siehst du die tatsächliche Adresse. Viele Fake-Links sehen täuschend echt aus, nutzen aber kleine Abweichungen: z.B. fehlende Buchstaben oder vertauschte Zeichen.",
+              "bs_text_2": "Bist du unsicher? Klicke nicht! Gib die Adresse lieber manuell oder über Google ein, um zur echten Seite zu gelangen.",
+              "bs_rive_1": {
+                "path": "",
+                "height": "",
+                "weight": "",
+                "StateMachines": {
+                  "StateMachine_1": ""
+                }
+              }
+            }
+          },
+          "question_8": {
+            "bs_heading_question": "Warum sollte ich nicht auf Links klicken?",
+            "answer": {
+              "bs_text_1": "Unbekannte Links führen oft auf gefälschte Login-Seiten, die deine Daten stehlen wollen. Manche Links starten sogar direkt den Download schädlicher Dateien.",
+              "bs_text_2": "Deshalb gilt: Klicke niemals auf Links, denen du nicht 100% vertraust."
+            }
+          },
+          "question_9": {
+            "bs_heading_question": "Warum sieht die Nachricht so echt aus?",
+            "answer": {
+              "bs_text_1": "Betrüger werden immer besser darin, täuschend echte Nachrichten zu erstellen - oft mit Hilfe von Künstlicher Intelligenz. Dadurch wirken Phishing-Nachrichten heute professionell, glaubwürdig und kaum noch von echten Mitteilungen zu unterscheiden.",
+              "bs_text_2": "Weil Kriminelle mit Phishing sehr viel Geld verdienen, investieren sie gezielt Zeit und Technik, um ihre Maschen immer weiter zu perfektionieren."
+            }
+          },
+          "question_10": {
+            "bs_heading_question": "Wie kann ich mich davor schützen?",
+            "answer": {
+              "bs_text_1": "Am besten schützt du dich, indem du kritisch bleibst: Klicke nie auf unbekannte Links und öffne keine Anhänge von unbekannten Absendern. Bist du unsicher? Hol dir eine zweite Meinung - sprich mit Freunden, Familie oder Kollegen.Ganz verhindern lassen sich solche Angriffe leider nicht. Umso wichtiger ist es, achtsam zu sein - besonders wenn eine Nachricht Stress oder Angst bei dir auslöst."
+            }
+          }
         }
       }
     }
