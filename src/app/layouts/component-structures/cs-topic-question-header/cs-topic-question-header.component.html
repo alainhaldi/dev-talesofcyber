@@ -1,9 +1,12 @@
 <div class="container-header">
   <div>
     <app-bs-title title="{{ topicTitle() }}"></app-bs-title>
-    <app-bs-text text="Dummy Description"></app-bs-text>
+    <app-bs-text text="{{ topicDescription() }}"></app-bs-text>
   </div>
   <div>
-    <app-bs-button text="Dummy2" [isLarge]="false"></app-bs-button>
+    <app-bs-button
+      text="{{ pathToStoryButton() }}"
+      [isLarge]="false"
+    ></app-bs-button>
   </div>
 </div>

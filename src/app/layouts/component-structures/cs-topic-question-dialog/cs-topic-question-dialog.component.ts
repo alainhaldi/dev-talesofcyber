@@ -1,4 +1,4 @@
-import { Component, Inject, input, OnInit } from '@angular/core';
+import { Component, Inject, OnInit, signal } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MAT_DIALOG_DATA, MatDialogModule } from '@angular/material/dialog';
 import { TranslatePipe } from '@ngx-translate/core';
@@ -26,11 +26,11 @@ import deJson from '../../../../../public/i18n/de.json';
   styleUrl: './cs-topic-question-dialog.component.scss',
 })
 export class CsTopicQuestionDialogComponent implements OnInit {
-  localTopicId: string = '0';
-  localQuestionId: string = '0';
-  localPathToQuestion = '';
-  localPathToAnswer = '';
-  localPathToBullets = '';
+  localTopicId = signal('');
+  localQuestionId = signal('');
+  localPathToQuestion = signal('');
+  localPathToAnswer = signal('');
+  localPathToBullets = signal('');
 
   answerArray: { key: string; type: string; value: any }[] = [];
 
@@ -38,24 +38,26 @@ export class CsTopicQuestionDialogComponent implements OnInit {
     @Inject(MAT_DIALOG_DATA)
     public data: { questionId: string; topicId: string }
   ) {
-    this.localQuestionId = data.questionId;
-    this.localTopicId = data.topicId;
+    this.localQuestionId.set(data.questionId);
+    this.localTopicId.set(data.topicId);
 
-    this.localPathToQuestion = getQuestion(
-      this.localTopicId,
-      this.localQuestionId
+    this.localPathToQuestion.set(
+      getQuestion(this.localTopicId(), this.localQuestionId())
     );
 
-    this.localPathToAnswer = getAnswer(this.localTopicId, this.localQuestionId);
+    this.localPathToAnswer.set(
+      getAnswer(this.localTopicId(), this.localQuestionId())
+    );
 
-    this.localPathToBullets =
-      getAnswer(this.localTopicId, this.localQuestionId) + '.bs_bullets';
+    this.localPathToBullets.set(
+      getAnswer(this.localTopicId(), this.localQuestionId()) + '.bs_bullets'
+    );
   }
 
   ngOnInit(): void {
     // Read and extract Values from the JSON file
-    const topicKey = 'topic_' + this.localTopicId;
-    const questionKey = 'question_' + this.localQuestionId;
+    const topicKey = 'topic_' + this.localTopicId();
+    const questionKey = 'question_' + this.localQuestionId();
 
     const topic = deJson.topic_page.topics as Record<string, any>;
     const question = topic[topicKey].questions[questionKey];

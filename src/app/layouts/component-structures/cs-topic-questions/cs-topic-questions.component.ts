@@ -18,27 +18,16 @@ export class CsTopicQuestionsComponent implements OnInit {
   topicId = input.required<string>();
   pathToQuestions = signal('');
   countQuestions: number = 0;
-  // A array of all question IDs
   questionIds: number[] = [];
   // A array of arrays with each 5 questions
   questionPages: number[][] = [];
   currentPageIdx: number = 0;
-
-  // private loadedDialogComponent: Type<any> | null = null;
-  // private loadedDialogComponent: CsTopicQuestionDialogComponent | null = null;
 
   constructor(private logger: LoggerService) {}
 
   ngOnInit() {
     this.pathToQuestions.set(pathToTopic + this.topicId() + '.questions');
     this.countQuestions = this.GetCountQuestions(this.pathToQuestions());
-    // Search for the topic in the topics array and load the dialog component
-    // const topic = topics.find((topic) => topic.jsonId === this.jsonId());
-    // if (topic?.dialogComponent) {
-    //   topic.dialogComponent().then((component) => {
-    //     this.loadedDialogComponent = component;
-    //   });
-    // }
 
     // Add all question IDs to one array
     for (let i = 1; i <= this.countQuestions; i++) {

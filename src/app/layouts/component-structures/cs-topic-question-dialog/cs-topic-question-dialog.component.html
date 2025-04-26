@@ -1,19 +1,19 @@
-<app-bs-title title="{{ localPathToQuestion | translate }}"></app-bs-title>
+<app-bs-title title="{{ localPathToQuestion() | translate }}"></app-bs-title>
 <mat-dialog-content class="dialog">
   @for (obj of answerArray; track obj.key) { @switch (obj.type) {
   <!-- Heading Component -->
   @case ('heading') {
   <app-bs-heading
-    heading="{{ localPathToAnswer + '.' + obj.key }}"
+    heading="{{ localPathToAnswer() + '.' + obj.key }}"
   ></app-bs-heading>
   }
   <!-- Text Component -->
   @case ('text') {
-  <app-bs-text text="{{ localPathToAnswer + '.' + obj.key }}"></app-bs-text>
+  <app-bs-text text="{{ localPathToAnswer() + '.' + obj.key }}"></app-bs-text>
   <!-- Bullet Component -->
   } @case ('bullets') {
   <app-bs-bullets
-    pathToBullets="{{ localPathToAnswer + '.' + obj.key }}"
+    pathToBullets="{{ localPathToAnswer() + '.' + obj.key }}"
   ></app-bs-bullets>
   <!-- Rive Component -->
   } @case ('rive') {

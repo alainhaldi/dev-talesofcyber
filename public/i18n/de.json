@@ -96,7 +96,13 @@
           },
           "question_9": {
             "bs_heading_question": "Wie erkenne ich, ob mein Passwort gestohlen wurde?",
-            "answer": {}
+            "answer": {
+              "bs_text_1": "Viele moderne Passwortmanager benachrichtigen dich automatisch, wenn eines deiner Passwörter in einem Datenleck auftaucht. Alternativ kannst du Webseiten wie haveibeenpwned.com nutzen, um manuell zu prüfen, ob deine E-Mail-Adresse oder Passwörter bereits gehackt wurden.",
+              "bs_link_1": {
+                "alias": "haveibeenpwned.com",
+                "url": "https://haveibeenpwned.com/"
+              }
+            }
           },
           "question_10": {
             "bs_heading_question": "Was ist die Multi-Faktor-Authentifizierung (MFA)?",
