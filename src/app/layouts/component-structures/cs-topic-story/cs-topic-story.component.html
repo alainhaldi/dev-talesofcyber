@@ -1,5 +1,5 @@
 <app-bs-progress-bar progress="{{ currentProgress() }}"></app-bs-progress-bar>
-
+<!-- Dynamic Content -->
 @for (obj of currentPageObjects; track obj.key) { @switch (obj.type) {
 <!-- Heading Component -->
 @case ('heading') {
@@ -10,7 +10,6 @@
 <!-- Text Component -->
 @case ('text') {
 <app-bs-text text="{{ currentPathToPage() + '.' + obj.key }}"></app-bs-text>
-
 <!-- Rive Component -->
 } @case ('rive') {
 <app-bs-rive
@@ -28,3 +27,18 @@
   pathToLink="{{ `${currentPathToPage()}.${obj.key}`}}"
 ></app-bs-link>
 }} }
+<!-- Buttons -->
+<div class="container-buttons">
+  @if(currentPage() > 0) {
+  <app-bs-button
+    text="{{ pathToButtonBackwards() }}"
+    [isLarge]="true"
+    (click)="previousPage()"
+  ></app-bs-button>
+  }
+  <app-bs-button
+    text="{{ pathToButtonForward() }}"
+    [isLarge]="true"
+    (click)="nextPage()"
+  ></app-bs-button>
+</div>

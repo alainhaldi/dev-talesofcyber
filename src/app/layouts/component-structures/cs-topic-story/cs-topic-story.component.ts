@@ -7,6 +7,7 @@ import { BsHeadingComponent } from '../../base-structures/bs-heading/bs-heading.
 import { BsTextComponent } from '../../base-structures/bs-text/bs-text.component';
 import { BsRiveComponent } from '../../base-structures/bs-rive/bs-rive.component';
 import { BsLinkComponent } from '../../base-structures/bs-link/bs-link.component';
+import { BsButtonComponent } from '../../base-structures/bs-button/bs-button.component';
 
 @Component({
   selector: 'app-cs-topic-story',
@@ -16,18 +17,25 @@ import { BsLinkComponent } from '../../base-structures/bs-link/bs-link.component
     BsTextComponent,
     BsRiveComponent,
     BsLinkComponent,
+    BsButtonComponent,
   ],
   templateUrl: './cs-topic-story.component.html',
   styleUrl: './cs-topic-story.component.scss',
 })
 export class CsTopicStoryComponent implements OnInit {
   topicId = input.required<string>();
-  pathToGlobalValues = signal('');
+  pathToGlobalValues = signal('topic_page.global.story_pages');
   pathToPage0 = signal('');
   pathToPages = signal('');
   currentPage = signal(0);
   currentProgress = signal('');
   currentPathToPage = signal('');
+  pathToButtonForward = signal(
+    `${this.pathToGlobalValues()}.bs_button_forward`
+  );
+  pathToButtonBackwards = signal(
+    `${this.pathToGlobalValues()}.bs_button_backwards`
+  );
 
   // All pages inclunding page 0
   pagesArray: { key: string; value: any }[] = [];
@@ -36,7 +44,7 @@ export class CsTopicStoryComponent implements OnInit {
   constructor(private logger: LoggerService) {}
 
   ngOnInit(): void {
-    this.pathToGlobalValues.set('topic_page.global.story_pages');
+    // this.pathToGlobalValues.set('topic_page.global.story_pages');
     this.pathToPage0.set(`${this.pathToGlobalValues()}.story`);
     this.pathToPages.set(`${pathToTopic}${this.topicId()}.story`);
 
@@ -100,5 +108,17 @@ export class CsTopicStoryComponent implements OnInit {
     const progress = (currentPage / countPages) * 100;
     this.logger.log('progress - ' + progress);
     return progress.toString();
+  }
+
+  nextPage() {
+    this.currentPage.set(this.currentPage() + 1);
+    this.setCurrentPage();
+    this.logger.log(this.currentPage());
+  }
+
+  previousPage() {
+    this.currentPage.set(this.currentPage() - 1);
+    this.setCurrentPage();
+    this.logger.log(this.currentPage());
   }
 }
