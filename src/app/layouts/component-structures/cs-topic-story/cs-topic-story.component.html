@@ -10,6 +10,11 @@
 <!-- Text Component -->
 @case ('text') {
 <app-bs-text text="{{ currentPathToPage() + '.' + obj.key }}"></app-bs-text>
+<!-- Bullet Component -->
+} @case ('bullets') {
+<app-bs-bullets
+  pathToBullets="{{ currentPathToPage() + '.' + obj.key }}"
+></app-bs-bullets>
 <!-- Rive Component -->
 } @case ('rive') {
 <app-bs-rive

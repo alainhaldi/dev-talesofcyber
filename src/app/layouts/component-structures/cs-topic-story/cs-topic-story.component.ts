@@ -9,6 +9,7 @@ import { BsRiveComponent } from '../../base-structures/bs-rive/bs-rive.component
 import { BsLinkComponent } from '../../base-structures/bs-link/bs-link.component';
 import { BsButtonComponent } from '../../base-structures/bs-button/bs-button.component';
 import { BsRiveTextComponent } from '../../base-structures/bs-rive-text/bs-rive-text.component';
+import { BsBulletsComponent } from '../../base-structures/bs-bullets/bs-bullets.component';
 
 @Component({
   selector: 'app-cs-topic-story',
@@ -20,6 +21,7 @@ import { BsRiveTextComponent } from '../../base-structures/bs-rive-text/bs-rive-
     BsLinkComponent,
     BsButtonComponent,
     BsRiveTextComponent,
+    BsBulletsComponent,
   ],
   templateUrl: './cs-topic-story.component.html',
   styleUrl: './cs-topic-story.component.scss',
@@ -106,6 +108,8 @@ export class CsTopicStoryComponent implements OnInit {
           ? 'rive'
           : key.startsWith('bs_link')
           ? 'link'
+          : key.startsWith('bs_bullets')
+          ? 'bullets'
           : 'unknown';
 
         return { key, type, value };

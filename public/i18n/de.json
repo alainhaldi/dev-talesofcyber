@@ -360,6 +360,135 @@
               "bs_text_1": "Ganz verhindern lassen sie sich nicht - aber du kannst das Risiko senken. Gib deine Daten nur weiter, wenn es wirklich nötig ist, und achte darauf, wem du sie anvertraust. Der beste Schutz: Bleib aufmerksam, misstrauisch und leg im Zweifel einfach auf."
             }
           }
+        },
+        "story": {
+          "page_1": {
+            "bs_heading_1": "Wieso du niemals spontan für die Polizei arbeiten wirst.",
+            "bs_rive_1": {
+              "size": "L",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            }
+          },
+          "page_2": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Wie jeden Tag macht Mario auch heute seinen Mittagsschlaf. Später am Nachmittag möchte er mit seiner Familie das Grab seiner Frau besuchen - denn genau heute vor zwei Jahren ist sie verstorben."
+          },
+          "page_3": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Plötzlich klingelt das Telefon.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Ohh, das muss meine Familie sein!"
+            },
+            "bs_text_2": "Freudig geht er ans Telefon - doch statt seiner Familie ist überraschend die Polizei am Telefon.",
+            "bs_rive_text_2": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Oh je, die Polizei - was ist denn jetzt passiert?"
+            }
+          },
+          "page_4": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Der Polizist erklärt Mario, dass bei seiner Bank wiederholt Geld verschwindet. Der Verdacht: Der Täter könnte ein Mitarbeiter der Bank sein.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Wir brauchen deine Hilfe, um den Täter zu überführen!"
+            },
+            "bs_text_2": "Der Polizist bittet Mario, 30'000 Franken abzuheben und ihm zu übergeben. Das Geld werde markiert, um den Täter zu überführen. Als Belohnung solle Mario später 31'000 Franken zurückbekommen."
+          },
+          "page_5": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Mario willigt ein - schliesslich möchte er der Polizei helfen. Ohne zu zögern macht er sich auf den Weg zur Bank.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Denk dran, Mario - sag auf keinen Fall, dass du mit uns zusammenarbeitest! Es könnte sein, dass du direkt mit dem Täter sprichst."
+            },
+            "bs_text_2": "Mario betritt die Bank und geht zum Schalter. Nervös sagt er dem Bankangestellten, dass er gerne Geld abheben möchte."
+          },
+          "page_6": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Der Bankangestellte wird sofort misstrauisch und fragt nach, warum Mario so viel Geld abheben möchte.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Ich… ich möchte den letzten Wunsch meiner Frau erfüllen. Sie wollte immer, dass wir gemeinsam auf eine Insel fliegen, um den Sonnenuntergang zu sehen."
+            },
+            "bs_text_2": "Der Bankangestellte glaubt Marios Geschichte nicht. Im Gegensatz zu ihm kennt er die Masche des Fake-Polizisten - und alarmiert heimlich die echte Polizei."
+          },
+          "page_7": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Kurz darauf betritt die echte Polizei die Bank, und Mario glaubt, es seien die Beamten, mit denen er zusammenarbeitet.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Guten Tag, Mario. Können wir kurz mit dir sprechen?"
+            },
+            "bs_text_2": "Die Polizei klärt Mario auf: Er wäre beinahe Opfer eines betrügerischen Tricks geworden.",
+            "bs_rive_text_2": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Unglaublich, ich kann es nicht fassen! Beinahe hätte ich das gesamte Ersparte meiner Frau und mir verloren!"
+            }
+          },
+          "page_8": {
+            "bs_heading_1": "Später am Nachmittag...",
+
+            "bs_text_1": "Mario steht noch immer unter Schock, doch die Erleichterung ist gross: Seine Familie ist endlich zu Hause angekommen. Wie jedes Jahr haben sie eine kleine Überraschung für ihn dabei. Gespannt öffnet Mario den Umschlag ...",
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            }
+          },
+          "page_9": {
+            "bs_heading_1": "Drei zentrale Erkenntnisse...",
+            "bs_bullets_1": {
+              "bs_text_1": "Behörden werden dich niemals bitten, den Geheimagenten zu spielen.",
+              "bs_text_2": "Sei misstrauisch, wenn am Telefon Druck ausgeübt wird.",
+              "bs_text_3": "Sprich mit Familie und Freunden über verdächtige Anrufe."
+            }
+          },
+          "page_10": {
+            "bs_heading": "Geheimtipp...",
+            "bs_text_1": "Übt ein Anrufer Druck aus, verursacht Stress und fordert dich zu sofortigem Handeln auf - leg auf. Atme tief durch, sprich mit einem Freund und bleib aufmerksam."
+          }
         }
       },
       "topic_3": {
@@ -460,6 +589,141 @@
               }
             }
           }
+        },
+        "story": {
+          "page_1": {
+            "bs_heading_1": "Warum nicht alle Freunde, Freunde sind.",
+            "bs_rive_1": {
+              "size": "L",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            }
+          },
+          "page_2": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Vor drei Monaten erhielt die 16 jährige Laura auf HeadBook eine Freundschaftsanfrage von Justin.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Woah dieser Justin ist mega süss!"
+            },
+            "bs_text_2": "Laura kennt Justin zwar nicht persönlich, nimmt die Anfrage aber trotzdem an. Schon bald beginnen die beiden Teenager miteinander zu schreiben."
+          },
+          "page_3": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Laura und Justin schreiben täglich stundenlang und nach ein paar Wochen fragt Justin Laura, ob sie seine Freundin sein möchte.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Omg.. ja natürlich will ich deine Freundin sein!"
+            },
+            "bs_text_2": "Laura ist überglücklich, behält es aber erstmals für sich. Sie weiss genau: Ihre Eltern wären davon alles andere als begeistert."
+          },
+          "page_4": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Wochenlang läuft alles perfekt. Laura ist motivierter, schreibt bessere Noten - Justin scheint ein echter Glücksgriff zu sein.",
+            "bs_text_2": "Doch dann, ganz plötzlich, fragt Justin nach intimen Bildern von Laura.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Hmm.. ich weiss nicht, ich fühle mich dabei nicht so wohl."
+            },
+            "bs_text_3": "Doch Justin bleibt hartnäckig - und schliesslich gibt Laura nach."
+          },
+          "page_5": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Seit Laura ihm die Bilder geschickt hat, hat sich etwas verändert. Justin meldet sich seltener und wirkt plötzlich distanziert.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Hmm... Was habe ich bloss falsch gemacht?"
+            },
+            "bs_text_2": "Dann plötzlich erhält Laura eine schockierende Nachricht. Sie kann es kaum fassen - ihr Herz beginnt zu rasen."
+          },
+          "page_6": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Justin droht Laura: Wenn sie keine Bilder von ihrem kleinen Bruder schickt, wird er ihre Fotos veröffentlichen - verzweifelt bricht sie weinend zusammen."
+          },
+          "page_7": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Plötzlich geht die Zimmertür auf - ihre Mutter tritt ein. Aufgelöst wirft sich Laura in ihre Arme und erzählt ihr alles über Justin.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Ich bin verzweifelt, ich weiss nicht mehr was machen!"
+            },
+            "bs_text_2": "Ihre Mutter nimmt sie tröstend in den Arm und bedankt sich für ihr Vertrauen. Gemeinsam machen sie sich auf den Weg zur Polizei."
+          },
+          "page_8": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Die Polizei versichert Laura, dass sie Justin schnappen werden. Laura ist erleichtert und spürt endlich wieder Rückhalt.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Ich hoffe, Justin hat das nicht noch anderen Mädchen angetan."
+            },
+            "bs_text_2": "Und tatsächlich - ein paar Wochen später bekommt Laura die Bestätigung von der Polizei: Justin wurde geschnappt."
+          },
+          "page_9": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Es stellte sich heraus, dass Justin nicht 17, sondern tatsächlich 37 Jahre alt ist. Bei den Ermittlungen konnte die Polizei zahlreiche Bilder von minderjährigen Mädchen sicherstellen. Doch Justin war nicht allein - er ist nur ein kleiner Teil eines viel grösseren, erschreckenden Netzwerks von Pädophilen."
+          },
+          "page_10": {
+            "bs_heading_1": "Drei zentrale Erkenntnisse...",
+            "bs_bullets_1": {
+              "bs_text_1": "Sei vorsichtig bei Onlinebekanntschaften.",
+              "bs_text_2": "Teile keine privaten Bilder oder Informationen mit Unbekannten.",
+              "bs_text_3": "Sprich mit jemandem - du bist nicht allein."
+            }
+          },
+          "page_11": {
+            "bs_heading": "Geheimtipp...",
+            "bs_text_1": "Mit KI wird es noch schwerer, Realität von Fälschung zu unterscheiden. Bleib besonders aufmerksam - und vertrau deinem Bauchgefühl."
+          }
         }
       },
       "topic_4": {
@@ -548,6 +812,165 @@
             "answer": {
               "bs_text_1": "Nein - es ist nicht peinlich, und du trägst keine Schuld. Du wurdest Opfer von professionellen Betrügern, die genau wissen, wie man Menschen täuscht und manipuliert. Das kann wirklich jedem passieren. Schäme dich nicht - sprich darüber. Deine Geschichte kann anderen helfen, nicht in die gleiche Falle zu tappen."
             }
+          }
+        },
+        "story": {
+          "page_1": {
+            "bs_heading_1": "Romeo und Julia.",
+            "bs_rive_1": {
+              "size": "L",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            }
+          },
+          "page_2": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Julia ist eine erfolgreiche Geschäftsfrau - ihre Position hat sie sich hart erkämpft, doch der Aufwand hat sich gelohnt. Sie machte unzählige Überstunden - während viele ihrer Mitbewerber dem Druck nicht standhielten, blieb Julia stark."
+          },
+          "page_3": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Durch ihren Fokus auf die Karriere hat sie nur eine einzige Kollegin - für eine Beziehung blieb ihr jedoch nie Zeit.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Hmm… ich wünschte, ich hätte einen Partner."
+            },
+            "bs_text_2": "Bei einem gemeinsamen Kaffee mit ihrer Kollegin erfährt Julia von einer Dating-App.",
+            "bs_rive_text_2": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Wer weiss, vielleicht finde ich dort endlich jemanden."
+            }
+          },
+          "page_4": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Und tatsächlich: Nur wenige Tage später lernt sie Romeo kennen. Er hat eine eigene Firma und eine beeindruckende Karriere - Julia fühlt sich ihm sofort verbunden.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Romeo, das muss Schicksal sein!"
+            },
+            "bs_text_2": "Die beiden schreiben täglich und tauschen sich über ihren Alltag aus."
+          },
+          "page_5": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Julia ist überglücklich - sie hat nicht nur ihre Wunschkarriere erreicht, sondern auch ihren Traummann gefunden.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Mein leben könnte nicht besser laufen."
+            },
+            "bs_text_2": "Doch das Leben von Romeo verläuft nicht so ideal: Seine Firma hat ein schwieriges Jahr hinter sich, und er macht sich Sorgen um die Zukunft."
+          },
+          "page_6": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Er teilt seine Sorgen mit Julia und bittet sie um Unterstützung. Er habe einen grossen Auftrag in Aussicht, brauche dafür aber dringend Geld für wichtige Investitionen.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Keine Sorge ich werde dir helfen!"
+            },
+            "bs_text_2": "Ohne lange zu zögern, überweist Julia Romeo 100'000 Franken. Sie vertraut ihm und ist überzeugt, dass er das Geld zurückzahlen wird, sobald es seiner Firma besser geht."
+          },
+          "page_7": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Ein paar Tage später trifft sich Julia wieder mit ihrer Kollegin. Voller Euphorie erzählt sie von ihrem Glück mit der Dating-App.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Warte was hast du gemacht?!"
+            },
+            "bs_text_2": "Ihre Kollegin ist fassungslos, als Julia ihr von der überwiesenen Summe erzählt. Wütend verlässt Julia das Café - sie versteht nicht, warum ihre Kollegin ihr dieses Glück nicht gönnt."
+          },
+          "page_8": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Ihre Kollegin versucht, Julia telefonisch zu erreichen. Sie möchte sie unbedingt vor Romeo warnen, da sie das Gefühl hat, er könnte ein Betrüger sein.",
+
+            "bs_text_2": "Julia ist immer noch wütend und hört ihrer Kollegin nicht zu. Sie erzählt Romeo von den Problemen mit ihrer Kollegin, und er schlägt vor, gemeinsam in den Urlaub zu fahren, um sich abzulenken."
+          },
+          "page_9": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Romeo möchte Julia gerne überraschen und die Ferien für sie buchen. Da er jedoch immer noch pleite ist, müsste Julia die Kosten vorstrecken.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Ja, okay gut, aber nur, weil ich Überraschungen liebe."
+            },
+            "bs_text_2": "Julia überweist erneut 10'000 Franken an Romeo. Und tatsächlich, ein paar Stunden später erhält sie ein Flugticket.",
+            "bs_rive_text_2": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Ich werde am Taxistand auf dich warten!"
+            }
+          },
+          "page_10": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Als Julia ins Flugzeug steigt, erinnert sie sich plötzlich an das Gespräch mit ihrer Kollegin.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Hmm, was, wenn Romeo doch nicht auftaucht?"
+            },
+            "bs_text_2": "Julia am Taxistand alleine mit dem Koffern, sitzend am Boden mit dem Kopf in den Armen."
+          },
+          "page_11": {
+            "bs_heading_1": "Drei zentrale Erkenntnisse...",
+            "bs_bullets_1": {
+              "bs_text_1": "Sende niemals Geld an Unbekannte.",
+              "bs_text_2": "Höre auf kritische Stimmen aus deinem Freundeskreis und bewerte sie neutral.",
+              "bs_text_3": "Sei vorsichtig, wem du vertraust - besonders bei Onlinebekanntschaften."
+            }
+          },
+          "page_12": {
+            "bs_heading": "Geheimtipp...",
+            "bs_text_1": "KI kann mittlerweile unglaublich gut Videos und Anrufe fälschen. Deshalb solltest du misstrauisch sein und auch kritischen Stimmen aus deinem Umfeld mehr Aufmerksamkeit schenken."
           }
         }
       },

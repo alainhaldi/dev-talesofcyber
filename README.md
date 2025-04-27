@@ -73,5 +73,5 @@ title = input.required<string>();
               "text": ""
             },
             "bs_text_2": ""
-          }
+          },
 ```
