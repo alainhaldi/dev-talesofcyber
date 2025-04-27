@@ -176,6 +176,135 @@
               "text": "Oh nein! Ich wurde gehackt!"
             },
             "bs_text_2": "Sofort ändert Maria ihr Passwort. Aus Angst vor weiteren Angriffen wählt sie diesmal ein wirklich starkes und einzigartiges Passwort."
+          },
+          "page_4": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Maria löscht die seltsamen Beiträge und informiert ihre Freunde. Trotz des Schocks beginnt sie sich langsam wieder zu beruhigen.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Das ist ja gerade nochmal gut gegangen."
+            },
+            "bs_text_2": "Erleichtert lässt sich Maria wieder aufs Sofa sinken und schaut weiter fern. Doch plötzlich klingelt erneut ihr Handy."
+          },
+          "page_5": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Auf dem Display erscheint eine Nachricht: Soeben wurden 500 Franken von ihrem Konto abgehoben.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Nein, das kann nicht sein!"
+            },
+            "bs_text_2": "So schnell sie kann, versucht Maria, sich bei ihrer Bank anzumelden."
+          },
+          "page_6": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Zugriff verweigert?!!"
+            },
+            "bs_text_2": "Die Panik steigt, Marias Herz rast. Verzweifelt muss sie mitansehen, wie die Hacker vollständige Kontrolle über ihr Konto haben.",
+            "bs_rive_text_2": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Was soll ich jetzt nur tun? Und wie konnte das überhaupt passieren?"
+            }
+          },
+          "page_7": {
+            "bs_heading_1": "Vor zwei Wochen...",
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_link_1": {
+              "bs_text_before": "Hackern ist es gelungen, eine Million Passwörter von der Social-Media-Plattform HeadBook zu stehlen. Mit diesen Daten erstellten sie eine sogenannte",
+              "alias": "Passwortliste",
+              "url": "https://haveibeenpwned.com/",
+              "bs_text_after": "Das ist für viele eine ernste Bedrohung - denn noch immer nutzen viele Menschen dasselbe Passwort für mehrere Dienste, so auch Maria."
+            }
+          },
+          "page_8": {
+            "bs_link_1": {
+              "bs_text_before": "Hacker hingegen lieben solche Passwortlisten - damit können sie ganz einfach einen sogenannten ",
+              "alias": "Brute-Force-Angriff",
+              "url": "https://haveibeenpwned.com/",
+              "bs_text_after": " starten."
+            },
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            }
+          },
+          "page_9": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_heading_1": "Zurück zu Maria...",
+            "bs_text_1": "Maria läuft panisch im Kreis, während sie einem Bankangestellten am Telefon ihre Geschichte schildert. Er versichert ihr, dass das Konto sofort gesperrt wird, und rät ihr dringend, all ihre Passwörter zu ändern, um weiteren Schaden zu verhindern."
+          },
+          "page_10": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Noch immer unter Schock setzt sich Maria an den Tisch und beginnt, ein Passwort nach dem anderen zu ändern.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Ohjee das wird eine lange Nacht..."
+            },
+            "bs_link_1": {
+              "bs_text_before": "Damit Maria sich die vielen neuen Passwörter merken kann, nutzt sie einen ",
+              "alias": "Passwortmanager",
+              "url": "https://haveibeenpwned.com/",
+              "bs_text_after": ""
+            },
+            "bs_link_2": {
+              "bs_text_before": "Zusätzlich aktiviert sie überall die ",
+              "alias": "Multi-Faktor-Authentifizierung",
+              "url": "https://haveibeenpwned.com/",
+              "bs_text_after": ", um bestmöglich geschützt zu sein."
+            }
+          },
+          "page_11": {
+            "bs_heading_1": "Drei zentrale Erkenntnisse...",
+            "bs_bullets_1": {
+              "bs_text_1": "Verwende starke und einzigartige Passwörter",
+              "bs_text_2": "Nutze einen Passwortmanager",
+              "bs_text_3": "Aktiviere die Multi-Faktor-Authentifizierung"
+            }
+          },
+          "page_12": {
+            "bs_heading_1": "Geheimtipp...",
+            "bs_text_1": "Du musst nicht alle Passwörter auf einmal ändern - nimm dir Zeit. Zum Beispiel: Ändere jeden Morgen beim Kaffeetrinken einfach eines."
           }
         }
       },
