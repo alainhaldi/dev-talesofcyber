@@ -12,6 +12,7 @@ import { RouterLink } from '@angular/router';
 })
 export class CsToolbarComponent {
   showHomeIcon = input<boolean>(false);
+  showBackIcon = input<boolean>(false);
   showMenuIcon = input<boolean>(false);
   showCloseIcon = input<boolean>(false);
 }

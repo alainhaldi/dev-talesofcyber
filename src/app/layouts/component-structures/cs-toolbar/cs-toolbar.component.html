@@ -8,6 +8,15 @@
   >
     <span class="material-symbols-outlined"> home </span>
   </button>
+  } @if (showBackIcon()) {
+  <button
+    mat-icon-button
+    class="c-icon-button"
+    aria-label="Home Icon"
+    [routerLink]="'..'"
+  >
+    <span class="material-symbols-outlined"> arrow_back_ios_new </span>
+  </button>
   }
   <!-- Spacer -->
   <span class="c-spacer"></span>

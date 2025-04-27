@@ -1,6 +1,6 @@
 import { Component, input, OnInit } from '@angular/core';
 import { TranslatePipe } from '@ngx-translate/core';
-import de from '../../../../../public/i18n/de.json';
+// import de from '../../../../../public/i18n/de.json';
 import { LoggerService } from '../../../core/logger.service';
 import deJson from '../../../../../public/i18n/de.json';
 import { BsTextComponent } from '../bs-text/bs-text.component';

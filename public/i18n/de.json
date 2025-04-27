@@ -13,7 +13,21 @@
   "topic_page": {
     "global": {
       "bs_button_story": "Geschichte",
-      "story_pages": {}
+      "story_pages": {
+        "bs_button_forward": "Weiter",
+        "bs_button_backwards": "Zurück",
+        "story": {
+          "page_0": {
+            "bs_heading_1": "Hinweis...",
+            "bs_link_1": {
+              "bs_text_before": "Wörter welche ",
+              "alias": "unterstrichen",
+              "url": "https://example.com/",
+              "bs_text_after": " sind, können Angeklickt werden um eine Erklärung zu erhalten."
+            }
+          }
+        }
+      }
     },
     "topics": {
       "topic_1": {
@@ -113,7 +127,13 @@
             }
           }
         },
-        "story": {}
+        "story": {
+          "page_1": {
+            "bs_heading_1": "Warum es einfacher ist, sichere Passwörter zu verwenden als unsichere.",
+            "bs_rive_1": {}
+          },
+          "page_2": {}
+        }
       },
       "topic_2": {
         "infos": {

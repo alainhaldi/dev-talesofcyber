@@ -38,3 +38,7 @@ export const getQuestion = (topicId: string, questionId: string): string =>
 
 export const getAnswer = (topicId: string, questionId: string): string =>
   `${pathToTopic}${topicId}.questions.question_${questionId}.answer`;
+
+export function getNestedValue(jsonFile: any, path: string): any {
+  return path.split('.').reduce((acc, key) => acc?.[key], jsonFile);
+}

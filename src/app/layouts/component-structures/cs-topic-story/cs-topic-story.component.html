@@ -1,0 +1,30 @@
+<app-bs-progress-bar></app-bs-progress-bar>
+
+@for (obj of currentPageObjects; track obj.key) { @switch (obj.type) {
+<!-- Heading Component -->
+@case ('heading') {
+<app-bs-heading
+  heading="{{ currentPathToPage() + '.' + obj.key }}"
+></app-bs-heading>
+}
+<!-- Text Component -->
+@case ('text') {
+<app-bs-text text="{{ currentPathToPage() + '.' + obj.key }}"></app-bs-text>
+
+<!-- Rive Component -->
+} @case ('rive') {
+<app-bs-rive
+  width="324"
+  height="140"
+  src="assets/home-page/hero_image.riv"
+  [stateMachines]="['State Machine 1']"
+></app-bs-rive>
+<!-- <app-bs-rive
+  pathToRive="{{ `${localPathToAnswer()}.${obj.key}`}}"
+  ></app-bs-rive> -->
+<!-- Link Component -->
+} @case ('link') {
+<app-bs-link
+  pathToLink="{{ `${currentPathToPage()}.${obj.key}`}}"
+></app-bs-link>
+}} }
