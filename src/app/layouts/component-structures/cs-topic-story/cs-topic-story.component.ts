@@ -26,6 +26,7 @@ export class CsTopicStoryComponent implements OnInit {
   pathToPage0 = signal('');
   pathToPages = signal('');
   currentPage = signal(0);
+  currentProgress = signal('');
   currentPathToPage = signal('');
 
   // All pages inclunding page 0
@@ -54,13 +55,13 @@ export class CsTopicStoryComponent implements OnInit {
     this.logger.log(this.pagesArray);
 
     // Map with Type
-    this.setCurrentPageArray();
+    this.setCurrentPage();
     this.logger.log(this.currentPageObjects);
   }
 
-  setCurrentPageArray() {
+  setCurrentPage() {
     const currentPageObj = this.pagesArray[this.currentPage()];
-    this.logger.log(currentPageObj.value);
+    // this.logger.log(currentPageObj.value);
     if (!currentPageObj) return;
 
     // Set correct Path to Page
@@ -88,5 +89,16 @@ export class CsTopicStoryComponent implements OnInit {
         return { key, type, value };
       }
     );
+
+    // Update Progress
+    this.currentProgress.set(
+      this.getCurrentProgress(this.pagesArray.length, this.currentPage())
+    );
+  }
+
+  getCurrentProgress(countPages: number, currentPage: number): string {
+    const progress = (currentPage / countPages) * 100;
+    this.logger.log('progress - ' + progress);
+    return progress.toString();
   }
 }

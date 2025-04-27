@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 
 @Component({
@@ -7,4 +7,6 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
   templateUrl: './bs-progress-bar.component.html',
   styleUrl: './bs-progress-bar.component.scss',
 })
-export class BsProgressBarComponent {}
+export class BsProgressBarComponent {
+  progress = input.required<string>();
+}

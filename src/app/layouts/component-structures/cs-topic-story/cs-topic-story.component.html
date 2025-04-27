@@ -1,4 +1,4 @@
-<app-bs-progress-bar></app-bs-progress-bar>
+<app-bs-progress-bar progress="{{ currentProgress() }}"></app-bs-progress-bar>
 
 @for (obj of currentPageObjects; track obj.key) { @switch (obj.type) {
 <!-- Heading Component -->
