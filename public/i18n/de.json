@@ -130,9 +130,48 @@
         "story": {
           "page_1": {
             "bs_heading_1": "Warum es einfacher ist, sichere Passwörter zu verwenden als unsichere.",
-            "bs_rive_1": {}
+            "bs_rive_1": {
+              "size": "L",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            }
           },
-          "page_2": {}
+          "page_2": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Es ist ein ruhiger Abend. Wie so oft sitzt Maria gemütlich auf dem Sofa und schaut fern, als plötzlich ihr Telefon klingelt.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Merkwürdig, ein Anruf von meiner besten Kollegin zu dieser Uhrzeit?"
+            },
+            "bs_text_2": "Geschockt hört Maria ihrer Kollegin zu, die sich lautstark beschwert. Sie ist wütend, weil Maria angeblich Werbung für seltsame Produkte auf ihrem Social-Media-Account gepostet hat.",
+            "bs_rive_text_2": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Wie kann das sein? So etwas würde ich doch niemals posten!"
+            }
+          },
+          "page_3": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Schnell loggt sich Maria in ihren Account ein - und traut ihren Augen nicht: Tatsächlich sind dort seltsame Bilder auf ihrem Profil zu sehen.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Oh nein! Ich wurde gehackt!"
+            },
+            "bs_text_2": "Sofort ändert Maria ihr Passwort. Aus Angst vor weiteren Angriffen wählt sie diesmal ein wirklich starkes und einzigartiges Passwort."
+          }
         }
       },
       "topic_2": {

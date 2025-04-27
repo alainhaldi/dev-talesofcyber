@@ -57,3 +57,21 @@ title = input.required<string>();
 ### Improvments
 
 - Not Found Component wich links back to Home Screen, with hero saying something
+
+```json
+"page_3": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": ""
+            },
+            "bs_text_2": ""
+          }
+```

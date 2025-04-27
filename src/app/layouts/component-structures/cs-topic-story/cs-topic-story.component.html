@@ -13,14 +13,16 @@
 <!-- Rive Component -->
 } @case ('rive') {
 <app-bs-rive
-  width="324"
-  height="140"
-  src="assets/home-page/hero_image.riv"
+  size="{{ obj.value.size }}"
+  src="{{ obj.value.src }}"
   [stateMachines]="['State Machine 1']"
 ></app-bs-rive>
-<!-- <app-bs-rive
-  pathToRive="{{ `${localPathToAnswer()}.${obj.key}`}}"
-  ></app-bs-rive> -->
+<!-- Rive Text -->
+} @case ('rive-text') {
+<app-bs-rive-text
+  src="{{ obj.value.src }}"
+  text="{{ obj.value.text }}"
+></app-bs-rive-text>
 <!-- Link Component -->
 } @case ('link') {
 <app-bs-link

@@ -8,6 +8,7 @@ import { BsTextComponent } from '../../base-structures/bs-text/bs-text.component
 import { BsRiveComponent } from '../../base-structures/bs-rive/bs-rive.component';
 import { BsLinkComponent } from '../../base-structures/bs-link/bs-link.component';
 import { BsButtonComponent } from '../../base-structures/bs-button/bs-button.component';
+import { BsRiveTextComponent } from '../../base-structures/bs-rive-text/bs-rive-text.component';
 
 @Component({
   selector: 'app-cs-topic-story',
@@ -18,6 +19,7 @@ import { BsButtonComponent } from '../../base-structures/bs-button/bs-button.com
     BsRiveComponent,
     BsLinkComponent,
     BsButtonComponent,
+    BsRiveTextComponent,
   ],
   templateUrl: './cs-topic-story.component.html',
   styleUrl: './cs-topic-story.component.scss',
@@ -69,7 +71,6 @@ export class CsTopicStoryComponent implements OnInit {
 
   setCurrentPage() {
     const currentPageObj = this.pagesArray[this.currentPage()];
-    // this.logger.log(currentPageObj.value);
     if (!currentPageObj) return;
 
     // Set correct Path to Page
@@ -88,6 +89,8 @@ export class CsTopicStoryComponent implements OnInit {
           ? 'heading'
           : key.startsWith('bs_text')
           ? 'text'
+          : key.startsWith('bs_rive_text')
+          ? 'rive-text'
           : key.startsWith('bs_rive')
           ? 'rive'
           : key.startsWith('bs_link')
@@ -97,6 +100,8 @@ export class CsTopicStoryComponent implements OnInit {
         return { key, type, value };
       }
     );
+    this.logger.log('---->>' + currentPageObj.key);
+    this.logger.log('---->>' + this.currentPageObjects);
 
     // Update Progress
     this.currentProgress.set(
