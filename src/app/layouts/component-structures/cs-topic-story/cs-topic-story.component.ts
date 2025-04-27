@@ -10,6 +10,8 @@ import { BsLinkComponent } from '../../base-structures/bs-link/bs-link.component
 import { BsButtonComponent } from '../../base-structures/bs-button/bs-button.component';
 import { BsRiveTextComponent } from '../../base-structures/bs-rive-text/bs-rive-text.component';
 import { BsBulletsComponent } from '../../base-structures/bs-bullets/bs-bullets.component';
+import { BsTermDialogComponent } from '../../base-structures/bs-term-dialog/bs-term-dialog.component';
+import { BsTermComponent } from '../../base-structures/bs-term/bs-term.component';
 
 @Component({
   selector: 'app-cs-topic-story',
@@ -22,6 +24,8 @@ import { BsBulletsComponent } from '../../base-structures/bs-bullets/bs-bullets.
     BsButtonComponent,
     BsRiveTextComponent,
     BsBulletsComponent,
+    BsTermDialogComponent,
+    BsTermComponent,
   ],
   templateUrl: './cs-topic-story.component.html',
   styleUrl: './cs-topic-story.component.scss',
@@ -110,6 +114,8 @@ export class CsTopicStoryComponent implements OnInit {
           ? 'link'
           : key.startsWith('bs_bullets')
           ? 'bullets'
+          : key.startsWith('bs_term')
+          ? 'term'
           : 'unknown';
 
         return { key, type, value };

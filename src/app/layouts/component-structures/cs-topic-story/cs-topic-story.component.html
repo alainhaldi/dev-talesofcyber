@@ -28,6 +28,14 @@
   src="{{ obj.value.src }}"
   text="{{ obj.value.text }}"
 ></app-bs-rive-text>
+<!-- Term -->
+} @case ('term') {
+<app-bs-term
+  text_before="{{ obj.value.bs_text_before }}"
+  text_after="{{ obj.value.bs_text_after }}"
+  term="{{ obj.value.term }}"
+  description="{{ obj.value.description }}"
+></app-bs-term>
 <!-- Link Component -->
 } @case ('link') {
 <app-bs-link

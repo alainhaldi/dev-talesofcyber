@@ -75,3 +75,14 @@ title = input.required<string>();
             "bs_text_2": ""
           },
 ```
+
+```json
+
+"bs_term_1": {
+              "bs_text_before": "",
+              "term": "",
+              "description": "...Beschreibung Folgt...",
+              "bs_text_after": " "
+            }
+
+```

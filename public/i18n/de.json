@@ -19,10 +19,10 @@
         "story_start": {
           "page_0": {
             "bs_heading_1": "Hinweis...",
-            "bs_link_1": {
+            "bs_term_1": {
               "bs_text_before": "Wörter welche ",
-              "alias": "unterstrichen",
-              "url": "https://example.com/",
+              "term": "unterstrichen",
+              "description": "Unterstreichen bedeutet ein Wort ...",
               "bs_text_after": " sind, können Angeklickt werden um eine Erklärung zu erhalten."
             }
           }
@@ -235,20 +235,21 @@
                 "StateMachine_1": "State Machine 1"
               }
             },
-            "bs_link_1": {
-              "bs_text_before": "Hackern ist es gelungen, eine Million Passwörter von der Social-Media-Plattform HeadBook zu stehlen. Mit diesen Daten erstellten sie eine sogenannte",
-              "alias": "Passwortliste",
-              "url": "https://haveibeenpwned.com/",
-              "bs_text_after": "Das ist für viele eine ernste Bedrohung - denn noch immer nutzen viele Menschen dasselbe Passwort für mehrere Dienste, so auch Maria."
+            "bs_term_1": {
+              "bs_text_before": "Hackern ist es gelungen, eine Million Passwörter von der Social-Media-Plattform HeadBook zu stehlen. Mit diesen Daten erstellten sie eine sogenannte ",
+              "term": "Passwortliste",
+              "description": "...Beschreibung Passwortliste...",
+              "bs_text_after": " Das ist für viele eine ernste Bedrohung - denn noch immer nutzen viele Menschen dasselbe Passwort für mehrere Dienste, so auch Maria."
             }
           },
           "page_8": {
-            "bs_link_1": {
+            "bs_term_1": {
               "bs_text_before": "Hacker hingegen lieben solche Passwortlisten - damit können sie ganz einfach einen sogenannten ",
-              "alias": "Brute-Force-Angriff",
-              "url": "https://haveibeenpwned.com/",
+              "term": "Brute-Force-Angriff",
+              "description": "...Beschreibung Folgt...",
               "bs_text_after": " starten."
             },
+
             "bs_rive_1": {
               "size": "M",
               "src": "assets/home-page/hero_image.riv",
@@ -281,16 +282,16 @@
               "src": "assets/home-page/hero_image.riv",
               "text": "Ohjee das wird eine lange Nacht..."
             },
-            "bs_link_1": {
+            "bs_term_1": {
               "bs_text_before": "Damit Maria sich die vielen neuen Passwörter merken kann, nutzt sie einen ",
-              "alias": "Passwortmanager",
-              "url": "https://haveibeenpwned.com/",
+              "term": "Passwortmanager",
+              "description": "...Beschreibung Folgt...",
               "bs_text_after": ""
             },
-            "bs_link_2": {
+            "bs_term_2": {
               "bs_text_before": "Zusätzlich aktiviert sie überall die ",
-              "alias": "Multi-Faktor-Authentifizierung",
-              "url": "https://haveibeenpwned.com/",
+              "term": "Multi-Faktor-Authentifizierung",
+              "description": "...Beschreibung Folgt...",
               "bs_text_after": ", um bestmöglich geschützt zu sein."
             }
           },
