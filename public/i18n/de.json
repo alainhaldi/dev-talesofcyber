@@ -16,7 +16,7 @@
       "story_pages": {
         "bs_button_forward": "Weiter",
         "bs_button_backwards": "Zurück",
-        "story": {
+        "story_start": {
           "page_0": {
             "bs_heading_1": "Hinweis...",
             "bs_link_1": {
@@ -25,6 +25,11 @@
               "url": "https://example.com/",
               "bs_text_after": " sind, können Angeklickt werden um eine Erklärung zu erhalten."
             }
+          }
+        },
+        "story_end": {
+          "page_end": {
+            "bs_heading_1": "Gratulation!!"
           }
         }
       }

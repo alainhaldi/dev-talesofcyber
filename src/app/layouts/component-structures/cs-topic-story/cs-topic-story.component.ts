@@ -28,6 +28,7 @@ export class CsTopicStoryComponent implements OnInit {
   topicId = input.required<string>();
   pathToGlobalValues = signal('topic_page.global.story_pages');
   pathToPage0 = signal('');
+  pathToPageEnd = signal('');
   pathToPages = signal('');
   currentPage = signal(0);
   currentProgress = signal('');
@@ -47,7 +48,8 @@ export class CsTopicStoryComponent implements OnInit {
 
   ngOnInit(): void {
     // this.pathToGlobalValues.set('topic_page.global.story_pages');
-    this.pathToPage0.set(`${this.pathToGlobalValues()}.story`);
+    this.pathToPage0.set(`${this.pathToGlobalValues()}.story_start`);
+    this.pathToPageEnd.set(`${this.pathToGlobalValues()}.story_end`);
     this.pathToPages.set(`${pathToTopic}${this.topicId()}.story`);
 
     // Add all Pages into one Array
@@ -58,6 +60,13 @@ export class CsTopicStoryComponent implements OnInit {
 
     const pages = getNestedValue(deJson, this.pathToPages());
     Object.entries(pages).forEach(([key, value]) => {
+      this.pagesArray.push({ key, value });
+    });
+
+    const pageEnd = getNestedValue(deJson, this.pathToPageEnd());
+    this.logger.log(page0);
+    this.logger.log(pageEnd);
+    Object.entries(pageEnd).forEach(([key, value]) => {
       this.pagesArray.push({ key, value });
     });
 
@@ -74,7 +83,9 @@ export class CsTopicStoryComponent implements OnInit {
     if (!currentPageObj) return;
 
     // Set correct Path to Page
-    if (this.currentPage() > 0) {
+    if (this.currentPage() === this.pagesArray.length - 1) {
+      this.currentPathToPage.set(`${this.pathToPageEnd()}.page_end`);
+    } else if (this.currentPage() > 0) {
       this.currentPathToPage.set(
         `${this.pathToPages()}.page_${this.currentPage()}`
       );
@@ -110,7 +121,7 @@ export class CsTopicStoryComponent implements OnInit {
   }
 
   getCurrentProgress(countPages: number, currentPage: number): string {
-    const progress = (currentPage / countPages) * 100;
+    const progress = (currentPage / (countPages - 1)) * 100;
     this.logger.log('progress - ' + progress);
     return progress.toString();
   }

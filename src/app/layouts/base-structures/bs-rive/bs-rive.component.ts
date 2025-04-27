@@ -56,8 +56,8 @@ export class BsRiveComponent implements OnInit {
         this.width.set(324);
         break;
       case 'M':
-        this.height.set(324);
-        this.width.set(140);
+        this.height.set(124);
+        this.width.set(324);
         break;
       case 'S':
         this.height.set(30);
