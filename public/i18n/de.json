@@ -1123,6 +1123,146 @@
               "bs_text_1": "Am besten schützt du dich, indem du kritisch bleibst: Klicke nie auf unbekannte Links und öffne keine Anhänge von unbekannten Absendern. Bist du unsicher? Hol dir eine zweite Meinung - sprich mit Freunden, Familie oder Kollegen.Ganz verhindern lassen sich solche Angriffe leider nicht. Umso wichtiger ist es, achtsam zu sein - besonders wenn eine Nachricht Stress oder Angst bei dir auslöst."
             }
           }
+        },
+        "story": {
+          "page_1": {
+            "bs_heading_1": "Keine Zeit zum denken.",
+            "bs_rive_1": {
+              "size": "L",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            }
+          },
+          "page_2": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "In einer Woche beginnen die Weihnachtsferien. Marcel hat daher viele Aufgaben, die noch vor Jahresende erledigt sein müssen.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Uff, jedes Jahr der gleiche Stress..."
+            },
+            "bs_text_2": "In den letzten Tagen arbeitet er von früh bis spät, Pausen macht er kaum. Plötzlich erscheint eine neue E-Mail in seinem Postfach mit dem Betreff: „Letzte Warnung!“",
+            "bs_rive_text_2": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Super, was ist jetzt los..."
+            }
+          },
+          "page_3": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Marcel liest die E-Mail. Wieder einmal ein wütender Kunde, der schon lange auf die Begleichung seiner Rechnung wartet.",
+
+            "bs_text_2": "Doch Marcel ist skeptisch - handelt es sich wirklich um einen echten Kunden? Noch bevor er zweimal überlegen kann, klingelt plötzlich das Telefon."
+          },
+          "page_4": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Am Telefon ist derselbe Kunde, der gerade die E-Mail geschickt hat. Er ist ausser sich und lässt sich nicht beruhigen.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Wenn diese Rechnung nicht bis morgen beglichen ist, wird es Konsequenzen haben."
+            },
+            "bs_text_2": "Geschockt und sprachlos legt Marcel das Telefon auf.",
+            "bs_rive_text_2": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Als hätte ich nicht schon genug Stress..."
+            }
+          },
+          "page_5": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Marcel, immer noch geschockt von dem Anruf, begleicht die offene Rechnung. Anschliessend holt er sich einen Kaffee.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Diese kurze Pause brauche ich jetzt..."
+            },
+            "bs_text_2": "Während der Kaffee läuft, geht Marcel das merkwürdige Ereignis noch einmal gedanklich durch. Plötzlich wird er nervös und fragt sich, ob es nicht doch ein Phishing-Angriff sein könnte."
+          },
+          "page_6": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Schnell rennt Marcel zurück zu seinem Computer und überprüft die E-Mail-Adresse. Tatsächlich, die E-Mail-Adresse ist gefälscht - Marcels Herz bleibt für einen kurzen Moment stehen.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Ich hab doch nicht eben 30'000 Franken an Kriminelle überwiesen, oder?"
+            },
+            "bs_text_2": "Marcel ist ausser sich und weiss nicht, wie er mit der Situation umgehen soll."
+          },
+          "page_7": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Marcel will den Fehler wiedergutmachen. Er fasst all seinen Mut zusammen und geht ins Büro seines Chefs.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Hallo Chef, ich muss dir etwas beichten..."
+            },
+            "bs_text_2": "Gemeinsam gehen die beiden das Geschehen durch. Marcel ist sichtlich nervös - schliesslich mag er seinen Job und möchte ihn nicht verlieren."
+          },
+          "page_8": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Der Chef ist alles andere als begeistert. Er sieht den Fehler jedoch nicht nur bei Marcel, sondern auch bei sich selbst.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Ich hätte meine Mitarbeiter besser schulen sollen!"
+            },
+            "bs_text_2": "Trotz des Fehlers darf Marcel seinen Job behalten. Sein Chef schätzt seine Offenheit und den Mut, sich ihm anzuvertrauen."
+          },
+          "page_9": {
+            "bs_heading_1": "Drei zentrale Erkenntnisse...",
+            "bs_bullets_1": {
+              "bs_text_1": "Kritisch denken.",
+              "bs_text_2": "Frage bei Unsicherheit Kollegen um Rat.",
+              "bs_text_3": "Unbedingt mit anderen sprechen, falls du gephishd wurdest."
+            }
+          },
+          "page_10": {
+            "bs_heading_1": "Geheimtipp...",
+            "bs_text_1": "Löst eine Nachricht starke Emotionen wie Stress oder Angst aus, solltest du immer besonders kritisch denken. Mach einen Schritt zurück und frage dich, ob das wirklich sinnvoll ist.",
+            "bs_buttons_custom": {
+              "bs_button_1": {
+                "button_text_inside_1": "Niemals",
+                "button_text_above_1": "Ich lasse mich von Online-Betrügern nicht übers Ohr hauen."
+              }
+            }
+          }
         }
       }
     }
