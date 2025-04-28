@@ -86,3 +86,12 @@ title = input.required<string>();
             }
 
 ```
+
+```json
+"bs_buttons_custom": {
+              "bs_button_1": {
+                "button_text_inside_1": "Niemals",
+                "button_text_above_1": "Ich lasse mich von Online-Betrügern nicht übers Ohr hauen."
+              }
+            }
+```

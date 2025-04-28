@@ -29,7 +29,12 @@
         },
         "story_end": {
           "page_end": {
-            "bs_heading_1": "Gratulation!!"
+            "bs_heading_1": "Gratulation!!",
+            "bs_buttons_custom": {
+              "bs_button_1": {
+                "button_text_inside_1": "Beenden"
+              }
+            }
           }
         }
       }
@@ -305,7 +310,13 @@
           },
           "page_12": {
             "bs_heading_1": "Geheimtipp...",
-            "bs_text_1": "Du musst nicht alle Passwörter auf einmal ändern - nimm dir Zeit. Zum Beispiel: Ändere jeden Morgen beim Kaffeetrinken einfach eines."
+            "bs_text_1": "Du musst nicht alle Passwörter auf einmal ändern - nimm dir Zeit. Zum Beispiel: Ändere jeden Morgen beim Kaffeetrinken einfach eines.",
+            "bs_buttons_custom": {
+              "bs_button_1": {
+                "button_text_inside_1": "Bestätigen",
+                "button_text_above_1": "Ich werde starke, einzigartige Passwörter verwenden."
+              }
+            }
           }
         }
       },
@@ -488,7 +499,13 @@
           },
           "page_10": {
             "bs_heading": "Geheimtipp...",
-            "bs_text_1": "Übt ein Anrufer Druck aus, verursacht Stress und fordert dich zu sofortigem Handeln auf - leg auf. Atme tief durch, sprich mit einem Freund und bleib aufmerksam."
+            "bs_text_1": "Übt ein Anrufer Druck aus, verursacht Stress und fordert dich zu sofortigem Handeln auf - leg auf. Atme tief durch, sprich mit einem Freund und bleib aufmerksam.",
+            "bs_buttons_custom": {
+              "bs_button_1": {
+                "button_text_inside_1": "Niemals",
+                "button_text_above_1": "Ich lasse mich von Online-Betrügern nicht übers Ohr hauen."
+              }
+            }
           }
         }
       },
@@ -723,7 +740,13 @@
           },
           "page_11": {
             "bs_heading": "Geheimtipp...",
-            "bs_text_1": "Mit KI wird es noch schwerer, Realität von Fälschung zu unterscheiden. Bleib besonders aufmerksam - und vertrau deinem Bauchgefühl."
+            "bs_text_1": "Mit KI wird es noch schwerer, Realität von Fälschung zu unterscheiden. Bleib besonders aufmerksam - und vertrau deinem Bauchgefühl.",
+            "bs_buttons_custom": {
+              "bs_button_1": {
+                "button_text_inside_1": "Bestätigen",
+                "button_text_above_1": "Ich versende keine Bilder an Unbekannte."
+              }
+            }
           }
         }
       },
@@ -971,7 +994,13 @@
           },
           "page_12": {
             "bs_heading": "Geheimtipp...",
-            "bs_text_1": "KI kann mittlerweile unglaublich gut Videos und Anrufe fälschen. Deshalb solltest du misstrauisch sein und auch kritischen Stimmen aus deinem Umfeld mehr Aufmerksamkeit schenken."
+            "bs_text_1": "KI kann mittlerweile unglaublich gut Videos und Anrufe fälschen. Deshalb solltest du misstrauisch sein und auch kritischen Stimmen aus deinem Umfeld mehr Aufmerksamkeit schenken.",
+            "bs_buttons_custom": {
+              "bs_button_1": {
+                "button_text_inside_1": "Bestätigen",
+                "button_text_above_1": "Ich vertraue Romeo nur, wenn ich ihn persönlich treffe!"
+              }
+            }
           }
         }
       },

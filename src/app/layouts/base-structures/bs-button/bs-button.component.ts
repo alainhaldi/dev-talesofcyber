@@ -1,4 +1,4 @@
-import { Component, input, signal } from '@angular/core';
+import { Component, input, OnInit, signal } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { TranslatePipe } from '@ngx-translate/core';
 
@@ -9,12 +9,9 @@ import { TranslatePipe } from '@ngx-translate/core';
   styleUrl: './bs-button.component.scss',
 })
 export class BsButtonComponent {
+  textAbove = input<string>('');
   text = input.required<string>();
   isLarge = input.required<boolean>();
   activatedRouterlink = input<boolean>(false);
   customRouterLink = input<string>('');
-
-  // Future implementation for button types
-  // isForwardButton = input.required<boolean>();
-  // isBackButton = input.required<boolean>();
 }

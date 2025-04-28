@@ -41,10 +41,11 @@
 <app-bs-link
   pathToLink="{{ `${currentPathToPage()}.${obj.key}`}}"
 ></app-bs-link>
-}} }
-<!-- Buttons -->
+} }}
+
 <div class="container-buttons">
-  @if(currentPage() > 0) {
+  <!-- Default Buttons -->
+  @if(!hasCustomButton()){ @if(currentPage() > 0) {
   <app-bs-button
     text="{{ pathToButtonBackwards() }}"
     [isLarge]="true"
@@ -55,5 +56,38 @@
     text="{{ pathToButtonForward() }}"
     [isLarge]="true"
     (click)="nextPage()"
-  ></app-bs-button>
+  ></app-bs-button
+  >}
+  <!-- Custom Buttons Last Page -->
+  @if(hasCustomButton() && isLastPage()){
+  <app-bs-button
+    textAbove="{{
+      this.pagesArray[this.currentPage()].value.bs_buttons_custom.bs_button_1
+        .button_text_above_1
+    }}"
+    text="{{
+      this.pagesArray[this.currentPage()].value.bs_buttons_custom.bs_button_1
+        .button_text_inside_1
+    }}"
+    [activatedRouterlink]="true"
+    customRouterLink=".."
+    [isLarge]="true"
+    (click)="nextPage()"
+  ></app-bs-button
+  >}
+  <!-- Custom Buttons  -->
+  @if(hasCustomButton() && !isLastPage()){
+  <app-bs-button
+    textAbove="{{
+      this.pagesArray[this.currentPage()].value.bs_buttons_custom.bs_button_1
+        .button_text_above_1
+    }}"
+    text="{{
+      this.pagesArray[this.currentPage()].value.bs_buttons_custom.bs_button_1
+        .button_text_inside_1
+    }}"
+    [isLarge]="true"
+    (click)="nextPage()"
+  ></app-bs-button
+  >}
 </div>

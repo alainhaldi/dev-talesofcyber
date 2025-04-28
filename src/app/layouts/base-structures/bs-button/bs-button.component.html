@@ -1,8 +1,14 @@
 <!-- Without Routing -->
 @if(!activatedRouterlink()){ @if(!isLarge()){
-<button class="button-small">{{ text() | translate }}</button>
+<div>
+  <p class="text-above">{{ textAbove() | translate }}</p>
+  <button class="button-small">{{ text() | translate }}</button>
+</div>
 } @if (isLarge()) {
-<button class="button-large">{{ text() | translate }}</button>
+<div>
+  <p class="text-above">{{ textAbove() | translate }}</p>
+  <button class="button-large">{{ text() | translate }}</button>
+</div>
 }}
 <!-- With Routing -->
 @if(activatedRouterlink()){ @if(!isLarge()){

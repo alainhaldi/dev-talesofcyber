@@ -24,7 +24,6 @@ import { BsTermComponent } from '../../base-structures/bs-term/bs-term.component
     BsButtonComponent,
     BsRiveTextComponent,
     BsBulletsComponent,
-    BsTermDialogComponent,
     BsTermComponent,
   ],
   templateUrl: './cs-topic-story.component.html',
@@ -37,6 +36,7 @@ export class CsTopicStoryComponent implements OnInit {
   pathToPageEnd = signal('');
   pathToPages = signal('');
   currentPage = signal(0);
+  isLastPage = signal(false);
   currentProgress = signal('');
   currentPathToPage = signal('');
   pathToButtonForward = signal(
@@ -45,6 +45,7 @@ export class CsTopicStoryComponent implements OnInit {
   pathToButtonBackwards = signal(
     `${this.pathToGlobalValues()}.bs_button_backwards`
   );
+  hasCustomButton = signal(false);
 
   // All pages inclunding page 0
   pagesArray: { key: string; value: any }[] = [];
@@ -128,6 +129,13 @@ export class CsTopicStoryComponent implements OnInit {
     this.currentProgress.set(
       this.getCurrentProgress(this.pagesArray.length, this.currentPage())
     );
+
+    this.hasCustomButton.set(this.checkIfCustomButton(currentPageObj));
+    this.logger.log(this.hasCustomButton());
+
+    this.isLastPage.set(
+      this.checkIfLastPage(this.currentPage(), this.pagesArray)
+    );
   }
 
   getCurrentProgress(countPages: number, currentPage: number): string {
@@ -146,5 +154,20 @@ export class CsTopicStoryComponent implements OnInit {
     this.currentPage.set(this.currentPage() - 1);
     this.setCurrentPage();
     this.logger.log(this.currentPage());
+  }
+
+  checkIfCustomButton(object: any): boolean {
+    this.logger.log(`~~>> current Object = ${object.key}`);
+    this.logger.log(`~~>> current Object = ${object.value.bs_buttons_custom}`);
+
+    const localHasCustomButton = object.value.bs_buttons_custom !== undefined;
+
+    this.logger.log(localHasCustomButton);
+
+    return localHasCustomButton;
+  }
+
+  checkIfLastPage(currentPage: number, pagesArray: any) {
+    return currentPage >= pagesArray.length - 1;
   }
 }

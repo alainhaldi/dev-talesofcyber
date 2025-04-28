@@ -8,7 +8,6 @@ import { BsTextComponent } from '../bs-text/bs-text.component';
 @Component({
   selector: 'app-bs-term-dialog',
   imports: [
-    TranslatePipe,
     MatButtonModule,
     MatDialogModule,
     BsTitleComponent,
