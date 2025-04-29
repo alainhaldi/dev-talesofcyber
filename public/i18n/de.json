@@ -80,6 +80,23 @@
     "bs_text_2": "Alain Haldi behaltet sich ausdrücklich vor, jederzeit Inhalte ohne Ankündigung ganz oder teilweise zu ändern, zu löschen oder zeitweise nicht zu veröffentlichen.",
     "bs_text_3": "Haftungsansprüche gegen Alain Haldi wegen Schäden materieller oder immaterieller Art, welche aus dem Zugriff oder der Nutzung bzw. Nichtnutzung der veröffentlichten Informationen, durch Missbrauch der Verbindung oder durch technische Störungen entstanden sind, werden ausgeschlossen."
   },
+  "contact_page": {
+    "bs_heading_title_1": "Verantwortlich für diese Webseite",
+    "name": "Alain Haldi",
+    "job": "Cyber Security Consultant",
+    "bs_heading_1": "Wer bin ich?",
+    "bs_text_description_1": "Parallel zu meinem Studium als Softwareentwickler arbeite ich bei BDO als Cyber Security Consultant und sammle wertvolle Praxiserfahrung in den Bereichen Schwachstellenanalyse, Monitoring und Awareness Training. Meine Interesse an der Informatik, vertiefe ich dabei auch ausserhalb des Berufes kontinuierlich, unter anderem durch Platformen wie TryHackMe.",
+    "infos": {
+      "adress": "Schiffbaustrasse 2, 8031 Zürich",
+      "email": "alain.haldi@bdo.ch",
+      "bs_link_1": {
+        "bs_text_before": "",
+        "alias": "linkedIn",
+        "url": "https://www.linkedin.com/in/alain-haldi-b94418233?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        "bs_text_after": ""
+      }
+    }
+  },
   "home_page": {
     "bs_title_hot_topics": "Top Themen",
     "bs_button_all_topics": "Alle Themen"

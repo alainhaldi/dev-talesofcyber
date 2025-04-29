@@ -101,11 +101,3 @@ title = input.required<string>();
               }
             }
 ```
-
-## Add new Menu Point
-
-menu.page.component Array anpassen
-
-add a new route to app.routes
-
-create new page component

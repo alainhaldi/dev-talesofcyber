@@ -1,7 +1,5 @@
 import { Routes } from '@angular/router';
 import { HomePageComponent } from './pages/home-page/home-page.component';
-import { MenuPageComponent } from './pages/menu-page/menu-page.component';
-import { ExternalLinksPageComponent } from './pages/external-links-page/external-links-page.component';
 
 export const routes: Routes = [
   {
@@ -50,6 +48,13 @@ export const routes: Routes = [
     loadComponent: () =>
       import('./pages/liability-page/liability-page.component').then(
         (m) => m.LiabilityPageComponent
+      ),
+  },
+  {
+    path: 'contact',
+    loadComponent: () =>
+      import('./pages/contact-page/contact-page.component').then(
+        (m) => m.ContactPageComponent
       ),
   },
 
