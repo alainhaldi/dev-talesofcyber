@@ -107,3 +107,5 @@ title = input.required<string>();
 menu.page.component Array anpassen
 
 add a new route to app.routes
+
+create new page component

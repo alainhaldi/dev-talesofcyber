@@ -45,6 +45,13 @@ export const routes: Routes = [
         (m) => m.ExternalLinksPageComponent
       ),
   },
+  {
+    path: 'liability',
+    loadComponent: () =>
+      import('./pages/liability-page/liability-page.component').then(
+        (m) => m.LiabilityPageComponent
+      ),
+  },
 
   //   { path: 'contact', component: MenuPageComponent },
   //   Fallback

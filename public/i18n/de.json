@@ -74,6 +74,12 @@
       }
     }
   },
+  "liability_page": {
+    "bs_heading_title_1": "Haftungsausschluss",
+    "bs_text_1": "Obwohl Alain Haldi mit aller Sorgfalt auf die Richtigkeit der veröffentlichten Informationen achtet, kann hinsichtlich der inhaltlichen Richtigkeit, Genauigkeit, Aktualität, Zuverlässigkeit und Vollständigkeit dieser Informationen keine Gewährleistung übernommen werden.",
+    "bs_text_2": "Alain Haldi behaltet sich ausdrücklich vor, jederzeit Inhalte ohne Ankündigung ganz oder teilweise zu ändern, zu löschen oder zeitweise nicht zu veröffentlichen.",
+    "bs_text_3": "Haftungsansprüche gegen Alain Haldi wegen Schäden materieller oder immaterieller Art, welche aus dem Zugriff oder der Nutzung bzw. Nichtnutzung der veröffentlichten Informationen, durch Missbrauch der Verbindung oder durch technische Störungen entstanden sind, werden ausgeschlossen."
+  },
   "home_page": {
     "bs_title_hot_topics": "Top Themen",
     "bs_button_all_topics": "Alle Themen"
