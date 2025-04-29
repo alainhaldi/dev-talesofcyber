@@ -12,8 +12,9 @@ import { RouterLink } from '@angular/router';
 export class MenuPageComponent {
   menuItems = [
     { link: '/contact', label: 'menu_page.bs_title_contact' },
-    { link: '/feedback', label: 'menu_page.bs_title_feedback' },
-    { link: '/dictionary', label: 'menu_page.bs_title_dictionary' },
+    // Future implementations
+    // { link: '/feedback', label: 'menu_page.bs_title_feedback' },
+    // { link: '/dictionary', label: 'menu_page.bs_title_dictionary' },
     { link: '/further-infos', label: 'menu_page.bs_title_further_infos' },
     { link: '/liability', label: 'menu_page.bs_title_liability' },
   ];

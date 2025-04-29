@@ -50,6 +50,12 @@ Find here informations about how to add new languages, new topics or hot topics
 
 - [Manage Content](docs/manage_content.md)
 
+## Work with Json Files
+
+Find here all information needed for working with Json Files
+
+- [Work with Json Files](docs/access_json.md)
+
 ## Temp for developement
 
 title = input.required<string>();
@@ -95,3 +101,9 @@ title = input.required<string>();
               }
             }
 ```
+
+## Add new Menu Point
+
+menu.page.component Array anpassen
+
+add a new route to app.routes

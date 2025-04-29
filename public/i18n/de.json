@@ -6,6 +6,74 @@
     "bs_title_further_infos": "Weitere Infoseiten",
     "bs_title_liability": "Haftungsausschluss"
   },
+  "external_links_page": {
+    "card_1": {
+      "bs_heading_name_1": "BDO",
+      "name_logo_file": "demo.png",
+      "bs_text_description_1": "Du möchtest dein Netzwerk auf Schwachstellen prüfen lassen, dich und dein Team im Bereich Cyber Awareness schulen, eine Phishing-Kampagne durchführen oder eine Beratung zu einem Cyber-Thema erhalten? Dann bist du hier genau richtig.",
+      "bs_link_1": {
+        "bs_text_before": "",
+        "alias": "BDO besuchen",
+        "url": "https://www.bdo.ch/de-ch/services-de/digital/cybersicherheit",
+        "bs_text_after": ""
+      }
+    },
+    "card_2": {
+      "bs_heading_name_1": "Bundesamt für Cybersicherheit",
+      "name_logo_file": "demo.png",
+      "bs_text_description_1": "Du möchtest mehr über aktuelle Zahlen und Statistiken zu den Cyber-Gefahren in der Schweiz erfahren? Dann bist du hier genau richtig.",
+      "bs_link_1": {
+        "bs_text_before": "",
+        "alias": "BACS besuchen",
+        "url": "https://www.ncsc.admin.ch/ncsc/de/home/infos-fuer/infos-private.html#-1095980754",
+        "bs_text_after": ""
+      }
+    },
+    "card_3": {
+      "bs_heading_name_1": "iBarry",
+      "name_logo_file": "demo.png",
+      "bs_text_description_1": "Du möchtest mehr über Cyber-Gefahren erfahren oder wissen, wie du deine Geräte schützt und sicher im Internet surfst? Dann bist du hier genau richtig.",
+      "bs_link_1": {
+        "bs_text_before": "",
+        "alias": "iBarry besuchen",
+        "url": "https://www.ibarry.ch/de/risiken-im-internet/sextortion/",
+        "bs_text_after": ""
+      }
+    },
+    "card_4": {
+      "bs_heading_name_1": "Security Awareness Insider",
+      "name_logo_file": "demo.png",
+      "bs_text_description_1": "Du möchtest spannende Einblicke im Bereich Cyber Security Awareness erhalten? Dann bist du hier genau richtig.",
+      "bs_link_1": {
+        "bs_text_before": "",
+        "alias": "Security Awareness Insider besuchen",
+        "url": "https://open.spotify.com/show/2yh47EAnxYyp63rbkfIHDb",
+        "bs_text_after": ""
+      }
+    },
+    "card_5": {
+      "bs_heading_name_1": "Europol",
+      "name_logo_file": "demo.png",
+      "bs_text_description_1": "Du möchtest mehr über Cyber-Gefahren und andere Sicherheitsrisiken erfahren? Dann bist du hier genau richtig.",
+      "bs_link_1": {
+        "bs_text_before": "",
+        "alias": "Europol besuchen",
+        "url": "https://www.europol.europa.eu/operations-services-and-innovation/public-awareness-and-prevention-guides",
+        "bs_text_after": ""
+      }
+    },
+    "card_6": {
+      "bs_heading_name_1": "Cyber Sicherheits Agentur",
+      "name_logo_file": "demo.png",
+      "bs_text_description_1": "Du möchtest mehr Informationen zu Cyber-Gefahren erhalten und diese in Form kurzer Factsheets herunterladen und lesen? Dann bist du hier genau richtig.",
+      "bs_link_1": {
+        "bs_text_before": "",
+        "alias": "Cyber Sicherheits Agentur besuchen",
+        "url": "https://www.cybersicherheit-bw.de/wissen-kompakt-factsheets-zur-cybersicherheit",
+        "bs_text_after": ""
+      }
+    }
+  },
   "home_page": {
     "bs_title_hot_topics": "Top Themen",
     "bs_button_all_topics": "Alle Themen"
