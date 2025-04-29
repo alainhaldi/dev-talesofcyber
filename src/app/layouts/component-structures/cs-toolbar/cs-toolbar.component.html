@@ -18,6 +18,17 @@
     <span class="material-symbols-outlined"> arrow_back_ios_new </span>
   </button>
   }
+  <!-- Languages -->
+  @if (showLanguages()) { @for (language of languages; let last = $last; track
+  language) {
+  <a
+    (click)="onChangeLanguage(language)"
+    class="c-language"
+    [routerLink]="[]"
+    routerLinkActive="active-language"
+  >
+    {{ language }} </a
+  >@if (!last) { <span class="divider"> / </span> }}}
   <!-- Spacer -->
   <span class="c-spacer"></span>
   @if (showMenuIcon()) {

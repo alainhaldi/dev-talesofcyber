@@ -4,7 +4,7 @@ import { LoggerService } from './logger.service';
 
 @Injectable({ providedIn: 'root' })
 export class LanguageService {
-  private availableLanguages: string[] = ['de', 'en', 'fr'];
+  private availableLanguages: string[] = ['de', 'en'];
   private defaultLanguage: string = 'de';
 
   constructor(
