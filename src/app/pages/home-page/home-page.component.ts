@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { CsToolbarComponent } from '../../layouts/component-structures/cs-toolbar/cs-toolbar.component';
+import { CsToolbarComponent } from '../../layouts/complex-structures/cs-toolbar/cs-toolbar.component';
 import { BsSpacerContainerComponent } from '../../layouts/base-structures/bs-spacer-container/bs-spacer-container.component';
 import { BsRiveComponent } from '../../layouts/base-structures/bs-rive/bs-rive.component';
 import { BsTitleComponent } from '../../layouts/base-structures/bs-title/bs-title.component';
 import { BsButtonComponent } from '../../layouts/base-structures/bs-button/bs-button.component';
-import { CsTopicCardComponent } from '../../layouts/component-structures/cs-topic-card/cs-topic-card.component';
+import { CsTopicCardComponent } from '../../layouts/complex-structures/cs-topic-card/cs-topic-card.component';
 import { hot_topics } from '../../topics.config';
 
 @Component({

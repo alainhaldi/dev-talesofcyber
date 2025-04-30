@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { CsToolbarComponent } from '../../layouts/component-structures/cs-toolbar/cs-toolbar.component';
-import { CsHeadingbarComponent } from '../../layouts/component-structures/cs-headingbar/cs-headingbar.component';
+import { CsToolbarComponent } from '../../layouts/complex-structures/cs-toolbar/cs-toolbar.component';
+import { CsHeadingbarComponent } from '../../layouts/complex-structures/cs-headingbar/cs-headingbar.component';
 import { BsTextComponent } from '../../layouts/base-structures/bs-text/bs-text.component';
 
 @Component({

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { CsToolbarComponent } from '../../layouts/component-structures/cs-toolbar/cs-toolbar.component';
-import { CsExternalCardComponent } from '../../layouts/component-structures/cs-external-card/cs-external-card.component';
+import { CsToolbarComponent } from '../../layouts/complex-structures/cs-toolbar/cs-toolbar.component';
+import { CsExternalCardComponent } from '../../layouts/complex-structures/cs-external-card/cs-external-card.component';
 import { getNestedValue } from '../../topics.config';
 import deJson from '../../../../public/i18n/de.json';
 import { LoggerService } from '../../core/logger.service';

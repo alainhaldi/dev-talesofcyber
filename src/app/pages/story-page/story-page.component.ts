@@ -1,9 +1,9 @@
 import { Component, inject, OnInit, signal } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { topics } from '../../topics.config';
-import { CsToolbarComponent } from '../../layouts/component-structures/cs-toolbar/cs-toolbar.component';
+import { CsToolbarComponent } from '../../layouts/complex-structures/cs-toolbar/cs-toolbar.component';
 import { BsProgressBarComponent } from '../../layouts/base-structures/bs-progress-bar/bs-progress-bar.component';
-import { CsTopicStoryComponent } from '../../layouts/component-structures/cs-topic-story/cs-topic-story.component';
+import { CsTopicStoryComponent } from '../../layouts/complex-structures/cs-topic-story/cs-topic-story.component';
 
 @Component({
   selector: 'app-story-page',
