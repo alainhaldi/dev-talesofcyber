@@ -1,6 +1,6 @@
 # Translation i18n
 
-## How to use
+## Implementation in typescript
 
 Make sure you import the Translatepipe in **your-component.component.ts** file
 
@@ -30,10 +30,4 @@ pathToHotTopics = "page.hot_topics";
 
 ## How to add a new language
 
-Create a new json file (language.json):
-
-```bash
-public/i18n/es.json
-```
-
-Add the new language to the **availableLanguages** String Array in the **language.service.ts** file.
+Find the description here [new language](../manage_content/new_language.md)

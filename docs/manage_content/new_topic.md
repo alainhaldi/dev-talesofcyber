@@ -54,7 +54,7 @@ Each topic has to follow a ceratin base structure in order to work.
 
 Find here a list of all possible components and their json alias. Its importan, that the json keys always start with these aliases. You can use these components for the answers as well as for the stories.
 
-- !! Find here more informations about the components implementation [xx](xx)
+- Find here more informations about the base components implementation [Base Structures](../developement/base_structures.md)
 
 ### Title
 
@@ -106,22 +106,43 @@ Find here a list of all possible components and their json alias. Its importan, 
 }
 ```
 
-### Image
+### Term
+
+```json
+{
+  "bs_term_1": {
+    "bs_text_before": "",
+    "term": "",
+    "description": "",
+    "bs_text_after": ""
+  }
+}
+```
+
+### Rive (Image)
 
 ```json
 {
   "bs_rive_1": {
-    "path": "",
-    "height": "",
-    "weight": "",
-    "StateMachines": {
+    "size": "",
+    "src": "",
+    "stateMachines": {
       "StateMachine_1": ""
     }
   }
 }
 ```
 
-!! All components json alias?
+### Rive Text
+
+```json
+{
+  "bs_rive_text_1": {
+    "src": "",
+    "text": ""
+  }
+}
+```
 
 ## Example Answer
 
@@ -156,4 +177,37 @@ Find here a list of all possible components and their json alias. Its importan, 
 
 ## Example Story Page
 
-!! Example Story Page
+```json
+{
+  "topic_page": {
+    "story": {
+      "page_10": {
+        "bs_rive_1": {
+          "size": "M",
+          "src": "assets/home-page/hero_image.riv",
+          "stateMachines": {
+            "StateMachine_1": "State Machine 1"
+          }
+        },
+        "bs_text_1": "Noch immer unter Schock setzt sich Maria an den Tisch und beginnt, ein Passwort nach dem anderen zu ändern.",
+        "bs_rive_text_1": {
+          "src": "assets/home-page/hero_image.riv",
+          "text": "Ohjee das wird eine lange Nacht..."
+        },
+        "bs_term_1": {
+          "bs_text_before": "Damit Maria sich die vielen neuen Passwörter merken kann, nutzt sie einen ",
+          "term": "Passwortmanager",
+          "description": "...Beschreibung Folgt...",
+          "bs_text_after": ""
+        },
+        "bs_term_2": {
+          "bs_text_before": "Zusätzlich aktiviert sie überall die ",
+          "term": "Multi-Faktor-Authentifizierung",
+          "description": "...Beschreibung Folgt...",
+          "bs_text_after": ", um bestmöglich geschützt zu sein."
+        }
+      }
+    }
+  }
+}
+```

@@ -13,6 +13,7 @@
 
 - Json File name only bs_component when dynamically generated.
 - Routing of menu points -> back to menu not homescreen
+- Include the cs-external-card directly in the external link page since only needed there
 
 ## Features
 

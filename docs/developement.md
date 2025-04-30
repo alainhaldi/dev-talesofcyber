@@ -20,6 +20,14 @@
 
 - [Custom Components](developement/custom_components.md)
 
+## New Pages
+
+- [New Pages](developement/new_pages.md)
+
+## Translation
+
+- [Translation](developement/translation.md)
+
 ## Improvements
 
 - [Improvements](developement/improvements.md)

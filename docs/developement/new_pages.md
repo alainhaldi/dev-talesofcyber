@@ -1,10 +1,10 @@
-# Add a new Menu Point
+# Add a new Page
 
 ## Page Component
 
 First, create a new Page Component at:
 
-```
+```bash
 src/app/pages
 ```
 
@@ -34,7 +34,7 @@ Open the file [menu-page.component.ts](../../src/app/pages/menu-page/menu-page.c
 menuItems = [{ link: "/url-path", label: "menu_page.bs_title_new_point" }];
 ```
 
-\***Note**: label is your referenz to the Json language file
+**Note**: label is your json path
 
 ## Route
 
