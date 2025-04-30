@@ -1,0 +1,93 @@
+<app-bs-progress-bar progress="{{ currentProgress() }}"></app-bs-progress-bar>
+<!-- Dynamic Content -->
+@for (obj of currentPageObjects; track obj.key) { @switch (obj.type) {
+<!-- Heading Component -->
+@case ('heading') {
+<app-bs-heading
+  heading="{{ currentPathToPage() + '.' + obj.key }}"
+></app-bs-heading>
+}
+<!-- Text Component -->
+@case ('text') {
+<app-bs-text text="{{ currentPathToPage() + '.' + obj.key }}"></app-bs-text>
+<!-- Bullet Component -->
+} @case ('bullets') {
+<app-bs-bullets
+  pathToBullets="{{ currentPathToPage() + '.' + obj.key }}"
+></app-bs-bullets>
+<!-- Rive Component -->
+} @case ('rive') {
+<app-bs-rive
+  size="{{ obj.value.size }}"
+  src="{{ obj.value.src }}"
+  [stateMachines]="['State Machine 1']"
+></app-bs-rive>
+<!-- Rive Text -->
+} @case ('rive-text') {
+<app-bs-rive-text
+  src="{{ obj.value.src }}"
+  text="{{ obj.value.text }}"
+></app-bs-rive-text>
+<!-- Term -->
+} @case ('term') {
+<app-bs-term
+  text_before="{{ obj.value.bs_text_before }}"
+  text_after="{{ obj.value.bs_text_after }}"
+  term="{{ obj.value.term }}"
+  description="{{ obj.value.description }}"
+></app-bs-term>
+<!-- Link Component -->
+} @case ('link') {
+<app-bs-link
+  pathToLink="{{ `${currentPathToPage()}.${obj.key}`}}"
+></app-bs-link>
+} }}
+
+<div class="container-buttons">
+  <!-- Default Buttons -->
+  @if(!hasCustomButton()){ @if(currentPage() > 0) {
+  <app-bs-button
+    text="{{ pathToButtonBackwards() }}"
+    [isLarge]="true"
+    (click)="previousPage()"
+  ></app-bs-button>
+  }
+  <app-bs-button
+    text="{{ pathToButtonForward() }}"
+    [isLarge]="true"
+    (click)="nextPage()"
+  ></app-bs-button
+  >}
+  <!-- Custom Buttons Last Page -->
+  @if(hasCustomButton() && isLastPage()){
+  <app-bs-button
+    textAbove="{{
+      this.pagesArray[this.currentPage()].value.bs_buttons_custom.bs_button_1
+        .button_text_above_1
+    }}"
+    text="{{
+      this.pagesArray[this.currentPage()].value.bs_buttons_custom.bs_button_1
+        .button_text_inside_1
+    }}"
+    [activatedRouterlink]="true"
+    customRouterLink=".."
+    [isLarge]="true"
+    (click)="nextPage()"
+  ></app-bs-button
+  >}
+  <!-- Custom Buttons  -->
+  @if(hasCustomButton() && !isLastPage()){
+  <app-bs-button
+    textAbove="{{
+      this.pagesArray[this.currentPage()].value.bs_buttons_custom.bs_button_1
+        .button_text_above_1
+    }}"
+    text="{{
+      this.pagesArray[this.currentPage()].value.bs_buttons_custom.bs_button_1
+        .button_text_inside_1
+    }}"
+    [isLarge]="true"
+    (click)="nextPage()"
+  ></app-bs-button
+  >}
+</div>

@@ -1,0 +1,13 @@
+<a [routerLink]="['/topic', urlId()]">
+  <div class="container-card">
+    <app-bs-rive
+      size="Topic"
+      src="assets/home-page/hero_image.riv"
+      [stateMachines]="['State Machine 1']"
+    ></app-bs-rive>
+    <div class="container-card-text">
+      <app-bs-title title="{{ pathToTitle() }}"></app-bs-title>
+      <app-bs-text text="{{ pathToDescription() }}"></app-bs-text>
+    </div>
+  </div>
+</a>

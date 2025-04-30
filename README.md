@@ -1,15 +1,15 @@
 # TalesOfCyber
 
-## Project Setup
+This readme is seperated in two chapters.
 
-Finde here all setps that were taken, when creating the repository
+## Manage Content
 
-- [ProjectSetup](docs/projectsetup.md)
+Chapter one **Manage Content** is relevant whenever the topics, stories or languages have to be updated. This can almost be done without coding.
 
-## Commit Process
+- [Manage Content](docs/manage_content.md)
 
-Find here all steps that are taken before each commit
+## Developement
 
-- [CommitProcess](docs/commitprocess.md)
+Chapter two **Developement** is relevant whenever new components or new pages are needed. In that case coding is relevant and necessarily.
 
-npm audit
+- [Developement](docs/developement.md)

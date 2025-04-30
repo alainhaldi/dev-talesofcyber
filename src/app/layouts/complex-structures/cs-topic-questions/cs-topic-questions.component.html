@@ -1,0 +1,19 @@
+<mat-list>
+  @for(id of questionPages[currentPageIdx]; let j = $index; track j) {
+  <mat-list-item>
+    <button (click)="openDialog(id)">
+      <app-bs-heading
+        [heading]="
+          pathToQuestions() + '.question_' + id + '.bs_heading_question'
+        "
+      ></app-bs-heading>
+    </button>
+  </mat-list-item>
+  <mat-divider></mat-divider>
+  }
+</mat-list>
+<div class="container-buttons">
+  @for(page of questionPages; let i = $index; track i) {
+  <button (click)="setPage(i)">{{ i + 1 }}</button>
+  }
+</div>

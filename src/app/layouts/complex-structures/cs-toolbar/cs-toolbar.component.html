@@ -1,0 +1,53 @@
+<mat-toolbar class="c-toolbar">
+  @if (showHomeIcon()) {
+  <button
+    mat-icon-button
+    class="c-icon-button"
+    aria-label="Home Icon"
+    [routerLink]="'/'"
+  >
+    <span class="material-symbols-outlined"> home </span>
+  </button>
+  } @if (showBackIcon()) {
+  <button
+    mat-icon-button
+    class="c-icon-button"
+    aria-label="Home Icon"
+    [routerLink]="'..'"
+  >
+    <span class="material-symbols-outlined"> arrow_back_ios_new </span>
+  </button>
+  }
+  <!-- Languages -->
+  @if (showLanguages()) { @for (language of languages; let last = $last; track
+  language) {
+  <a
+    (click)="onChangeLanguage(language)"
+    class="c-language"
+    [routerLink]="[]"
+    routerLinkActive="active-language"
+  >
+    {{ language }} </a
+  >@if (!last) { <span class="divider"> / </span> }}}
+  <!-- Spacer -->
+  <span class="c-spacer"></span>
+  @if (showMenuIcon()) {
+  <button
+    mat-icon-button
+    class="c-icon-button"
+    aria-label="Menu Icon"
+    [routerLink]="'menu'"
+  >
+    <span class="material-symbols-outlined"> menu </span>
+  </button>
+  } @if (showCloseIcon()) {
+  <button
+    mat-icon-button
+    class="c-icon-button"
+    aria-label="Close Icon"
+    [routerLink]="'/'"
+  >
+    <span class="material-symbols-outlined"> close </span>
+  </button>
+  }
+</mat-toolbar>

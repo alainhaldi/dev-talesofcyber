@@ -1,0 +1,1361 @@
+{
+  "menu_page": {
+    "bs_title_contact": "Kontakt",
+    "bs_title_feedback": "Rückmeldung",
+    "bs_title_dictionary": "Wörterbuch",
+    "bs_title_further_infos": "Weitere Infoseiten",
+    "bs_title_liability": "Haftungsausschluss"
+  },
+  "external_links_page": {
+    "card_1": {
+      "bs_heading_name_1": "BDO",
+      "name_logo_file": "demo.png",
+      "bs_text_description_1": "Du möchtest dein Netzwerk auf Schwachstellen prüfen lassen, dich und dein Team im Bereich Cyber Awareness schulen, eine Phishing-Kampagne durchführen oder eine Beratung zu einem Cyber-Thema erhalten? Dann bist du hier genau richtig.",
+      "bs_link_1": {
+        "bs_text_before": "",
+        "alias": "BDO besuchen",
+        "url": "https://www.bdo.ch/de-ch/services-de/digital/cybersicherheit",
+        "bs_text_after": ""
+      }
+    },
+    "card_2": {
+      "bs_heading_name_1": "Bundesamt für Cybersicherheit",
+      "name_logo_file": "demo.png",
+      "bs_text_description_1": "Du möchtest mehr über aktuelle Zahlen und Statistiken zu den Cyber-Gefahren in der Schweiz erfahren? Dann bist du hier genau richtig.",
+      "bs_link_1": {
+        "bs_text_before": "",
+        "alias": "BACS besuchen",
+        "url": "https://www.ncsc.admin.ch/ncsc/de/home/infos-fuer/infos-private.html#-1095980754",
+        "bs_text_after": ""
+      }
+    },
+    "card_3": {
+      "bs_heading_name_1": "iBarry",
+      "name_logo_file": "demo.png",
+      "bs_text_description_1": "Du möchtest mehr über Cyber-Gefahren erfahren oder wissen, wie du deine Geräte schützt und sicher im Internet surfst? Dann bist du hier genau richtig.",
+      "bs_link_1": {
+        "bs_text_before": "",
+        "alias": "iBarry besuchen",
+        "url": "https://www.ibarry.ch/de/risiken-im-internet/sextortion/",
+        "bs_text_after": ""
+      }
+    },
+    "card_4": {
+      "bs_heading_name_1": "Security Awareness Insider",
+      "name_logo_file": "demo.png",
+      "bs_text_description_1": "Du möchtest spannende Einblicke im Bereich Cyber Security Awareness erhalten? Dann bist du hier genau richtig.",
+      "bs_link_1": {
+        "bs_text_before": "",
+        "alias": "Security Awareness Insider besuchen",
+        "url": "https://open.spotify.com/show/2yh47EAnxYyp63rbkfIHDb",
+        "bs_text_after": ""
+      }
+    },
+    "card_5": {
+      "bs_heading_name_1": "Europol",
+      "name_logo_file": "demo.png",
+      "bs_text_description_1": "Du möchtest mehr über Cyber-Gefahren und andere Sicherheitsrisiken erfahren? Dann bist du hier genau richtig.",
+      "bs_link_1": {
+        "bs_text_before": "",
+        "alias": "Europol besuchen",
+        "url": "https://www.europol.europa.eu/operations-services-and-innovation/public-awareness-and-prevention-guides",
+        "bs_text_after": ""
+      }
+    },
+    "card_6": {
+      "bs_heading_name_1": "Cyber Sicherheits Agentur",
+      "name_logo_file": "demo.png",
+      "bs_text_description_1": "Du möchtest mehr Informationen zu Cyber-Gefahren erhalten und diese in Form kurzer Factsheets herunterladen und lesen? Dann bist du hier genau richtig.",
+      "bs_link_1": {
+        "bs_text_before": "",
+        "alias": "Cyber Sicherheits Agentur besuchen",
+        "url": "https://www.cybersicherheit-bw.de/wissen-kompakt-factsheets-zur-cybersicherheit",
+        "bs_text_after": ""
+      }
+    }
+  },
+  "liability_page": {
+    "bs_heading_title_1": "Haftungsausschluss",
+    "bs_text_1": "Obwohl Alain Haldi mit aller Sorgfalt auf die Richtigkeit der veröffentlichten Informationen achtet, kann hinsichtlich der inhaltlichen Richtigkeit, Genauigkeit, Aktualität, Zuverlässigkeit und Vollständigkeit dieser Informationen keine Gewährleistung übernommen werden.",
+    "bs_text_2": "Alain Haldi behaltet sich ausdrücklich vor, jederzeit Inhalte ohne Ankündigung ganz oder teilweise zu ändern, zu löschen oder zeitweise nicht zu veröffentlichen.",
+    "bs_text_3": "Haftungsansprüche gegen Alain Haldi wegen Schäden materieller oder immaterieller Art, welche aus dem Zugriff oder der Nutzung bzw. Nichtnutzung der veröffentlichten Informationen, durch Missbrauch der Verbindung oder durch technische Störungen entstanden sind, werden ausgeschlossen."
+  },
+  "contact_page": {
+    "bs_heading_title_1": "Verantwortlich für diese Webseite",
+    "name": "Alain Haldi",
+    "job": "Cyber Security Consultant",
+    "bs_heading_1": "Wer bin ich?",
+    "bs_text_description_1": "Parallel zu meinem Studium als Softwareentwickler arbeite ich bei BDO als Cyber Security Consultant und sammle wertvolle Praxiserfahrung in den Bereichen Schwachstellenanalyse, Monitoring und Awareness Training. Meine Interesse an der Informatik, vertiefe ich dabei auch ausserhalb des Berufes kontinuierlich, unter anderem durch Platformen wie TryHackMe.",
+    "infos": {
+      "adress": "Schiffbaustrasse 2, 8031 Zürich",
+      "email": "alain.haldi@bdo.ch",
+      "bs_link_1": {
+        "bs_text_before": "",
+        "alias": "linkedIn",
+        "url": "https://www.linkedin.com/in/alain-haldi-b94418233?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        "bs_text_after": ""
+      }
+    }
+  },
+  "home_page": {
+    "bs_title_hot_topics": "Top Themen",
+    "bs_button_all_topics": "Alle Themen"
+  },
+  "topic_page": {
+    "global": {
+      "bs_button_story": "Geschichte",
+      "story_pages": {
+        "bs_button_forward": "Weiter",
+        "bs_button_backwards": "Zurück",
+        "story_start": {
+          "page_0": {
+            "bs_heading_1": "Hinweis...",
+            "bs_term_1": {
+              "bs_text_before": "Wörter welche ",
+              "term": "unterstrichen",
+              "description": "Unterstreichen bedeutet ein Wort ...",
+              "bs_text_after": " sind, können Angeklickt werden um eine Erklärung zu erhalten."
+            }
+          }
+        },
+        "story_end": {
+          "page_end": {
+            "bs_heading_1": "Gratulation!!",
+            "bs_buttons_custom": {
+              "bs_button_1": {
+                "button_text_inside_1": "Beenden"
+              }
+            }
+          }
+        }
+      }
+    },
+    "topics": {
+      "topic_1": {
+        "infos": {
+          "bs_title_topic": "Passwörter",
+          "bs_text_description": "Dein digitaler Hausschlüssel"
+        },
+        "questions": {
+          "question_1": {
+            "bs_heading_question": "Passwort gehackt - was tun?",
+            "answer": {
+              "bs_bullets_1": {
+                "bs_text_1": "Ändere dein Passwort sofort.",
+                "bs_text_2": "Falls du dasselbe Passwort auch bei anderen Accounts genutzt hast: auch dort sofort ändern.",
+                "bs_text_3": "Wähle ein neues, starkes Passwort und speichere es in einem Passwortmanager.",
+                "bs_text_4": "Aktiviere die Multi-Faktor-Authentifizierung (MFA), falls möglich."
+              }
+            }
+          },
+          "question_2": {
+            "bs_heading_question": "Warum brauche ich ein sicheres Passwort?",
+            "answer": {
+              "bs_text_1": "Warum hast du einen einzigartigen Hausschlüssel? Ganz einfach: Du willst nicht, dass Fremde in deinem Zuhause herumschnüffeln. Dasselbe gilt für Passwörter - sie schützen dein digitales Zuhause."
+            }
+          },
+          "question_3": {
+            "bs_heading_question": "Was ist ein gutes Passwort?",
+            "answer": {
+              "bs_text_1": "Grundsätzlich gilt: Je länger und komplexer, desto besser. Folgende Punkte sollte ein sicheres Passwort erfüllen:",
+              "bs_bullets_1": {
+                "bs_text_1": "Mindestens 16 Zeichen lang",
+                "bs_text_2": "Gross- und Kleinbuchstaben",
+                "bs_text_3": "Zahlen und Sonderzeichen",
+                "bs_text_4": "Keine gängigen Wörter",
+                "bs_text_5": "Keine persönlichen Informationen"
+              },
+              "bs_rive_1": ""
+            }
+          },
+          "question_4": {
+            "bs_heading_question": "Warum soll ich unterschiedliche Passwörter verwenden?",
+            "answer": {
+              "bs_text_1": "Warum haben Keller, Garage und Haustür nicht denselben Schlüssel? Würdest du denselben Schlüssel verlieren, könnten Fremde überall hinein. Du müsstest alle Schlösser austauschen - aufwendig und unsicher. Genauso ist es mit Passwörtern: Wird eines geknackt, sind bei Wiederverwendung alle Accounts in Gefahr."
+            }
+          },
+          "question_5": {
+            "bs_heading_question": "Wie kann ich mir all diese Passwörter merken?",
+            "answer": {
+              "bs_heading_1": "Passwortmanager",
+              "bs_text_1": "Kannst du alle Telefonnummern deiner Freunde auswendig? Wahrscheinlich nicht und musst du auch nicht! Dasselbe gilt für Passwörter: Die besten sind die, die nur dein Passwortmanager kennt.",
+              "bs_heading_2": "Merk-Satz",
+              "bs_text_2": "Willst du dir trotzdem mal ein Passwort merken, nutze diese Technik:",
+              "bs_bullets_1": {
+                "bs_text_1": "Überlege dir einen Satz.",
+                "bs_text_2": "Nimm die Anfangsbuchstaben jedes Wortes.",
+                "bs_text_3": "Integriere Satzzeichen.",
+                "bs_text_4": "Baue, wenn möglich, eine Zahl ein."
+              },
+              "bs_rive_1": ""
+            }
+          },
+          "question_6": {
+            "bs_heading_question": "Was ist ein Passwortmanager?",
+            "answer": {
+              "bs_text_1": "Ein Passwortmanager ist wie eine Bank - nur für Passwörter statt Geld. Der Vorteil: Diese „Bank“ hast du immer dabei, auf deinem Smartphone. So hast du jederzeit sicheren Zugriff auf all deine Passwörter."
+            }
+          },
+          "question_7": {
+            "bs_heading_question": "Sind Passwortmanager sicher?",
+            "answer": {
+              "bs_text_1": "Passwortmanager sind wie Banken - sie schützen deine sensiblen Daten mit hohen Sicherheitsstandards. Doch wie bei echten Banken gilt: Nicht jede ist gleich vertrauenswürdig.Wähle einen Passwortmanager, der von einem bekannten Unternehmen stammt, einen guten Ruf hat und regelmässig Sicherheitsprüfungen durchläuft. Nur so kannst du sicher sein, dass deine Passwörter gut geschützt sind."
+            }
+          },
+          "question_8": {
+            "bs_heading_question": "Ist es schlimm, wenn ich meine Passwörter aufschreibe?",
+            "answer": {
+              "bs_text_1": "Passwörter aufzuschreiben ist nicht ideal - aber: Wenn du dafür starke und einzigartige Passwörter verwendest, ist es immer noch besser, als überall dasselbe zu nutzen. Wichtig ist dann, dass du den Zettel wie einen Schatz schützt - er darf nie in falsche Hände geraten.",
+              "bs_text_2": "Allerdings bist du damit unflexibel. Unterwegs hast du keinen Zugriff, und ein verlorener Zettel bedeutet hohes Risiko. Ein Passwortmanager ist hier klar die bessere, sicherere und flexiblere Lösung."
+            }
+          },
+          "question_9": {
+            "bs_heading_question": "Wie erkenne ich, ob mein Passwort gestohlen wurde?",
+            "answer": {
+              "bs_link_1": {
+                "bs_text_before": "Viele moderne Passwortmanager benachrichtigen dich automatisch, wenn eines deiner Passwörter in einem Datenleck auftaucht. Alternativ kannst du Webseiten wie ",
+                "alias": "haveibeenpwned.com",
+                "url": "https://haveibeenpwned.com/",
+                "bs_text_after": " nutzen, um manuell zu prüfen, ob deine E-Mail-Adresse oder Passwörter bereits gehackt wurden."
+              }
+            }
+          },
+          "question_10": {
+            "bs_heading_question": "Was ist die Multi-Faktor-Authentifizierung (MFA)?",
+            "answer": {
+              "bs_text_1": "Stell dir MFA wie einen Wachhund vor: Selbst wenn jemand deinen Hausschlüssel (also dein Passwort) hat, lässt dich nur der Wachhund rein - weil er genau weiss, wer der echte Besitzer ist.",
+              "bs_text_2": "Technisch bedeutet das: Neben deinem Passwort brauchst du noch einen zweiten Faktor - zum Beispiel einen Code auf deinem Smartphone. Erst wenn du diesen bestätigst, bekommst du Zugriff. Das macht es für Angreifer deutlich schwerer, in deinen Account zu gelangen."
+            }
+          }
+        },
+        "story": {
+          "page_1": {
+            "bs_heading_1": "Warum es einfacher ist, sichere Passwörter zu verwenden als unsichere.",
+            "bs_rive_1": {
+              "size": "L",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            }
+          },
+          "page_2": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Es ist ein ruhiger Abend. Wie so oft sitzt Maria gemütlich auf dem Sofa und schaut fern, als plötzlich ihr Telefon klingelt.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Merkwürdig, ein Anruf von meiner besten Kollegin zu dieser Uhrzeit?"
+            },
+            "bs_text_2": "Geschockt hört Maria ihrer Kollegin zu, die sich lautstark beschwert. Sie ist wütend, weil Maria angeblich Werbung für seltsame Produkte auf ihrem Social-Media-Account gepostet hat.",
+            "bs_rive_text_2": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Wie kann das sein? So etwas würde ich doch niemals posten!"
+            }
+          },
+          "page_3": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Schnell loggt sich Maria in ihren Account ein - und traut ihren Augen nicht: Tatsächlich sind dort seltsame Bilder auf ihrem Profil zu sehen.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Oh nein! Ich wurde gehackt!"
+            },
+            "bs_text_2": "Sofort ändert Maria ihr Passwort. Aus Angst vor weiteren Angriffen wählt sie diesmal ein wirklich starkes und einzigartiges Passwort."
+          },
+          "page_4": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Maria löscht die seltsamen Beiträge und informiert ihre Freunde. Trotz des Schocks beginnt sie sich langsam wieder zu beruhigen.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Das ist ja gerade nochmal gut gegangen."
+            },
+            "bs_text_2": "Erleichtert lässt sich Maria wieder aufs Sofa sinken und schaut weiter fern. Doch plötzlich klingelt erneut ihr Handy."
+          },
+          "page_5": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Auf dem Display erscheint eine Nachricht: Soeben wurden 500 Franken von ihrem Konto abgehoben.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Nein, das kann nicht sein!"
+            },
+            "bs_text_2": "So schnell sie kann, versucht Maria, sich bei ihrer Bank anzumelden."
+          },
+          "page_6": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Zugriff verweigert?!!"
+            },
+            "bs_text_2": "Die Panik steigt, Marias Herz rast. Verzweifelt muss sie mitansehen, wie die Hacker vollständige Kontrolle über ihr Konto haben.",
+            "bs_rive_text_2": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Was soll ich jetzt nur tun? Und wie konnte das überhaupt passieren?"
+            }
+          },
+          "page_7": {
+            "bs_heading_1": "Vor zwei Wochen...",
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_term_1": {
+              "bs_text_before": "Hackern ist es gelungen, eine Million Passwörter von der Social-Media-Plattform HeadBook zu stehlen. Mit diesen Daten erstellten sie eine sogenannte ",
+              "term": "Passwortliste",
+              "description": "...Beschreibung Passwortliste...",
+              "bs_text_after": " Das ist für viele eine ernste Bedrohung - denn noch immer nutzen viele Menschen dasselbe Passwort für mehrere Dienste, so auch Maria."
+            }
+          },
+          "page_8": {
+            "bs_term_1": {
+              "bs_text_before": "Hacker hingegen lieben solche Passwortlisten - damit können sie ganz einfach einen sogenannten ",
+              "term": "Brute-Force-Angriff",
+              "description": "...Beschreibung Folgt...",
+              "bs_text_after": " starten."
+            },
+
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            }
+          },
+          "page_9": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_heading_1": "Zurück zu Maria...",
+            "bs_text_1": "Maria läuft panisch im Kreis, während sie einem Bankangestellten am Telefon ihre Geschichte schildert. Er versichert ihr, dass das Konto sofort gesperrt wird, und rät ihr dringend, all ihre Passwörter zu ändern, um weiteren Schaden zu verhindern."
+          },
+          "page_10": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Noch immer unter Schock setzt sich Maria an den Tisch und beginnt, ein Passwort nach dem anderen zu ändern.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Ohjee das wird eine lange Nacht..."
+            },
+            "bs_term_1": {
+              "bs_text_before": "Damit Maria sich die vielen neuen Passwörter merken kann, nutzt sie einen ",
+              "term": "Passwortmanager",
+              "description": "...Beschreibung Folgt...",
+              "bs_text_after": ""
+            },
+            "bs_term_2": {
+              "bs_text_before": "Zusätzlich aktiviert sie überall die ",
+              "term": "Multi-Faktor-Authentifizierung",
+              "description": "...Beschreibung Folgt...",
+              "bs_text_after": ", um bestmöglich geschützt zu sein."
+            }
+          },
+          "page_11": {
+            "bs_heading_1": "Drei zentrale Erkenntnisse...",
+            "bs_bullets_1": {
+              "bs_text_1": "Verwende starke und einzigartige Passwörter",
+              "bs_text_2": "Nutze einen Passwortmanager",
+              "bs_text_3": "Aktiviere die Multi-Faktor-Authentifizierung"
+            }
+          },
+          "page_12": {
+            "bs_heading_1": "Geheimtipp...",
+            "bs_text_1": "Du musst nicht alle Passwörter auf einmal ändern - nimm dir Zeit. Zum Beispiel: Ändere jeden Morgen beim Kaffeetrinken einfach eines.",
+            "bs_buttons_custom": {
+              "bs_button_1": {
+                "button_text_inside_1": "Bestätigen",
+                "button_text_above_1": "Ich werde starke, einzigartige Passwörter verwenden."
+              }
+            }
+          }
+        }
+      },
+      "topic_2": {
+        "infos": {
+          "bs_title_topic": "Fake-Anrufe",
+          "bs_text_description": "Behörden, die Hilfe brauchen"
+        },
+        "questions": {
+          "question_1": {
+            "bs_heading_question": "Wie erkenne ich einen Fake-Anruf?",
+            "answer": {
+              "bs_heading_1": "Sofort reagieren",
+              "bs_bullets_1": {
+                "bs_text_1": "Beende den Anruf sofort.",
+                "bs_text_2": "Hast du Kreditkarteninfos weitergegeben oder bezahlt? Melde dich umgehend bei deiner Bank.",
+                "bs_text_3": "Informiere Freunde und Familie, damit sie nicht in dieselbe Falle tappen."
+              },
+              "bs_heading_2": "Fernzugriff",
+              "bs_bullets_2": {
+                "bs_text_1": "Wurdest du aufgefordert, ein Programm zu installieren? Deinstalliere es sofort.",
+                "bs_text_2": "Scanne dein Gerät mit einem aktuellen Virenprogramm.",
+                "bs_text_3": "Falls du unsicher bist, ob dein Gerät gehackt wurde: Lass es von einer Fachperson überprüfen."
+              }
+            }
+          },
+          "question_2": {
+            "bs_heading_question": "Woran erkenne ich einen Fake-Anruf?",
+            "answer": {
+              "bs_heading_1": "Druck",
+              "bs_text_1": "Behörden setzen dich nicht unter Zeitdruck. Wenn jemand ständig etwas fordert und keine Zeit zum Nachdenken lässt, handelt es sich sehr wahrscheinlich um Betrug.",
+              "bs_heading_2": "Emotionen",
+              "bs_text_2": "Spürst du Angst, Stress oder Panik? Seriöse Behörden erzeugen keine emotionalen Drohszenarien. Das ist ein Warnsignal für einen Fake-Anruf.",
+              "bs_heading_3": "Computerstimme",
+              "bs_text_3": "Echte Behörden rufen dich nicht mit automatisierten Ansagen an. Eine Computerstimme ist ein klares Zeichen für Betrugsversuche."
+            }
+          },
+          "question_3": {
+            "bs_heading_question": "Wie verhalte ich mich, wenn ich mir unsicher bin, ob der Anruf echt ist?",
+            "answer": {
+              "bs_text_1": "Wenn du ein schlechtes Gefühl hast: Leg auf. Während des Anrufs denkt man oft nicht klar - nach dem Auflegen kannst du die Situation besser einschätzen. Besprich den Vorfall mit Familie oder Freunden - ein zweiter Blick hilft oft, Betrug zu erkennen."
+            }
+          },
+          "question_4": {
+            "bs_heading_question": "Was wollen Betrüger mit so einem Anruf erreichen?",
+            "answer": {
+              "bs_text_1": "Ihr Ziel ist es, dich zu überrumpeln und unter Druck zu setzen, damit du unüberlegt handelst. Am Ende geht es immer ums Gleiche: dein Geld. Oft fordern sie dich auf, Geld zu überweisen oder eine Software zu installieren - damit verschaffen sie sich Zugriff auf deinen Computer und deine Daten."
+            }
+          },
+          "question_5": {
+            "bs_heading_question": "Wie verhindere ich solche Anrufe?",
+            "answer": {
+              "bs_text_1": "Ganz verhindern lassen sie sich nicht - aber du kannst das Risiko senken. Gib deine Daten nur weiter, wenn es wirklich nötig ist, und achte darauf, wem du sie anvertraust. Der beste Schutz: Bleib aufmerksam, misstrauisch und leg im Zweifel einfach auf."
+            }
+          }
+        },
+        "story": {
+          "page_1": {
+            "bs_heading_1": "Wieso du niemals spontan für die Polizei arbeiten wirst.",
+            "bs_rive_1": {
+              "size": "L",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            }
+          },
+          "page_2": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Wie jeden Tag macht Mario auch heute seinen Mittagsschlaf. Später am Nachmittag möchte er mit seiner Familie das Grab seiner Frau besuchen - denn genau heute vor zwei Jahren ist sie verstorben."
+          },
+          "page_3": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Plötzlich klingelt das Telefon.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Ohh, das muss meine Familie sein!"
+            },
+            "bs_text_2": "Freudig geht er ans Telefon - doch statt seiner Familie ist überraschend die Polizei am Telefon.",
+            "bs_rive_text_2": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Oh je, die Polizei - was ist denn jetzt passiert?"
+            }
+          },
+          "page_4": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Der Polizist erklärt Mario, dass bei seiner Bank wiederholt Geld verschwindet. Der Verdacht: Der Täter könnte ein Mitarbeiter der Bank sein.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Wir brauchen deine Hilfe, um den Täter zu überführen!"
+            },
+            "bs_text_2": "Der Polizist bittet Mario, 30'000 Franken abzuheben und ihm zu übergeben. Das Geld werde markiert, um den Täter zu überführen. Als Belohnung solle Mario später 31'000 Franken zurückbekommen."
+          },
+          "page_5": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Mario willigt ein - schliesslich möchte er der Polizei helfen. Ohne zu zögern macht er sich auf den Weg zur Bank.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Denk dran, Mario - sag auf keinen Fall, dass du mit uns zusammenarbeitest! Es könnte sein, dass du direkt mit dem Täter sprichst."
+            },
+            "bs_text_2": "Mario betritt die Bank und geht zum Schalter. Nervös sagt er dem Bankangestellten, dass er gerne Geld abheben möchte."
+          },
+          "page_6": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Der Bankangestellte wird sofort misstrauisch und fragt nach, warum Mario so viel Geld abheben möchte.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Ich… ich möchte den letzten Wunsch meiner Frau erfüllen. Sie wollte immer, dass wir gemeinsam auf eine Insel fliegen, um den Sonnenuntergang zu sehen."
+            },
+            "bs_text_2": "Der Bankangestellte glaubt Marios Geschichte nicht. Im Gegensatz zu ihm kennt er die Masche des Fake-Polizisten - und alarmiert heimlich die echte Polizei."
+          },
+          "page_7": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Kurz darauf betritt die echte Polizei die Bank, und Mario glaubt, es seien die Beamten, mit denen er zusammenarbeitet.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Guten Tag, Mario. Können wir kurz mit dir sprechen?"
+            },
+            "bs_text_2": "Die Polizei klärt Mario auf: Er wäre beinahe Opfer eines betrügerischen Tricks geworden.",
+            "bs_rive_text_2": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Unglaublich, ich kann es nicht fassen! Beinahe hätte ich das gesamte Ersparte meiner Frau und mir verloren!"
+            }
+          },
+          "page_8": {
+            "bs_heading_1": "Später am Nachmittag...",
+
+            "bs_text_1": "Mario steht noch immer unter Schock, doch die Erleichterung ist gross: Seine Familie ist endlich zu Hause angekommen. Wie jedes Jahr haben sie eine kleine Überraschung für ihn dabei. Gespannt öffnet Mario den Umschlag ...",
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            }
+          },
+          "page_9": {
+            "bs_heading_1": "Drei zentrale Erkenntnisse...",
+            "bs_bullets_1": {
+              "bs_text_1": "Behörden werden dich niemals bitten, den Geheimagenten zu spielen.",
+              "bs_text_2": "Sei misstrauisch, wenn am Telefon Druck ausgeübt wird.",
+              "bs_text_3": "Sprich mit Familie und Freunden über verdächtige Anrufe."
+            }
+          },
+          "page_10": {
+            "bs_heading": "Geheimtipp...",
+            "bs_text_1": "Übt ein Anrufer Druck aus, verursacht Stress und fordert dich zu sofortigem Handeln auf - leg auf. Atme tief durch, sprich mit einem Freund und bleib aufmerksam.",
+            "bs_buttons_custom": {
+              "bs_button_1": {
+                "button_text_inside_1": "Niemals",
+                "button_text_above_1": "Ich lasse mich von Online-Betrügern nicht übers Ohr hauen."
+              }
+            }
+          }
+        }
+      },
+      "topic_3": {
+        "infos": {
+          "bs_title_topic": "Sextorsion",
+          "bs_text_description": "Drohung mit Bildern"
+        },
+        "questions": {
+          "question_1": {
+            "bs_heading_question": "Ich bin Opfer von Sextorsion - was nun?",
+            "answer": {
+              "bs_heading_1": "Bei echter Sextorsion",
+              "bs_bullets_1": {
+                "bs_text_1": "Lass dich nicht einschüchtern - du bist nicht allein.",
+                "bs_text_2": "Sichere alle Beweise (z.B. Screenshots).",
+                "bs_text_3": "Rede mit Vertrauenspersonen - Hilfe holen ist Stärke.",
+                "bs_text_4": "Melde den Vorfall umgehend der Polizei."
+              },
+              "bs_heading_2": "Bei Fake-Sextorsion (leere Drohung)",
+              "bs_bullets_2": {
+                "bs_text_1": "Auch hier: Keine Panik.",
+                "bs_text_2": "Die Täter bluffen meist - sie haben keine echten Daten oder Aufnahmen.",
+                "bs_text_3": "Ignoriere die Nachricht und lösche sie."
+              },
+              "bs_heading_3": "Hilfestellen",
+              "bs_bullets_3": {
+                "bs_link_1": {
+                  "bs_text_before": "",
+                  "alias": "Schweizerische Kriminalprävention",
+                  "url": "https://www.skppsc.ch/de/themen/internet/sextortion-erpressung/",
+                  "bs_text_after": ""
+                },
+                "bs_link_2": {
+                  "bs_text_before": "",
+                  "alias": "clickandSTOP.ch",
+                  "url": "https://www.clickandstop.ch/de/cybersexualdelikte/sextortion-30.html",
+                  "bs_text_after": ""
+                },
+                "bs_link_3": {
+                  "bs_text_before": "",
+                  "alias": "Bundesamt für Cybersicherheit BACS",
+                  "url": "https://www.ncsc.admin.ch/ncsc/de/home/cyberbedrohungen/sextortion.html",
+                  "bs_text_after": ""
+                }
+              }
+            }
+          },
+          "question_2": {
+            "bs_heading_question": "Was ist Sextortion?",
+            "answer": {
+              "bs_text_1": "Sextortion ist Erpressung mit intimen Bildern oder Videos. Wenn dir jemand mit der Veröffentlichung solcher Inhalte droht - z.B. nachdem du private Aufnahmen geteilt hast - dann bist du betroffen. Ziel der Täter ist meist Geld oder weitere intime Inhalte zu erpressen."
+            }
+          },
+          "question_3": {
+            "bs_heading_question": "Was ist Fake-Sextortion?",
+            "answer": {
+              "bs_text_1": "Bei Fake-Sextortion bekommst du Nachrichten von Fremden, die behaupten, sie hätten intime Bilder von dir und drohen mit deren Veröffentlichung. In Wahrheit ist das gelogen - sie haben keine echten Bilder, sondern wollen dich nur unter Druck setzen und erpressen."
+            }
+          },
+          "question_4": {
+            "bs_heading_question": "Warum ich?",
+            "answer": {
+              "bs_text_1": "Solche Nachrichten sind Teil von Massenangriffen. Kriminelle verschicken sie an tausende Personen gleichzeitig - es geht nicht gezielt gegen dich. Du bist einfach zufällig betroffen, wie viele andere auch."
+            }
+          },
+          "question_5": {
+            "bs_heading_question": "Woran erkenne ich eine Fake-Sextortion?",
+            "answer": {
+              "bs_bullets_1": {
+                "bs_text_1": "Allgemeine Formulierungen ohne persönliche Details.",
+                "bs_text_2": "Drohung mit Veröffentlichung, aber keine echten Beweise oder Bilder",
+                "bs_text_3": "Forderung nach Geld (meist in Kryptowährung)"
+              }
+            }
+          },
+          "question_6": {
+            "bs_heading_question": "Was ist, wenn ich wirklich etwas Peinliches gemacht habe?",
+            "answer": {
+              "bs_text_1": "Peinliche Situationen passieren jedem - das macht dich nicht angreifbar. In den meisten Fällen ist es sehr unwahrscheinlich, dass Fremde wirklich Bildmaterial haben. Falls du aber sicher bist, dass etwas Echtes im Umlauf ist: Hol dir Unterstützung von Freunden, Familie und der Polizei. Du bist nicht allein - und es gibt Hilfe."
+            }
+          },
+          "question_7": {
+            "bs_heading_question": "Was passiert, wenn ich antworte?",
+            "answer": {
+              "bs_text_1": "Mit einer Antwort zeigst du den Angreifern, dass du reagierst - und damit angreifbar bist. Das motiviert sie, noch mehr Druck auszuüben und dich weiter zu verunsichern.",
+              "bs_text_2": "Deshalb: Niemals antworten!"
+            }
+          },
+          "question_8": {
+            "bs_heading_question": "Wie kann ich mich davor schützen?",
+            "answer": {
+              "bs_bullets_1": {
+                "bs_text_1": "Decke deine Webcam ab, wenn du sie nicht brauchst.",
+                "bs_text_2": "Versende keine privaten oder intimen Bilder.",
+                "bs_text_3": "Verwende starke, einzigartige Passwörter.",
+                "bs_text_4": "Aktiviere Multi-Faktor-Authentifizierung (MFA) für deine Accounts.",
+                "bs_text_5": "Drohnachrichten nicht beachten - einfach löschen."
+              }
+            }
+          }
+        },
+        "story": {
+          "page_1": {
+            "bs_heading_1": "Warum nicht alle Freunde, Freunde sind.",
+            "bs_rive_1": {
+              "size": "L",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            }
+          },
+          "page_2": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Vor drei Monaten erhielt die 16 jährige Laura auf HeadBook eine Freundschaftsanfrage von Justin.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Woah dieser Justin ist mega süss!"
+            },
+            "bs_text_2": "Laura kennt Justin zwar nicht persönlich, nimmt die Anfrage aber trotzdem an. Schon bald beginnen die beiden Teenager miteinander zu schreiben."
+          },
+          "page_3": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Laura und Justin schreiben täglich stundenlang und nach ein paar Wochen fragt Justin Laura, ob sie seine Freundin sein möchte.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Omg.. ja natürlich will ich deine Freundin sein!"
+            },
+            "bs_text_2": "Laura ist überglücklich, behält es aber erstmals für sich. Sie weiss genau: Ihre Eltern wären davon alles andere als begeistert."
+          },
+          "page_4": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Wochenlang läuft alles perfekt. Laura ist motivierter, schreibt bessere Noten - Justin scheint ein echter Glücksgriff zu sein.",
+            "bs_text_2": "Doch dann, ganz plötzlich, fragt Justin nach intimen Bildern von Laura.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Hmm.. ich weiss nicht, ich fühle mich dabei nicht so wohl."
+            },
+            "bs_text_3": "Doch Justin bleibt hartnäckig - und schliesslich gibt Laura nach."
+          },
+          "page_5": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Seit Laura ihm die Bilder geschickt hat, hat sich etwas verändert. Justin meldet sich seltener und wirkt plötzlich distanziert.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Hmm... Was habe ich bloss falsch gemacht?"
+            },
+            "bs_text_2": "Dann plötzlich erhält Laura eine schockierende Nachricht. Sie kann es kaum fassen - ihr Herz beginnt zu rasen."
+          },
+          "page_6": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Justin droht Laura: Wenn sie keine Bilder von ihrem kleinen Bruder schickt, wird er ihre Fotos veröffentlichen - verzweifelt bricht sie weinend zusammen."
+          },
+          "page_7": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Plötzlich geht die Zimmertür auf - ihre Mutter tritt ein. Aufgelöst wirft sich Laura in ihre Arme und erzählt ihr alles über Justin.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Ich bin verzweifelt, ich weiss nicht mehr was machen!"
+            },
+            "bs_text_2": "Ihre Mutter nimmt sie tröstend in den Arm und bedankt sich für ihr Vertrauen. Gemeinsam machen sie sich auf den Weg zur Polizei."
+          },
+          "page_8": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Die Polizei versichert Laura, dass sie Justin schnappen werden. Laura ist erleichtert und spürt endlich wieder Rückhalt.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Ich hoffe, Justin hat das nicht noch anderen Mädchen angetan."
+            },
+            "bs_text_2": "Und tatsächlich - ein paar Wochen später bekommt Laura die Bestätigung von der Polizei: Justin wurde geschnappt."
+          },
+          "page_9": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Es stellte sich heraus, dass Justin nicht 17, sondern tatsächlich 37 Jahre alt ist. Bei den Ermittlungen konnte die Polizei zahlreiche Bilder von minderjährigen Mädchen sicherstellen. Doch Justin war nicht allein - er ist nur ein kleiner Teil eines viel grösseren, erschreckenden Netzwerks von Pädophilen."
+          },
+          "page_10": {
+            "bs_heading_1": "Drei zentrale Erkenntnisse...",
+            "bs_bullets_1": {
+              "bs_text_1": "Sei vorsichtig bei Onlinebekanntschaften.",
+              "bs_text_2": "Teile keine privaten Bilder oder Informationen mit Unbekannten.",
+              "bs_text_3": "Sprich mit jemandem - du bist nicht allein."
+            }
+          },
+          "page_11": {
+            "bs_heading": "Geheimtipp...",
+            "bs_text_1": "Mit KI wird es noch schwerer, Realität von Fälschung zu unterscheiden. Bleib besonders aufmerksam - und vertrau deinem Bauchgefühl.",
+            "bs_buttons_custom": {
+              "bs_button_1": {
+                "button_text_inside_1": "Bestätigen",
+                "button_text_above_1": "Ich versende keine Bilder an Unbekannte."
+              }
+            }
+          }
+        }
+      },
+      "topic_4": {
+        "infos": {
+          "bs_title_topic": "Romance Scam",
+          "bs_text_description": "Herz und Geld gestohlen"
+        },
+        "questions": {
+          "question_1": {
+            "bs_heading_question": "Ich bin Opfer eines Romance Scams - was tun?",
+            "answer": {
+              "bs_heading_1": "Wenn du selbst betroffen bist",
+              "bs_bullets_1": {
+                "bs_text_1": "Brich den Kontakt sofort ab.",
+                "bs_text_2": "Überweise auf keinen Fall Geld.",
+                "bs_text_3": "Sichere alle Beweise (z.B. Screenshots).",
+                "bs_text_4": "Informiere die Polizei.",
+                "bs_text_5": "Sprich mit vertrauten Personen - du musst das nicht alleine durchstehen."
+              },
+              "bs_heading_2": "Wenn jemand anderes betroffen ist",
+              "bs_bullets_2": {
+                "bs_text_1": "Bewahre Ruhe und mach keine Vorwürfe.",
+                "bs_text_2": "Sprich das Thema vorsichtig an und zeige mit Beweisen, dass es ein Scam ist.",
+                "bs_text_3": "Unterstütze die Person emotional, ohne Druck auszuüben.",
+                "bs_text_4": "Ermutige, den Kontakt abzubrechen und zur Polizei zu gehen.",
+                "bs_text_5": "Hilf beim Sichern der Beweise."
+              },
+              "bs_heading_3": "Hilfestellen",
+              "bs_bullets_3": {
+                "bs_link_1": {
+                  "bs_text_before": "",
+                  "alias": "Schweizerische Kriminalprävention",
+                  "url": "https://www.skppsc.ch/de/themen/internet/romance-scam/",
+                  "bs_text_after": ""
+                },
+                "bs_link_2": {
+                  "bs_text_before": "",
+                  "alias": "selbsthilfeschweiz.ch",
+                  "url": "https://www.selbsthilfeschweiz.ch/shch/de/selbsthilfeangebote/suche/detail/romance-scam/Aarau.html",
+                  "bs_text_after": ""
+                },
+                "bs_link_3": {
+                  "bs_text_before": "",
+                  "alias": "Bundesamt für Cybersicherheit BACS",
+                  "url": "https://www.ncsc.admin.ch/ncsc/de/home/cyberbedrohungen/romance-scam.html",
+                  "bs_text_after": ""
+                }
+              }
+            }
+          },
+          "question_2": {
+            "bs_heading_question": "Was ist ein Romance Scam?",
+            "answer": {
+              "bs_text_1": "Beim Romance Scam geben sich Kriminelle online als attraktive, liebevolle Personen aus. Sie investieren viel Zeit, schreiben intensiv mit dir und bauen eine emotionale Verbindung auf - oft bis hin zur vermeintlichen Beziehung.",
+              "bs_text_2": "Sobald Vertrauen da ist, beginnt die Manipulation: Es folgen Geldforderungen - für Notfälle, Reisen oder angebliche Probleme. Am Ende bleiben oft ein gebrochenes Herz und finanzielle Schäden."
+            }
+          },
+          "question_3": {
+            "bs_heading_question": "Was wollen Romance-Scammer von mir?",
+            "answer": {
+              "bs_text_1": "Ihr Ziel ist klar: Geld.",
+              "bs_text_2": "Anfangs fordern sie oft kleine Beträge - für vermeintliche Notlagen oder Reisekosten. Doch mit der Zeit werden die Forderungen grösser und immer dringlicher. Sie nutzen dein Vertrauen und deine Gefühle, um dich finanziell auszunehmen."
+            }
+          },
+          "question_4": {
+            "bs_heading_question": "Was soll ich tun, wenn ich Geld geschickt habe?",
+            "answer": {
+              "bs_text_1": "Versuche sofort, die Überweisung zu stoppen - je früher, desto besser. Ist das Geld bereits überwiesen, informiere umgehend die Polizei. Die Chancen auf Rückerstattung sind zwar gering, aber nur so kann der Fall dokumentiert und gegen die Täter ermittelt werden.",
+              "bs_text_2": "Merke dir: Überweise niemals Geld an Personen, die du nur online kennst - egal, wie sympathisch sie wirken."
+            }
+          },
+          "question_5": {
+            "bs_heading_question": "Wie kann ich so etwas verhindern?",
+            "answer": {
+              "bs_text_1": "Am besten ignorierst du solche Nachrichten sofort und löschst sie direkt. Antworte niemals - auch nicht aus Neugier. Die Täter sind geschickt und wissen genau, wie sie Vertrauen aufbauen. Sprich offen mit Freunden und Familie darüber - so schützt du auch dein Umfeld vor dieser Masche."
+            }
+          },
+          "question_6": {
+            "bs_heading_question": "Wem kann ich mich anvertrauen?",
+            "answer": {
+              "bs_text_1": "Sprich mit jemandem, dem du vertraust - sei es ein Freund, ein Familienmitglied oder eine Fachperson wie ein Psychologe. Auch die Polizei ist eine wichtige Anlaufstelle. Wichtig ist: Du musst da nicht allein durch. Es gibt Menschen, die dir helfen wollen - du musst nur den ersten Schritt machen."
+            }
+          },
+          "question_7": {
+            "bs_heading_question": "Ist das peinlich? Bin ich selbst schuld?",
+            "answer": {
+              "bs_text_1": "Nein - es ist nicht peinlich, und du trägst keine Schuld. Du wurdest Opfer von professionellen Betrügern, die genau wissen, wie man Menschen täuscht und manipuliert. Das kann wirklich jedem passieren. Schäme dich nicht - sprich darüber. Deine Geschichte kann anderen helfen, nicht in die gleiche Falle zu tappen."
+            }
+          }
+        },
+        "story": {
+          "page_1": {
+            "bs_heading_1": "Romeo und Julia.",
+            "bs_rive_1": {
+              "size": "L",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            }
+          },
+          "page_2": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Julia ist eine erfolgreiche Geschäftsfrau - ihre Position hat sie sich hart erkämpft, doch der Aufwand hat sich gelohnt. Sie machte unzählige Überstunden - während viele ihrer Mitbewerber dem Druck nicht standhielten, blieb Julia stark."
+          },
+          "page_3": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Durch ihren Fokus auf die Karriere hat sie nur eine einzige Kollegin - für eine Beziehung blieb ihr jedoch nie Zeit.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Hmm… ich wünschte, ich hätte einen Partner."
+            },
+            "bs_text_2": "Bei einem gemeinsamen Kaffee mit ihrer Kollegin erfährt Julia von einer Dating-App.",
+            "bs_rive_text_2": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Wer weiss, vielleicht finde ich dort endlich jemanden."
+            }
+          },
+          "page_4": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Und tatsächlich: Nur wenige Tage später lernt sie Romeo kennen. Er hat eine eigene Firma und eine beeindruckende Karriere - Julia fühlt sich ihm sofort verbunden.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Romeo, das muss Schicksal sein!"
+            },
+            "bs_text_2": "Die beiden schreiben täglich und tauschen sich über ihren Alltag aus."
+          },
+          "page_5": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Julia ist überglücklich - sie hat nicht nur ihre Wunschkarriere erreicht, sondern auch ihren Traummann gefunden.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Mein leben könnte nicht besser laufen."
+            },
+            "bs_text_2": "Doch das Leben von Romeo verläuft nicht so ideal: Seine Firma hat ein schwieriges Jahr hinter sich, und er macht sich Sorgen um die Zukunft."
+          },
+          "page_6": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Er teilt seine Sorgen mit Julia und bittet sie um Unterstützung. Er habe einen grossen Auftrag in Aussicht, brauche dafür aber dringend Geld für wichtige Investitionen.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Keine Sorge ich werde dir helfen!"
+            },
+            "bs_text_2": "Ohne lange zu zögern, überweist Julia Romeo 100'000 Franken. Sie vertraut ihm und ist überzeugt, dass er das Geld zurückzahlen wird, sobald es seiner Firma besser geht."
+          },
+          "page_7": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Ein paar Tage später trifft sich Julia wieder mit ihrer Kollegin. Voller Euphorie erzählt sie von ihrem Glück mit der Dating-App.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Warte was hast du gemacht?!"
+            },
+            "bs_text_2": "Ihre Kollegin ist fassungslos, als Julia ihr von der überwiesenen Summe erzählt. Wütend verlässt Julia das Café - sie versteht nicht, warum ihre Kollegin ihr dieses Glück nicht gönnt."
+          },
+          "page_8": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Ihre Kollegin versucht, Julia telefonisch zu erreichen. Sie möchte sie unbedingt vor Romeo warnen, da sie das Gefühl hat, er könnte ein Betrüger sein.",
+
+            "bs_text_2": "Julia ist immer noch wütend und hört ihrer Kollegin nicht zu. Sie erzählt Romeo von den Problemen mit ihrer Kollegin, und er schlägt vor, gemeinsam in den Urlaub zu fahren, um sich abzulenken."
+          },
+          "page_9": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Romeo möchte Julia gerne überraschen und die Ferien für sie buchen. Da er jedoch immer noch pleite ist, müsste Julia die Kosten vorstrecken.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Ja, okay gut, aber nur, weil ich Überraschungen liebe."
+            },
+            "bs_text_2": "Julia überweist erneut 10'000 Franken an Romeo. Und tatsächlich, ein paar Stunden später erhält sie ein Flugticket.",
+            "bs_rive_text_2": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Ich werde am Taxistand auf dich warten!"
+            }
+          },
+          "page_10": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Als Julia ins Flugzeug steigt, erinnert sie sich plötzlich an das Gespräch mit ihrer Kollegin.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Hmm, was, wenn Romeo doch nicht auftaucht?"
+            },
+            "bs_text_2": "Julia am Taxistand alleine mit dem Koffern, sitzend am Boden mit dem Kopf in den Armen."
+          },
+          "page_11": {
+            "bs_heading_1": "Drei zentrale Erkenntnisse...",
+            "bs_bullets_1": {
+              "bs_text_1": "Sende niemals Geld an Unbekannte.",
+              "bs_text_2": "Höre auf kritische Stimmen aus deinem Freundeskreis und bewerte sie neutral.",
+              "bs_text_3": "Sei vorsichtig, wem du vertraust - besonders bei Onlinebekanntschaften."
+            }
+          },
+          "page_12": {
+            "bs_heading": "Geheimtipp...",
+            "bs_text_1": "KI kann mittlerweile unglaublich gut Videos und Anrufe fälschen. Deshalb solltest du misstrauisch sein und auch kritischen Stimmen aus deinem Umfeld mehr Aufmerksamkeit schenken.",
+            "bs_buttons_custom": {
+              "bs_button_1": {
+                "button_text_inside_1": "Bestätigen",
+                "button_text_above_1": "Ich vertraue Romeo nur, wenn ich ihn persönlich treffe!"
+              }
+            }
+          }
+        }
+      },
+      "topic_5": {
+        "infos": {
+          "bs_title_topic": "Phishing",
+          "bs_text_description": "Neuerdings in 3D"
+        },
+        "questions": {
+          "question_1": {
+            "bs_heading_question": "Ich wurde gephisht - was nun?",
+            "answer": {
+              "bs_heading_1": "Wenn du ein Passwort eingegeben hast",
+              "bs_bullets_1": {
+                "bs_text_1": "Ändere dein Passwort sofort.",
+                "bs_text_2": "Falls du dasselbe Passwort auch bei anderen Accounts genutzt hast: auch dort sofort ändern.",
+                "bs_text_3": "Aktiviere die Multi-Faktor-Authentifizierung (MFA), falls möglich.",
+                "bs_text_4": "Informiere andere über die Phishing-Mail."
+              },
+              "bs_heading_2": "Wenn du Kreditkarteninfos angegeben hast",
+              "bs_bullets_2": {
+                "bs_text_1": "Sperre deine Kreditkarte sofort.",
+                "bs_text_2": "Informiere deine Bank und bestelle eine neue Karte.",
+                "bs_text_3": "Warne andere vor dem Angriff."
+              },
+              "bs_heading_3": "Wenn du eine Datei heruntergeladen hast",
+              "bs_bullets_3": {
+                "bs_text_1": "Lösche die Datei sofort und leere den Papierkorb.",
+                "bs_text_2": "Scanne dein Gerät mit einem aktuellen Virenprogramm.",
+                "bs_text_3": "Falls du unsicher bist, ob dein Gerät gehackt wurde: Lass es von einer Fachperson überprüfen.",
+                "bs_text_4": "Informiere andere über den Vorfall."
+              },
+              "bs_heading_4": "Hilfestellen",
+              "bs_bullets_4": {
+                "bs_link_1": {
+                  "bs_text_before": "",
+                  "alias": "antiphishing.ch",
+                  "url": "https://www.antiphishing.ch/de/",
+                  "bs_text_after": ""
+                },
+                "bs_link_2": {
+                  "bs_text_before": "",
+                  "alias": "Bundesamt für Cybersicherheit BACS",
+                  "url": "https://www.report.ncsc.admin.ch/de/",
+                  "bs_text_after": ""
+                }
+              }
+            }
+          },
+          "question_2": {
+            "bs_heading_question": "Was ist Phishing?",
+            "answer": {
+              "bs_text_1": "Phishing ist ein Betrugsversuch per E-Mail oder Nachricht. Du bekommst z.B. eine Mail vom angeblichen Google-Support oder der Post - mit der Behauptung, es gäbe ein Problem mit deinem Konto oder du müsstest etwas bezahlen.",
+              "bs_text_2": "Die Nachrichten wirken echt, stammen aber in Wahrheit von Betrügern. Ziel ist es, dass du vertrauliche Daten wie Passwörter oder Kreditkarteninfos eingibst - damit sie Zugang zu deinen Accounts oder deinem Geld bekommen."
+            }
+          },
+          "question_3": {
+            "bs_heading_question": "Was ist Smishing?",
+            "answer": {
+              "bs_text_1": "Smishing ist Phishing per SMS - der Begriff setzt sich aus SMS und Phishing zusammen. Das Ziel bleibt gleich: Betrüger wollen dich dazu bringen, persönliche Daten wie Logins oder Kreditkarteninformationen preiszugeben."
+            }
+          },
+          "question_4": {
+            "bs_heading_question": "Was ist Vishing?",
+            "answer": {
+              "bs_text_1": "Vishing ist Phishing per Telefon - der Begriff setzt sich aus Voice (Stimme) und Phishing zusammen. Betrüger rufen an und versuchen, dich am Telefon zu täuschen, um an persönliche Daten wie Passwörter, Kontoinformationen oder Kreditkartendaten zu gelangen."
+            }
+          },
+          "question_5": {
+            "bs_heading_question": "Was ist 3D Phishing?",
+            "answer": {
+              "bs_text_1": "3D Phishing ist ein kombinierter Angriff über mehrere Kanäle - z.B. E-Mail, SMS und Telefon. Du bekommst etwa eine Phishing-Mail, kurz darauf eine SMS oder sogar einen Anruf. Ziel ist es, dich unter Druck zu setzen und zur Preisgabe deiner Login- oder Zahlungsdaten zu bringen.",
+              "bs_text_2": "Der Name „3D“ steht für die dreifache Täuschung: Phishing + Smishing + Vishing."
+            }
+          },
+          "question_6": {
+            "bs_heading_question": "Wie erkenne ich eine Phishing-Mail oder -Nachricht?",
+            "answer": {
+              "bs_bullets_1": {
+                "bs_text_1": "Prüfe den Absender genau - gefälschte Adressen ähneln oft echten.",
+                "bs_text_2": "Achte auf Rechtschreib- und Grammatikfehler.",
+                "bs_text_3": "Fahre mit der Maus über Links (nicht klicken!) und überprüfe, wohin sie wirklich führen.",
+                "bs_text_4": "Phishing-Mails erzeugen oft künstliche Dringlichkeit („Sofort handeln!“).",
+                "bs_text_5": "Misstraue ungewöhnlichen Anhängen - auch Word- und PDF-Dateien können manipuliert sein. Öffne sie nur, wenn du dem Absender vertraust."
+              }
+            }
+          },
+          "question_7": {
+            "bs_heading_question": "Wie erkenne ich, ob ein Link echt ist?",
+            "answer": {
+              "bs_text_1": "Fahre mit der Maus über den Link, ohne zu klicken - so siehst du die tatsächliche Adresse. Viele Fake-Links sehen täuschend echt aus, nutzen aber kleine Abweichungen: z.B. fehlende Buchstaben oder vertauschte Zeichen.",
+              "bs_text_2": "Bist du unsicher? Klicke nicht! Gib die Adresse lieber manuell oder über Google ein, um zur echten Seite zu gelangen.",
+              "bs_rive_1": {
+                "path": "",
+                "height": "",
+                "weight": "",
+                "StateMachines": {
+                  "StateMachine_1": ""
+                }
+              }
+            }
+          },
+          "question_8": {
+            "bs_heading_question": "Warum sollte ich nicht auf Links klicken?",
+            "answer": {
+              "bs_text_1": "Unbekannte Links führen oft auf gefälschte Login-Seiten, die deine Daten stehlen wollen. Manche Links starten sogar direkt den Download schädlicher Dateien.",
+              "bs_text_2": "Deshalb gilt: Klicke niemals auf Links, denen du nicht 100% vertraust."
+            }
+          },
+          "question_9": {
+            "bs_heading_question": "Warum sieht die Nachricht so echt aus?",
+            "answer": {
+              "bs_text_1": "Betrüger werden immer besser darin, täuschend echte Nachrichten zu erstellen - oft mit Hilfe von Künstlicher Intelligenz. Dadurch wirken Phishing-Nachrichten heute professionell, glaubwürdig und kaum noch von echten Mitteilungen zu unterscheiden.",
+              "bs_text_2": "Weil Kriminelle mit Phishing sehr viel Geld verdienen, investieren sie gezielt Zeit und Technik, um ihre Maschen immer weiter zu perfektionieren."
+            }
+          },
+          "question_10": {
+            "bs_heading_question": "Wie kann ich mich davor schützen?",
+            "answer": {
+              "bs_text_1": "Am besten schützt du dich, indem du kritisch bleibst: Klicke nie auf unbekannte Links und öffne keine Anhänge von unbekannten Absendern. Bist du unsicher? Hol dir eine zweite Meinung - sprich mit Freunden, Familie oder Kollegen.Ganz verhindern lassen sich solche Angriffe leider nicht. Umso wichtiger ist es, achtsam zu sein - besonders wenn eine Nachricht Stress oder Angst bei dir auslöst."
+            }
+          }
+        },
+        "story": {
+          "page_1": {
+            "bs_heading_1": "Keine Zeit zum denken.",
+            "bs_rive_1": {
+              "size": "L",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            }
+          },
+          "page_2": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "In einer Woche beginnen die Weihnachtsferien. Marcel hat daher viele Aufgaben, die noch vor Jahresende erledigt sein müssen.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Uff, jedes Jahr der gleiche Stress..."
+            },
+            "bs_text_2": "In den letzten Tagen arbeitet er von früh bis spät, Pausen macht er kaum. Plötzlich erscheint eine neue E-Mail in seinem Postfach mit dem Betreff: „Letzte Warnung!“",
+            "bs_rive_text_2": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Super, was ist jetzt los..."
+            }
+          },
+          "page_3": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Marcel liest die E-Mail. Wieder einmal ein wütender Kunde, der schon lange auf die Begleichung seiner Rechnung wartet.",
+
+            "bs_text_2": "Doch Marcel ist skeptisch - handelt es sich wirklich um einen echten Kunden? Noch bevor er zweimal überlegen kann, klingelt plötzlich das Telefon."
+          },
+          "page_4": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Am Telefon ist derselbe Kunde, der gerade die E-Mail geschickt hat. Er ist ausser sich und lässt sich nicht beruhigen.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Wenn diese Rechnung nicht bis morgen beglichen ist, wird es Konsequenzen haben."
+            },
+            "bs_text_2": "Geschockt und sprachlos legt Marcel das Telefon auf.",
+            "bs_rive_text_2": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Als hätte ich nicht schon genug Stress..."
+            }
+          },
+          "page_5": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Marcel, immer noch geschockt von dem Anruf, begleicht die offene Rechnung. Anschliessend holt er sich einen Kaffee.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Diese kurze Pause brauche ich jetzt..."
+            },
+            "bs_text_2": "Während der Kaffee läuft, geht Marcel das merkwürdige Ereignis noch einmal gedanklich durch. Plötzlich wird er nervös und fragt sich, ob es nicht doch ein Phishing-Angriff sein könnte."
+          },
+          "page_6": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Schnell rennt Marcel zurück zu seinem Computer und überprüft die E-Mail-Adresse. Tatsächlich, die E-Mail-Adresse ist gefälscht - Marcels Herz bleibt für einen kurzen Moment stehen.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Ich hab doch nicht eben 30'000 Franken an Kriminelle überwiesen, oder?"
+            },
+            "bs_text_2": "Marcel ist ausser sich und weiss nicht, wie er mit der Situation umgehen soll."
+          },
+          "page_7": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Marcel will den Fehler wiedergutmachen. Er fasst all seinen Mut zusammen und geht ins Büro seines Chefs.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Hallo Chef, ich muss dir etwas beichten..."
+            },
+            "bs_text_2": "Gemeinsam gehen die beiden das Geschehen durch. Marcel ist sichtlich nervös - schliesslich mag er seinen Job und möchte ihn nicht verlieren."
+          },
+          "page_8": {
+            "bs_rive_1": {
+              "size": "M",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
+            "bs_text_1": "Der Chef ist alles andere als begeistert. Er sieht den Fehler jedoch nicht nur bei Marcel, sondern auch bei sich selbst.",
+            "bs_rive_text_1": {
+              "src": "assets/home-page/hero_image.riv",
+              "text": "Ich hätte meine Mitarbeiter besser schulen sollen!"
+            },
+            "bs_text_2": "Trotz des Fehlers darf Marcel seinen Job behalten. Sein Chef schätzt seine Offenheit und den Mut, sich ihm anzuvertrauen."
+          },
+          "page_9": {
+            "bs_heading_1": "Drei zentrale Erkenntnisse...",
+            "bs_bullets_1": {
+              "bs_text_1": "Kritisch denken.",
+              "bs_text_2": "Frage bei Unsicherheit Kollegen um Rat.",
+              "bs_text_3": "Unbedingt mit anderen sprechen, falls du gephishd wurdest."
+            }
+          },
+          "page_10": {
+            "bs_heading_1": "Geheimtipp...",
+            "bs_text_1": "Löst eine Nachricht starke Emotionen wie Stress oder Angst aus, solltest du immer besonders kritisch denken. Mach einen Schritt zurück und frage dich, ob das wirklich sinnvoll ist.",
+            "bs_buttons_custom": {
+              "bs_button_1": {
+                "button_text_inside_1": "Niemals",
+                "button_text_above_1": "Ich lasse mich von Online-Betrügern nicht übers Ohr hauen."
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

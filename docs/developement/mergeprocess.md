@@ -1,4 +1,4 @@
-# Commit Process
+# Merge Process
 
 ## Static Code Analysis - SonarQube
 
@@ -8,13 +8,13 @@ Start the local sonarqube docker container and visit the UI
 
 Generate a test coverage
 
-```
+```bash
 ng test --code-coverage
 ```
 
 Then run the SonarQube analysis
 
-```
+```bash
 npx sonarqube-scanner
 ```
 

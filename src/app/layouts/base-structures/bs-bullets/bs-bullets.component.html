@@ -1,0 +1,15 @@
+<ul>
+  @for (bullet of bulletsArray; track bullet.key) { @if(bullet.type == "text") {
+  <li>
+    <app-bs-text
+      text="{{ `${pathToBullets()}.${bullet.key}` | translate }}"
+    ></app-bs-text>
+  </li>
+  } @if(bullet.type == "link") {
+  <li>
+    <app-bs-link
+      pathToLink="{{`${pathToBullets()}.${bullet.key}` }}"
+    ></app-bs-link>
+  </li>
+  }}
+</ul>
