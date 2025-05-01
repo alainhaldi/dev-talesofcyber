@@ -1,19 +1,51 @@
 
+
+
 // Custom Theming for Angular Material
 // For more information: https://material.angular.io/guide/theming
-@use '@angular/material' as mat;
+// @use '@angular/material' as mat;
 
-html {
-  @include mat.theme((
-    color: (
-      theme-type: light,
-      primary: mat.$azure-palette,
-      tertiary: mat.$blue-palette,
-    ),
-    typography: Roboto,
-    density: 0,
-  ));
-}/* You can add global styles to this file, and also import other style files */
+
+// html {
+//   @include mat.theme((
+//     color: (
+//       theme-type: light,
+//       primary: mat.$azure-palette,
+//       tertiary: mat.$blue-palette,
+//     ),
+//     density: 0,
+//   ));
+// }/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: "Signika", }
+
+// Global Variables
+:root {
+  // Colors
+  --red-dark: #2c1011;
+  --red-bright: #571e23;
+  --red-icons: #cd9393;
+  --grey: #e1e1e1;
+  --white: #faf6f1;
+  --black: #1a1a1a;
+  --green: #1c8a00;
+
+  // Padding
+  --padding-border: 28px;
+
+  // Fontsize
+  --font-size-title: 32px;
+  --font-size-text: 20px;
+  // --font-size-title: 32px;
+
+  // Layout
+  --border-radius: 12px;
+
+
+
+}
+
+

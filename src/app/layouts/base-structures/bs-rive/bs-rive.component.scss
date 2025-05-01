@@ -1,6 +1,16 @@
-.c-rive-container {
-    display: flex;
-    justify-content: center;  /* horizontal zentriert */
-    align-items: center;      /* vertikal zentriert */
-    background-color: green; /* optional */
+.rive-container {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  background-color: green; 
   }
+
+// .canvas{
+//   background-color: red;
+//   padding: 0%;
+// }
+canvas {
+  width: 100%;       // or vw/vh units
+  height: auto;
+  display: block;
+}

@@ -1,1 +1,13 @@
 // I think the h1 element has by default a margin or padding that should be adapted
+h1 {
+    font-size: var(--font-size-title);
+    margin: 0%;
+    padding: 0%;
+}
+
+h2{
+    font-size: var(--font-size-title);
+    margin: 0%;
+    padding: 0%;
+    line-height: 130%;
+}

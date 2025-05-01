@@ -7,7 +7,6 @@ import {
   ViewChild,
 } from '@angular/core';
 import { Rive } from '@rive-app/canvas';
-import { LoggerService } from '../../../core/logger.service';
 
 @Component({
   selector: 'app-bs-rive',
@@ -26,51 +25,37 @@ export class BsRiveComponent implements OnInit {
   @ViewChild('riveCanvas', { static: false })
   riveCanvas?: ElementRef<HTMLCanvasElement>;
 
-  constructor(private logger: LoggerService) {}
-
   ngOnInit(): void {
-    this.getSize(this.size());
+    this.height.set(this.getSize(this.size()).height);
+    this.width.set(this.getSize(this.size()).width);
   }
 
   ngAfterViewInit() {
-    this.logger.log(`-> Rive File src: ${this.src()}`);
-    this.logger.log(`-> Rive File State Machines: ${this.stateMachines()}`);
     if (!this.riveCanvas) return;
 
     const canvas = this.riveCanvas.nativeElement;
     new Rive({
-      src: this.src(), // place .riv file inside /src/assets/
+      src: this.src(),
       canvas,
       stateMachines: this.stateMachines(),
       autoplay: true,
     });
-
-    this.logger.log(this.height());
-    this.logger.log(this.width());
   }
 
-  getSize(size: string) {
+  getSize(size: string): { height: number; width: number } {
     switch (size) {
       case 'L':
-        this.height.set(300);
-        this.width.set(324);
-        break;
+        return { height: 300, width: 324 };
       case 'M':
-        this.height.set(124);
-        this.width.set(324);
-        break;
+        return { height: 124, width: 324 };
       case 'S':
-        this.height.set(30);
-        this.width.set(30);
-        break;
+        return { height: 30, width: 30 };
       case 'Topic':
-        this.height.set(240);
-        this.width.set(187);
-        break;
+        return { height: 187, width: 240 };
       case 'Hero':
-        this.height.set(390);
-        this.width.set(270);
-        break;
+        return { height: 250, width: 324 };
+      default:
+        return { height: 0, width: 0 };
     }
   }
 }

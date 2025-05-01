@@ -2,12 +2,19 @@
   <div class="container-card">
     <app-bs-rive
       size="Topic"
-      src="assets/home-page/hero_image.riv"
+      src="assets/home-page/topic.riv"
       [stateMachines]="['State Machine 1']"
     ></app-bs-rive>
+
     <div class="container-card-text">
-      <app-bs-title title="{{ pathToTitle() }}"></app-bs-title>
-      <app-bs-text text="{{ pathToDescription() }}"></app-bs-text>
+      <app-bs-title
+        class="title-topic"
+        title="{{ pathToTitle() }}"
+      ></app-bs-title>
+      <app-bs-text
+        class="description-topic"
+        text="{{ pathToDescription() }}"
+      ></app-bs-text>
     </div>
   </div>
 </a>
