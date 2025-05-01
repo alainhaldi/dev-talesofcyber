@@ -34,6 +34,7 @@ export class BsRiveComponent implements OnInit {
     if (!this.riveCanvas) return;
 
     const canvas = this.riveCanvas.nativeElement;
+
     new Rive({
       src: this.src(),
       canvas,

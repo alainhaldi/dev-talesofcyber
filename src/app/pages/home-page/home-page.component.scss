@@ -1,32 +1,22 @@
 .root-container {
   height: 93dvh; 
   background-color: var(--red-bright); 
-  // background-color: rgb(189, 47, 255);
 }
 
 .hero-wrapper{
   height: 43dvh; 
-  background-color: yellow;
+  // background-color: yellow;
     padding-left: var(--padding-border);
     padding-right: var(--padding-border);
     display: flex;
-    // flex-direction: column;
+   
     justify-content: center;
-    // align-items: center;
+
 }
 
-// .hero-wrapper{
-  // height: 38dvh; 
-//   // // overflow: hidden;
-//   display:flex;
-//   justify-content: center;
-// align-items: center;
-//   background-color: greenyellow;
-// }
 
 .heading-hot-topic-container {
   height: 7dvh;
-  // background-color: rgb(241, 42, 218);
   padding-left: var(--padding-border);
   padding-right: var(--padding-border);
   display: flex;
@@ -43,13 +33,12 @@
 
 .cards-hot-topic-container{
   height: 43dvh;
-    // background-color: rgb(184, 184, 51); 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding-left: var(--padding-border);
     padding-right: var(--padding-border);
-    // padding-bottom: 2em;
+  
     gap: 2em;
     overflow-x: auto;
     // Hide Scrollbar
