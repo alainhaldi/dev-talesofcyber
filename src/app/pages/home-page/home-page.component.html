@@ -1,28 +1,27 @@
 <app-cs-toolbar [showMenuIcon]="true"></app-cs-toolbar>
 
 <div class="root-container">
-  <div class="upper-body-container">
-    <div class="hero-container">
-      <app-bs-rive
-        size="Hero"
-        src="assets/home-page/hero2.riv"
-        [stateMachines]="['State Machine 1']"
-      ></app-bs-rive>
-    </div>
-
-    <div class="heading-hot-topic-container">
-      <app-bs-title
-        class="title-hot-topic"
-        title="{{ pathToTitleHotTopics }}"
-        [isH1]="true"
-      ></app-bs-title>
-      <span class="c-spacer"></span>
-      <app-bs-button
-        text="{{ pathToButtonAllTopics }}"
-        [isLarge]="false"
-      ></app-bs-button>
-    </div>
+  <div class="hero-wrapper">
+    <app-bs-rive
+      size="Hero"
+      src="assets/home-page/hero2.riv"
+      [stateMachines]="['State Machine 1']"
+    ></app-bs-rive>
   </div>
+
+  <div class="heading-hot-topic-container">
+    <app-bs-title
+      class="title-hot-topic"
+      title="{{ pathToTitleHotTopics }}"
+      [isH1]="true"
+    ></app-bs-title>
+    <span class="c-spacer"></span>
+    <!-- <app-bs-button
+      text="{{ pathToButtonAllTopics }}"
+      [isLarge]="false"
+    ></app-bs-button> -->
+  </div>
+
   <div class="cards-hot-topic-container">
     @for (hot_topic of local_hot_topics; track hot_topic.topicId) {
     <app-cs-topic-card

@@ -1,11 +1,12 @@
 <a [routerLink]="['/topic', urlId()]">
   <div class="container-card">
-    <app-bs-rive
-      size="Topic"
-      src="assets/home-page/topic.riv"
-      [stateMachines]="['State Machine 1']"
-    ></app-bs-rive>
-
+    <div class="rive-wrapper">
+      <app-bs-rive
+        size="Topic"
+        src="assets/home-page/topic.riv"
+        [stateMachines]="['State Machine 1']"
+      ></app-bs-rive>
+    </div>
     <div class="container-card-text">
       <app-bs-title
         class="title-topic"
