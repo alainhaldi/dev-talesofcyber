@@ -33,6 +33,10 @@ body { margin: 0; font-family: "Signika", }
   --black: #1a1a1a;
   --green: #1c8a00;
 
+  // Shadow (missing color)
+  --shadow: 0 4px 8px;  // x-offset, y-offset, blur
+
+
   // Padding
   --padding-border: 28px;
 

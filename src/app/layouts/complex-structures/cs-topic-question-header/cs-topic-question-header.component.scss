@@ -1,6 +1,19 @@
-.container-header {
-    background-color: rgb(138, 142, 141);
+.root-container {
+    height: 13dvh;
+    background-color: var(--white);
+    box-shadow: var(--shadow) #E1E1E1; 
+    padding-left: var(--padding-border);
+    padding-right: var(--padding-border);
+    display: flex;
+    align-items: flex-end;
+}
+
+.wrapper-container {
+    // background-color: red;
+    height: 11dvh;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
