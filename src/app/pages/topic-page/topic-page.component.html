@@ -1,6 +1,7 @@
 <app-cs-toolbar [showHomeIcon]="true"> </app-cs-toolbar>
-<!-- <app-bs-spacer-container></app-bs-spacer-container> -->
 <app-cs-topic-question-header
   [topicId]="topicId()"
 ></app-cs-topic-question-header>
-<app-cs-topic-questions [topicId]="topicId()"></app-cs-topic-questions>
+<div class="question-wrapper">
+  <app-cs-topic-questions [topicId]="topicId()"></app-cs-topic-questions>
+</div>

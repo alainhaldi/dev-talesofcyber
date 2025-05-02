@@ -1,5 +1,59 @@
-.container-buttons {
-    background-color: maroon;
+.header-spacer-container{
+    height: 2dvh;
+}
+
+.questions-wrapper {
+    height: 67dvh;
+    // background-color: pink;
+}
+.questions-button {
+    all: unset;
+    // background-color: greenyellow;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.custom-list-item {
+    padding-left: 0 !important;
+  }
+  
+  .question-wrapper {
+    white-space: normal;
+    word-wrap: break-word;
+    width: 100%;
+  }
+
+.question-wrapper {
+}
+
+.custom-divider {
+    border-top: 1.5px solid var(--grey);
+    margin: 1rem 0;
+    width: 100%;
+  }
+
+.button-wrapper {
+    // background-color: orange;
+    height: 7dvh;
     display: flex;
     justify-content: center;
+    gap: 1em;
+}
+
+.button-pages {
+    all: unset;
+    height: 7dvh;
+    width: 7dvh;
+    font-family: var(--font-family);
+    font-size: var(--font-size-text);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-spacer-container{
+    height: 5dvh;
+    // background-color: aqua;
 }

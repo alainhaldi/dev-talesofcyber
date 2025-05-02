@@ -1,17 +1,10 @@
-.root-container {
-    height: 13dvh;
-    background-color: var(--white);
-    box-shadow: var(--shadow) #E1E1E1; 
+.wrapper-container {
+    height: 14dvh;
     padding-left: var(--padding-border);
     padding-right: var(--padding-border);
-    display: flex;
-    align-items: flex-end;
-}
-
-.wrapper-container {
-    // background-color: red;
-    height: 11dvh;
-    width: 100%;
+    background-color: var(--white);
+    box-shadow: var(--shadow) var(--grey); 
+    position: relative; // Make Position relativ to avoid that the shadow gets covered by the container after
     display: flex;
     justify-content: space-between;
     align-items: center;
