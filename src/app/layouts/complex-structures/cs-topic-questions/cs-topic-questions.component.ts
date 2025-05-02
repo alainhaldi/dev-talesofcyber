@@ -7,10 +7,11 @@ import de from '../../../../../public/i18n/de.json';
 import { LoggerService } from '../../../core/logger.service';
 import { MatDialog } from '@angular/material/dialog';
 import { CsTopicQuestionDialogComponent } from '../cs-topic-question-dialog/cs-topic-question-dialog.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-cs-topic-questions',
-  imports: [MatListModule, MatDividerModule, BsHeadingComponent],
+  imports: [MatListModule, MatDividerModule, BsHeadingComponent, CommonModule],
   templateUrl: './cs-topic-questions.component.html',
   styleUrl: './cs-topic-questions.component.scss',
 })

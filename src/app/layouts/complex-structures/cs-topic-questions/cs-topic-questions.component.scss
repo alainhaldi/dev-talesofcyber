@@ -24,9 +24,6 @@
     width: 100%;
   }
 
-.question-wrapper {
-}
-
 .custom-divider {
     border-top: 1.5px solid var(--grey);
     margin: 1rem 0;
@@ -51,7 +48,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 0.5;
+  transition: opacity 0.2s ease;
 }
+
+.button-pages.active {
+    opacity: 1;
+  }
 
 .footer-spacer-container{
     height: 5dvh;

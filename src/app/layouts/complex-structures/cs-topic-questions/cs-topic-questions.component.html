@@ -19,7 +19,13 @@
 </div>
 <div class="button-wrapper">
   @for(page of questionPages; let i = $index; track i) {
-  <button class="button-pages" (click)="setPage(i)">{{ i + 1 }}</button>
+  <button
+    class="button-pages"
+    [ngClass]="{ active: i === currentPageIdx }"
+    (click)="setPage(i)"
+  >
+    {{ i + 1 }}
+  </button>
   }
 </div>
 <div class="footer-spacer-container"></div>
