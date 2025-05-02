@@ -46,13 +46,24 @@ body { margin: 0; font-family: "Signika", }
   --font-size-title: 32px;
   --font-size-text: 20px;
   --font-size-subtext: 16px;
-  // --font-size-title: 32px;
 
   // Layout
   --border-radius: 12px;
-
-
-
 }
+
+// Question Dialog (Global da Angular Material)
+.mat-mdc-dialog-surface {
+  // max-height: 80vh !important;
+  // overflow: auto !important;
+  border-radius: 32px !important;
+  padding: 1.5rem !important;
+  background-color: var(--white) !important; // z. B. lightyellow
+}
+
+.mat-mdc-dialog-content {
+  background-color: #91e8d5 !important; // deine Farbe
+  padding: 0 !important;
+}
+
 
 

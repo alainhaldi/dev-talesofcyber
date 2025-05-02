@@ -78,6 +78,9 @@ export class CsTopicQuestionsComponent implements OnInit {
 
   openDialog(questionId: number) {
     const dialogRef = this.dialog.open(CsTopicQuestionDialogComponent, {
+      // width: '80dvw',
+      // height: '80dvh',
+      panelClass: 'custom-answer-dialog',
       data: { questionId: questionId.toString(), topicId: this.topicId() },
     });
 
