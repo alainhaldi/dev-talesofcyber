@@ -1,6 +1,19 @@
 .button-small {
-    background-color: red;
+    all: unset;
+    height: 28px;
+    width: 110px;
+    border-radius: var(--border-radius);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--font-size-subtext);
 }
+
+// Storybutton (Class needs to be added in the Parentcomponent)
+::ng-deep .story-button .button-small {
+    background-color: var(--green);
+    color: var(--white);
+  }
 
 .button-large {
     
