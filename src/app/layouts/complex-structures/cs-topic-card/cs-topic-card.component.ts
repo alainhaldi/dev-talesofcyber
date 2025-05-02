@@ -4,10 +4,17 @@ import { BsTitleComponent } from '../../base-structures/bs-title/bs-title.compon
 import { BsTextComponent } from '../../base-structures/bs-text/bs-text.component';
 import { RouterLink } from '@angular/router';
 import { getTopicDescription, getTopicTitle } from '../../../topics.config';
+import { BsHeadingComponent } from '../../base-structures/bs-heading/bs-heading.component';
 
 @Component({
   selector: 'app-cs-topic-card',
-  imports: [BsRiveComponent, BsTitleComponent, BsTextComponent, RouterLink],
+  imports: [
+    BsRiveComponent,
+    BsTitleComponent,
+    BsTextComponent,
+    RouterLink,
+    BsHeadingComponent,
+  ],
   templateUrl: './cs-topic-card.component.html',
   styleUrl: './cs-topic-card.component.scss',
 })

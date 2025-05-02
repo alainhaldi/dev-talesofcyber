@@ -3,10 +3,16 @@ import { BsTitleComponent } from '../../base-structures/bs-title/bs-title.compon
 import { BsTextComponent } from '../../base-structures/bs-text/bs-text.component';
 import { BsButtonComponent } from '../../base-structures/bs-button/bs-button.component';
 import { getTopicDescription, getTopicTitle } from '../../../topics.config';
+import { BsHeadingComponent } from '../../base-structures/bs-heading/bs-heading.component';
 
 @Component({
   selector: 'app-cs-topic-question-header',
-  imports: [BsTitleComponent, BsTextComponent, BsButtonComponent],
+  imports: [
+    BsTitleComponent,
+    BsTextComponent,
+    BsButtonComponent,
+    BsHeadingComponent,
+  ],
   templateUrl: './cs-topic-question-header.component.html',
   styleUrl: './cs-topic-question-header.component.scss',
 })

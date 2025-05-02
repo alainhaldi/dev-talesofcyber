@@ -2,6 +2,7 @@
   @for (bullet of bulletsArray; track bullet.key) { @if(bullet.type == "text") {
   <li>
     <app-bs-text
+      class="custom-bullets-text"
       text="{{ `${pathToBullets()}.${bullet.key}` | translate }}"
     ></app-bs-text>
   </li>
