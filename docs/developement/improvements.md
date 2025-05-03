@@ -5,6 +5,10 @@
 - Find all Open Docs Task when searching for **!!**
 - How to add Stories/Questions -> all supported components
 
+## Prios
+
+- Storyies -> Check content & restructure -> Rive always first
+
 ## Bugs
 
 - Translation -> term, img-text, button components
@@ -12,7 +16,8 @@
 
 ## Restructuring
 
-- Json File name only bs_component when dynamically generated.
+- Json File name only bs_component when dynamically generated otherwise just title, text
+- Json File only minimum keys, if not needed dont add empty strings, or whole paths
 - Routing of menu points -> back to menu not homescreen
 - Include the cs-external-card directly in the external link page since only needed there
 - Create a new Custom Dialog Component without Angular material
