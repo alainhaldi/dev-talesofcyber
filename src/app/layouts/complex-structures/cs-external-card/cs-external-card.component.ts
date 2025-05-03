@@ -2,10 +2,16 @@ import { Component, input } from '@angular/core';
 import { BsHeadingComponent } from '../../base-structures/bs-heading/bs-heading.component';
 import { BsTextComponent } from '../../base-structures/bs-text/bs-text.component';
 import { BsLinkComponent } from '../../base-structures/bs-link/bs-link.component';
+import { BsTitleComponent } from '../../base-structures/bs-title/bs-title.component';
 
 @Component({
   selector: 'app-cs-external-card',
-  imports: [BsHeadingComponent, BsTextComponent, BsLinkComponent],
+  imports: [
+    BsHeadingComponent,
+    BsTextComponent,
+    BsLinkComponent,
+    BsTitleComponent,
+  ],
   templateUrl: './cs-external-card.component.html',
   styleUrl: './cs-external-card.component.scss',
 })

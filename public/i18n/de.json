@@ -9,7 +9,7 @@
   "external_links_page": {
     "card_1": {
       "bs_heading_name_1": "BDO",
-      "name_logo_file": "demo.png",
+      "name_logo_file": "bdo.png",
       "bs_text_description_1": "Du möchtest dein Netzwerk auf Schwachstellen prüfen lassen, dich und dein Team im Bereich Cyber Awareness schulen, eine Phishing-Kampagne durchführen oder eine Beratung zu einem Cyber-Thema erhalten? Dann bist du hier genau richtig.",
       "bs_link_1": {
         "bs_text_before": "",
@@ -20,7 +20,7 @@
     },
     "card_2": {
       "bs_heading_name_1": "Bundesamt für Cybersicherheit",
-      "name_logo_file": "demo.png",
+      "name_logo_file": "bacs.png",
       "bs_text_description_1": "Du möchtest mehr über aktuelle Zahlen und Statistiken zu den Cyber-Gefahren in der Schweiz erfahren? Dann bist du hier genau richtig.",
       "bs_link_1": {
         "bs_text_before": "",
@@ -31,7 +31,7 @@
     },
     "card_3": {
       "bs_heading_name_1": "iBarry",
-      "name_logo_file": "demo.png",
+      "name_logo_file": "ibarry.svg",
       "bs_text_description_1": "Du möchtest mehr über Cyber-Gefahren erfahren oder wissen, wie du deine Geräte schützt und sicher im Internet surfst? Dann bist du hier genau richtig.",
       "bs_link_1": {
         "bs_text_before": "",
@@ -42,7 +42,7 @@
     },
     "card_4": {
       "bs_heading_name_1": "Security Awareness Insider",
-      "name_logo_file": "demo.png",
+      "name_logo_file": "sai.png",
       "bs_text_description_1": "Du möchtest spannende Einblicke im Bereich Cyber Security Awareness erhalten? Dann bist du hier genau richtig.",
       "bs_link_1": {
         "bs_text_before": "",
@@ -53,7 +53,7 @@
     },
     "card_5": {
       "bs_heading_name_1": "Europol",
-      "name_logo_file": "demo.png",
+      "name_logo_file": "europol.png",
       "bs_text_description_1": "Du möchtest mehr über Cyber-Gefahren und andere Sicherheitsrisiken erfahren? Dann bist du hier genau richtig.",
       "bs_link_1": {
         "bs_text_before": "",
@@ -64,7 +64,7 @@
     },
     "card_6": {
       "bs_heading_name_1": "Cyber Sicherheits Agentur",
-      "name_logo_file": "demo.png",
+      "name_logo_file": "csabw.png",
       "bs_text_description_1": "Du möchtest mehr Informationen zu Cyber-Gefahren erhalten und diese in Form kurzer Factsheets herunterladen und lesen? Dann bist du hier genau richtig.",
       "bs_link_1": {
         "bs_text_before": "",

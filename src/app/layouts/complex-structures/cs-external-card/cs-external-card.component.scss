@@ -1,11 +1,25 @@
 .container-card {
-    background-color: rosybrown;
+    background-color: var(--grey);
+    padding: 1rem;
+    box-shadow: var(--shadow) var(--grey); 
 }
 
 .container-heading {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10dvh;
+    padding-bottom: 0.5rem;
 }
 
 .logo {
-    height: 70px;
+    max-height: 50px;
+    max-width: 90px;
+    padding-left: 1rem;
+}
+
+.wrapper-link {
+    height: 7dvh;
+    display: flex;
+    align-items: center;
 }

@@ -4,5 +4,7 @@
     <img class="logo" src="{{ path_to_logos + logoName() }}" alt="Logo" />
   </div>
   <app-bs-text text="{{ description() }}"></app-bs-text>
-  <app-bs-link pathToLink="{{ pathToLink() }}"></app-bs-link>
+  <div class="wrapper-link">
+    <app-bs-link pathToLink="{{ pathToLink() }}"></app-bs-link>
+  </div>
 </div>
