@@ -9,8 +9,8 @@ import { TranslatePipe } from '@ngx-translate/core';
   styleUrl: './bs-button.component.scss',
 })
 export class BsButtonComponent implements OnInit {
-  textAbove = input<string>('Text abooove');
-  // textAbove = input<string>('');
+  // textAbove = input<string>('Text abooove');
+  textAbove = input<string>('');
   hasTextAbove = signal(false);
   text = input.required<string>();
   isLarge = input.required<boolean>();
