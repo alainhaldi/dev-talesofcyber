@@ -5,7 +5,8 @@
 }
 
 ::ng-deep .custom-bullets-text span {
-  margin: 0.3rem 0 0 0;
+  margin: 1rem 0 0 0;
+  // color: aquamarine;
 }
 
 ::ng-deep .description-hot-topic-card span {
@@ -21,12 +22,3 @@
     opacity: 0.5;
     margin: 0%;
 }
-
-// ::ng-deep .story-text span {
-//   // color: var(--black);
-//   color: yellow;
-//   // opacity: 0.5;
-//   margin: 5rem 0 0 0;
-//   padding-bottom: 5rem;
-//   // padding-top: 3rem;
-// }

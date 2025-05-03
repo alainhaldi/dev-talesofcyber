@@ -1,1 +1,10 @@
-.container-heading{ background-color: lightcyan;}
+.container-heading{ 
+    height: 10dvh;
+    padding-left: var(--padding-border);
+    padding-right: var(--padding-border);
+    background-color: var(--white);
+    box-shadow: var(--shadow) var(--grey); 
+    position: relative; // Make Position relativ to avoid that the shadow gets covered by the container after
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
