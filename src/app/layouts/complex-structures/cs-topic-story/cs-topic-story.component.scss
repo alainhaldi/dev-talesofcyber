@@ -1,4 +1,53 @@
-.container-buttons {
+.root {
+    background-color: antiquewhite;
+    height: 93dvh;
+    padding-left: var(--padding-border);
+    padding-right: var(--padding-border);
+}
+
+.wrapper-progress-bar {
+    background-color: aquamarine;
+    height: 4dvh;
+    padding-top: 2dvh;
+    // display: flex;
+    // align-items: center;
+}
+
+.wrapper-rive{
+    background-color: yellow;
+}
+
+.wrapper-content {
+    background-color: cadetblue;
+    height: 71dvh;
+    padding-top: 3dvh;
+}
+
+.wrapper-buttons {
     background-color: aqua;
+    height: 10dvh;  
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-button-left{
+    background-color: maroon;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-button-right{
+    background-color: orange;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-spacer-container{
+    height: 5dvh;
+    background-color: rgb(251, 0, 255);
 }
 

@@ -1,12 +1,20 @@
 <!-- Without Routing -->
 @if(!activatedRouterlink()){ @if(!isLarge()){
 <div>
-  <p class="text-above">{{ textAbove() | translate }}</p>
+  <div class="wrapper-text-above">
+    @if(hasTextAbove()){
+    <p class="text-above">{{ textAbove() | translate }}</p>
+    }
+  </div>
   <button class="button-small">{{ text() | translate }}</button>
 </div>
 } @if (isLarge()) {
 <div>
-  <p class="text-above">{{ textAbove() | translate }}</p>
+  <div class="wrapper-text-above">
+    @if(hasTextAbove()){
+    <p class="text-above">{{ textAbove() | translate }}</p>
+    }
+  </div>
   <button class="button-large">{{ text() | translate }}</button>
 </div>
 }}

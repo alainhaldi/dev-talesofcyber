@@ -16,7 +16,20 @@
   }
 
 .button-large {
-    
+    all: unset;
+    background-color: aquamarine;
+    height: 48px;
+    width: 140px;
+    border-radius: var(--border-radius);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--font-size-subtext);
+}
+
+.wrapper-text-above{
+    background-color: aliceblue;
+    height: 3dvh;
 }
 
 .text-above {
