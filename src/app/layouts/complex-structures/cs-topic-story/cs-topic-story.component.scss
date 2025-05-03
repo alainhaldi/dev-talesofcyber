@@ -36,14 +36,14 @@
 }
 
 .wrapper-buttons {
-    background-color: aqua;
+    // background-color: aqua;
     height: 13dvh;  
     display: flex;
     justify-content: center;
 }
 
 .wrapper-button-left{
-    background-color: maroon;
+    // background-color: maroon;
     flex-grow: 1;
     display: flex;
     justify-content: center;
@@ -51,15 +51,23 @@
 }
 
 .wrapper-button-right{
-    background-color: orange;
+    // background-color: orange;
     flex-grow: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.wrapper-custom-button {
+// background-color: rgb(255, 166, 0);
+flex-grow: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
 .footer-spacer-container{
     height: 3dvh;
-    background-color: rgb(251, 0, 255);
+    // background-color: rgb(251, 0, 255);
 }
 

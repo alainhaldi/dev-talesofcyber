@@ -64,6 +64,7 @@
     @if(!hasCustomButton()){ @if(currentPage() > 0) {
     <div class="wrapper-button-left">
       <app-bs-button
+        class="grey"
         text="{{ pathToButtonBackwards() }}"
         [isLarge]="true"
         (click)="previousPage()"
@@ -72,6 +73,7 @@
     }
     <div class="wrapper-button-right">
       <app-bs-button
+        class="green"
         text="{{ pathToButtonForward() }}"
         [isLarge]="true"
         (click)="nextPage()"
@@ -79,10 +81,10 @@
     </div>
     }
 
-    <!-- Custom Buttons Last Page -->
-
+    <!-- End Story Button Last Page -->
     @if(hasCustomButton() && isLastPage()){
     <app-bs-button
+      class="green"
       textAbove="{{
         this.pagesArray[this.currentPage()].value.bs_buttons_custom.bs_button_1
           .button_text_above_1
@@ -100,19 +102,22 @@
 
     <!-- Custom Buttons  -->
     @if(hasCustomButton() && !isLastPage()){
-    <app-bs-button
-      textAbove="{{
-        this.pagesArray[this.currentPage()].value.bs_buttons_custom.bs_button_1
-          .button_text_above_1
-      }}"
-      text="{{
-        this.pagesArray[this.currentPage()].value.bs_buttons_custom.bs_button_1
-          .button_text_inside_1
-      }}"
-      [isLarge]="true"
-      (click)="nextPage()"
-    ></app-bs-button
-    >}
+    <div class="wrapper-custom-button">
+      <app-bs-button
+        class="green"
+        textAbove="{{
+          this.pagesArray[this.currentPage()].value.bs_buttons_custom
+            .bs_button_1.button_text_above_1
+        }}"
+        text="{{
+          this.pagesArray[this.currentPage()].value.bs_buttons_custom
+            .bs_button_1.button_text_inside_1
+        }}"
+        [isLarge]="true"
+        (click)="nextPage()"
+      ></app-bs-button>
+    </div>
+    }
   </div>
   <div class="footer-spacer-container"></div>
 </div>

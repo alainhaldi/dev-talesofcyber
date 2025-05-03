@@ -8,6 +8,7 @@
 ## Bugs
 
 - Translation -> term, img-text, button components
+- Story -> If 2 Rive-Text Components, the seccond dosent gt removed when nextPag() -> only Safari issue, Brave works (when zoom in safari, it dissapears)
 
 ## Restructuring
 
@@ -17,6 +18,8 @@
 - Create a new Custom Dialog Component without Angular material
 - Question Dialog, use button component instead of new button
 - Custom Progressbar with rounded corners
+- Instead of paths, variables and co, pass down to the bs components the whole json object. All json extraction logic should be in the bs component
+- Improve Button Component - only 2 button (with/without Routing) -> Size configure only with css
 
 ## Features
 

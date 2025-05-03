@@ -15,9 +15,17 @@
     color: var(--white);
   }
 
+.wrapper-button {
+    // background-color: black;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .button-large {
     all: unset;
-    background-color: aquamarine;
+    // background-color: aquamarine;
     height: 48px;
     width: 140px;
     border-radius: var(--border-radius);
@@ -27,11 +35,24 @@
     font-size: var(--font-size-subtext);
 }
 
+::ng-deep .green .button-large {
+    background-color: var(--green);
+    color: var(--white);
+  }
+
+::ng-deep .grey .button-large {
+    background-color: var(--grey);
+    color: var(--black);
+  }
+
 .wrapper-text-above{
-    background-color: aliceblue;
-    height: 3dvh;
+    // background-color: aliceblue;
+    height: 40px;
 }
 
 .text-above {
-    color: purple;
+    // color: rgb(255, 7, 255);
+    color: var(--black);
+    font-size: var(--font-size-subtext);
+    margin: 0%;
 }

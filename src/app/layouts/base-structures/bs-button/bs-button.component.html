@@ -1,6 +1,6 @@
 <!-- Without Routing -->
 @if(!activatedRouterlink()){ @if(!isLarge()){
-<div>
+<div class="wrapper-button">
   <div class="wrapper-text-above">
     @if(hasTextAbove()){
     <p class="text-above">{{ textAbove() | translate }}</p>
@@ -9,7 +9,7 @@
   <button class="button-small">{{ text() | translate }}</button>
 </div>
 } @if (isLarge()) {
-<div>
+<div class="wrapper-button">
   <div class="wrapper-text-above">
     @if(hasTextAbove()){
     <p class="text-above">{{ textAbove() | translate }}</p>
@@ -20,11 +20,17 @@
 }}
 <!-- With Routing -->
 @if(activatedRouterlink()){ @if(!isLarge()){
-<button [routerLink]="customRouterLink()" class="button-small">
-  {{ text() | translate }}
-</button>
+<div class="wrapper-button">
+  <!-- <div class="wrapper-text-above"></div> -->
+  <button [routerLink]="customRouterLink()" class="button-small">
+    {{ text() | translate }}
+  </button>
+</div>
 } @if (isLarge()) {
-<button [routerLink]="customRouterLink()" class="button-large">
-  {{ text() | translate }}
-</button>
+<div class="wrapper-button">
+  <div class="wrapper-text-above"></div>
+  <button [routerLink]="customRouterLink()" class="button-large">
+    {{ text() | translate }}
+  </button>
+</div>
 } }
