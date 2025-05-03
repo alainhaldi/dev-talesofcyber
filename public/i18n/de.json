@@ -249,12 +249,12 @@
             },
             "bs_text_1": "Es ist ein ruhiger Abend. Wie so oft sitzt Maria gemütlich auf dem Sofa und schaut fern, als plötzlich ihr Telefon klingelt.",
             "bs_rive_text_1": {
-              "src": "assets/home-page/hero_image.riv",
+              "src": "assets/story-page/passwords/story.riv",
               "text": "Merkwürdig, ein Anruf von meiner besten Kollegin zu dieser Uhrzeit?"
             },
             "bs_text_2": "Geschockt hört Maria ihrer Kollegin zu, die sich lautstark beschwert. Sie ist wütend, weil Maria angeblich Werbung für seltsame Produkte auf ihrem Social-Media-Account gepostet hat.",
             "bs_rive_text_2": {
-              "src": "assets/home-page/hero_image.riv",
+              "src": "assets/story-page/passwords/story.riv",
               "text": "Wie kann das sein? So etwas würde ich doch niemals posten!"
             }
           },
@@ -268,7 +268,7 @@
             },
             "bs_text_1": "Schnell loggt sich Maria in ihren Account ein - und traut ihren Augen nicht: Tatsächlich sind dort seltsame Bilder auf ihrem Profil zu sehen.",
             "bs_rive_text_1": {
-              "src": "assets/home-page/hero_image.riv",
+              "src": "assets/story-page/passwords/story.riv",
               "text": "Oh nein! Ich wurde gehackt!"
             },
             "bs_text_2": "Sofort ändert Maria ihr Passwort. Aus Angst vor weiteren Angriffen wählt sie diesmal ein wirklich starkes und einzigartiges Passwort."
@@ -283,7 +283,7 @@
             },
             "bs_text_1": "Maria löscht die seltsamen Beiträge und informiert ihre Freunde. Trotz des Schocks beginnt sie sich langsam wieder zu beruhigen.",
             "bs_rive_text_1": {
-              "src": "assets/home-page/hero_image.riv",
+              "src": "assets/story-page/passwords/story.riv",
               "text": "Das ist ja gerade nochmal gut gegangen."
             },
             "bs_text_2": "Erleichtert lässt sich Maria wieder aufs Sofa sinken und schaut weiter fern. Doch plötzlich klingelt erneut ihr Handy."
@@ -380,7 +380,7 @@
             },
             "bs_term_1": {
               "bs_text_before": "Damit Maria sich die vielen neuen Passwörter merken kann, nutzt sie einen ",
-              "term": "Passwortmanager",
+              "term": "Passwortmanager.",
               "description": "...Beschreibung Folgt...",
               "bs_text_after": ""
             },

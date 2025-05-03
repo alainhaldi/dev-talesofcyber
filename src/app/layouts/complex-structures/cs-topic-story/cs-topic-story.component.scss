@@ -1,12 +1,12 @@
 .root {
-    background-color: antiquewhite;
+    background-color: var(--white);
     height: 93dvh;
     padding-left: var(--padding-border);
     padding-right: var(--padding-border);
 }
 
 .wrapper-progress-bar {
-    background-color: aquamarine;
+    // background-color: aquamarine;
     height: 4dvh;
     padding-top: 2dvh;
     // display: flex;
@@ -18,9 +18,21 @@
 }
 
 .wrapper-content {
-    background-color: cadetblue;
+    // background-color: cadetblue;
     height: 68dvh;
     padding-top: 3dvh;
+}
+
+.wrapper-text {
+    // background-color: yellow;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.wrapper-term {
+    // background-color: rgb(64, 255, 0);
+    padding-top: 1rem;
+    // padding-bottom: 1rem;
 }
 
 .wrapper-buttons {

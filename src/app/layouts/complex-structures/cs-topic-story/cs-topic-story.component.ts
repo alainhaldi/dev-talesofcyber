@@ -86,6 +86,9 @@ export class CsTopicStoryComponent implements OnInit {
   }
 
   setCurrentPage() {
+    // Empty List
+    this.currentPageObjects = [];
+
     const currentPageObj = this.pagesArray[this.currentPage()];
     if (!currentPageObj) return;
 

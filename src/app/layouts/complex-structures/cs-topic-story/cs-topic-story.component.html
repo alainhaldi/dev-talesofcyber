@@ -15,7 +15,12 @@
     }
     <!-- Text Component -->
     @case ('text') {
-    <app-bs-text text="{{ currentPathToPage() + '.' + obj.key }}"></app-bs-text>
+    <div class="wrapper-text">
+      <app-bs-text
+        class="story-text"
+        text="{{ currentPathToPage() + '.' + obj.key }}"
+      ></app-bs-text>
+    </div>
     <!-- Bullet Component -->
     } @case ('bullets') {
     <app-bs-bullets
@@ -32,7 +37,6 @@
     </div>
     <!-- Rive Text -->
     } @case ('rive-text') {
-
     <app-bs-rive-text
       src="{{ obj.value.src }}"
       text="{{ obj.value.text }}"
@@ -40,12 +44,14 @@
 
     <!-- Term -->
     } @case ('term') {
-    <app-bs-term
-      text_before="{{ obj.value.bs_text_before }}"
-      text_after="{{ obj.value.bs_text_after }}"
-      term="{{ obj.value.term }}"
-      description="{{ obj.value.description }}"
-    ></app-bs-term>
+    <div class="wrapper-term">
+      <app-bs-term
+        text_before="{{ obj.value.bs_text_before }}"
+        text_after="{{ obj.value.bs_text_after }}"
+        term="{{ obj.value.term }}"
+        description="{{ obj.value.description }}"
+      ></app-bs-term>
+    </div>
     <!-- Link Component -->
     } @case ('link') {
     <app-bs-link
