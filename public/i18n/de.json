@@ -121,6 +121,13 @@
         "story_end": {
           "page_end": {
             "bs_heading_1": "Gratulation!!",
+            "bs_rive_1": {
+              "size": "L",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
             "bs_buttons_custom": {
               "bs_button_1": {
                 "button_text_inside_1": "Beenden"

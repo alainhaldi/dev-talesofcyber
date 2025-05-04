@@ -7,8 +7,10 @@
 
 ## Prios
 
-- Storyies -> Bullet of Secret Tipp & Last Story Page Title/Image L
-- Hero Image
+- Storyies -> Bullet of Secret Tipp & Last Story Page Title
+- Add Descriptions of Terms
+- Check all Story Content
+- Add correct Images
 
 ## Bugs
 
@@ -36,3 +38,4 @@
 - Story can have multiple ends -> phishing
 - Support more than 1 custom button at once -> cs_topic_story_component
 - Languages as dropdown in menu
+- Images should dynamically change the size according to available space in (dvh)

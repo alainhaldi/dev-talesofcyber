@@ -41,6 +41,12 @@ export class BsRiveComponent implements OnInit {
 
     const canvas = this.riveCanvas.nativeElement;
 
+    // High resolution
+    canvas.width = this.widthCanvas() * 2;
+    canvas.height = this.heightCanvas() * 2;
+    canvas.style.width = this.widthCanvas() + 'px';
+    canvas.style.height = this.heightCanvas() + 'px';
+
     new Rive({
       src: this.riveObject().src,
       canvas,
