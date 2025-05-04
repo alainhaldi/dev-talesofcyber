@@ -323,7 +323,6 @@
             }
           },
           "page_7": {
-            "bs_heading_1": "Vor zwei Wochen...",
             "bs_rive_1": {
               "size": "M",
               "src": "assets/home-page/hero_image.riv",
@@ -331,6 +330,7 @@
                 "StateMachine_1": "State Machine 1"
               }
             },
+            "bs_heading_1": "Vor zwei Wochen...",
             "bs_term_1": {
               "bs_text_before": "Hackern ist es gelungen, eine Million Passwörter von der Social-Media-Plattform HeadBook zu stehlen. Mit diesen Daten erstellten sie eine sogenannte ",
               "term": "Passwortliste",
@@ -345,9 +345,8 @@
               "description": "...Beschreibung Folgt...",
               "bs_text_after": " starten."
             },
-
             "bs_rive_1": {
-              "size": "M",
+              "size": "L",
               "src": "assets/home-page/hero_image.riv",
               "stateMachines": {
                 "StateMachine_1": "State Machine 1"

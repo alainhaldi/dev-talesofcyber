@@ -60,7 +60,7 @@ export class BsRiveComponent implements OnInit {
       case 'Topic':
         return { height: 187, width: 240 };
       case 'Hero':
-        return { height: 500, width: 500 };
+        return { height: 270, width: 270 };
       default:
         return { height: 0, width: 0 };
     }

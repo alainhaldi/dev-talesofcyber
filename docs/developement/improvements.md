@@ -7,8 +7,8 @@
 
 ## Prios
 
-- Storyies -> Check content & restructure -> Rive always first
-- External Info Page make not scrollable inception
+- Storyies -> Bullet of Secret Tipp & Last Story Page Title/Image L
+- Hero Image
 
 ## Bugs
 

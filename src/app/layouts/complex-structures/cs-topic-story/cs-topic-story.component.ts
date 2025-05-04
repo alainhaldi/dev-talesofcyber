@@ -123,8 +123,6 @@ export class CsTopicStoryComponent implements OnInit {
         return { key, type, value, id };
       }
     );
-    // this.logger.log('---->>' + currentPageObj.key);
-    // this.logger.log('---->>' + this.currentPageObjects);
 
     // Update Progress
     this.currentProgress.set(
@@ -166,13 +164,7 @@ export class CsTopicStoryComponent implements OnInit {
   }
 
   checkIfCustomButton(object: any): boolean {
-    // this.logger.log(`~~>> current Object = ${object.key}`);
-    // this.logger.log(`~~>> current Object = ${object.value.bs_buttons_custom}`);
-
     const localHasCustomButton = object.value.bs_buttons_custom !== undefined;
-
-    // this.logger.log(localHasCustomButton);
-
     return localHasCustomButton;
   }
 
