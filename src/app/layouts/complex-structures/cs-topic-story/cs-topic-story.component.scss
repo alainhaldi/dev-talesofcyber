@@ -15,7 +15,9 @@
 
 .wrapper-rive{
     background-color: yellow;
-    height: 140px;
+    display: flex;
+    justify-content: center;
+    // height: 140px;
 }
 
 .wrapper-content {

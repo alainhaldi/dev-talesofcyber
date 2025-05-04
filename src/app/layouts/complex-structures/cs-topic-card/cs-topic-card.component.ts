@@ -5,16 +5,11 @@ import { BsTextComponent } from '../../base-structures/bs-text/bs-text.component
 import { RouterLink } from '@angular/router';
 import { getTopicDescription, getTopicTitle } from '../../../topics.config';
 import { BsHeadingComponent } from '../../base-structures/bs-heading/bs-heading.component';
+import { RiveObject } from '../../../models/rive-model';
 
 @Component({
   selector: 'app-cs-topic-card',
-  imports: [
-    BsRiveComponent,
-    BsTitleComponent,
-    BsTextComponent,
-    RouterLink,
-    BsHeadingComponent,
-  ],
+  imports: [BsRiveComponent, BsTitleComponent, BsTextComponent, RouterLink],
   templateUrl: './cs-topic-card.component.html',
   styleUrl: './cs-topic-card.component.scss',
 })
@@ -23,6 +18,11 @@ export class CsTopicCardComponent implements OnInit {
   urlId = input.required<string>();
   pathToTitle = signal('');
   pathToDescription = signal('');
+  riveObj: RiveObject = {
+    size: 'Topic',
+    src: 'assets/home-page/topic.riv',
+    stateMachines: ['State Machine 1'],
+  };
 
   // Need to use ngOnInit to set the pathToTitle and pathToDescription
   // because they depend on the topicId input wich is not available

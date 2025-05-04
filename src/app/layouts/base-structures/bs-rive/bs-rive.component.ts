@@ -7,6 +7,8 @@ import {
   ViewChild,
 } from '@angular/core';
 import { Rive } from '@rive-app/canvas';
+import { LoggerService } from '../../../core/logger.service';
+import { RiveObject } from '../../../models/rive-model';
 
 @Component({
   selector: 'app-bs-rive',
@@ -15,30 +17,34 @@ import { Rive } from '@rive-app/canvas';
   styleUrl: './bs-rive.component.scss',
 })
 export class BsRiveComponent implements OnInit {
-  size = input.required<string>();
-  width = signal(0);
-  height = signal(0);
-  src = input.required<string>();
-  stateMachines = input.required<string[]>();
+  riveObject = input.required<RiveObject>();
+  widthCanvas = signal(0);
+  heightCanvas = signal(0);
 
   // Rive animation
   @ViewChild('riveCanvas', { static: false })
   riveCanvas?: ElementRef<HTMLCanvasElement>;
 
+  constructor(private logger: LoggerService) {
+    this.logger.log('~~--~~> Konstruktor');
+  }
+
   ngOnInit(): void {
-    this.height.set(this.getSize(this.size()).height);
-    this.width.set(this.getSize(this.size()).width);
+    this.heightCanvas.set(this.getSize(this.riveObject().size).height);
+    this.widthCanvas.set(this.getSize(this.riveObject().size).width);
+    this.logger.log('~~--~~> ngOnInit');
   }
 
   ngAfterViewInit() {
+    this.logger.log('~~--~~> ngAfterViewInit');
     if (!this.riveCanvas) return;
 
     const canvas = this.riveCanvas.nativeElement;
 
     new Rive({
-      src: this.src(),
+      src: this.riveObject().src,
       canvas,
-      stateMachines: this.stateMachines(),
+      stateMachines: this.riveObject().stateMachines,
       autoplay: true,
     });
   }

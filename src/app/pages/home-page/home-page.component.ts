@@ -6,15 +6,14 @@ import { BsTitleComponent } from '../../layouts/base-structures/bs-title/bs-titl
 import { BsButtonComponent } from '../../layouts/base-structures/bs-button/bs-button.component';
 import { CsTopicCardComponent } from '../../layouts/complex-structures/cs-topic-card/cs-topic-card.component';
 import { hot_topics } from '../../topics.config';
+import { RiveObject } from '../../models/rive-model';
 
 @Component({
   selector: 'app-home-page',
   imports: [
     CsToolbarComponent,
-    BsSpacerContainerComponent,
     BsRiveComponent,
     BsTitleComponent,
-    BsButtonComponent,
     CsTopicCardComponent,
   ],
   templateUrl: './home-page.component.html',
@@ -24,4 +23,9 @@ export class HomePageComponent {
   pathToTitleHotTopics = 'home_page.bs_title_hot_topics';
   pathToButtonAllTopics = 'home_page.bs_button_all_topics';
   local_hot_topics = hot_topics;
+  riveObj: RiveObject = {
+    size: 'Hero',
+    src: 'assets/home-page/hero2.riv',
+    stateMachines: ['State Machine 1'],
+  };
 }

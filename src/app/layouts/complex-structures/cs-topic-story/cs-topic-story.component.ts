@@ -10,8 +10,8 @@ import { BsLinkComponent } from '../../base-structures/bs-link/bs-link.component
 import { BsButtonComponent } from '../../base-structures/bs-button/bs-button.component';
 import { BsRiveTextComponent } from '../../base-structures/bs-rive-text/bs-rive-text.component';
 import { BsBulletsComponent } from '../../base-structures/bs-bullets/bs-bullets.component';
-import { BsTermDialogComponent } from '../../base-structures/bs-term-dialog/bs-term-dialog.component';
 import { BsTermComponent } from '../../base-structures/bs-term/bs-term.component';
+import { RiveObject } from '../../../models/rive-model';
 
 @Component({
   selector: 'app-cs-topic-story',
@@ -71,18 +71,12 @@ export class CsTopicStoryComponent implements OnInit {
     });
 
     const pageEnd = getNestedValue(deJson, this.pathToPageEnd());
-    this.logger.log(page0);
-    this.logger.log(pageEnd);
     Object.entries(pageEnd).forEach(([key, value]) => {
       this.pagesArray.push({ key, value });
     });
 
-    this.logger.log('Count Story Pages: ' + this.pagesArray.length);
-    this.logger.log(this.pagesArray);
-
     // Map with Type
     this.setCurrentPage();
-    this.logger.log(this.currentPageObjects);
   }
 
   setCurrentPage() {
@@ -113,7 +107,7 @@ export class CsTopicStoryComponent implements OnInit {
           : key.startsWith('bs_rive_text')
           ? 'rive-text'
           : key.startsWith('bs_rive')
-          ? 'rive'
+          ? ((value = value as RiveObject), 'rive') // Future: Remove Type and identifie with Value wich Object it is
           : key.startsWith('bs_link')
           ? 'link'
           : key.startsWith('bs_bullets')
@@ -125,8 +119,8 @@ export class CsTopicStoryComponent implements OnInit {
         return { key, type, value };
       }
     );
-    this.logger.log('---->>' + currentPageObj.key);
-    this.logger.log('---->>' + this.currentPageObjects);
+    // this.logger.log('---->>' + currentPageObj.key);
+    // this.logger.log('---->>' + this.currentPageObjects);
 
     // Update Progress
     this.currentProgress.set(
@@ -134,38 +128,46 @@ export class CsTopicStoryComponent implements OnInit {
     );
 
     this.hasCustomButton.set(this.checkIfCustomButton(currentPageObj));
-    this.logger.log(this.hasCustomButton());
+    // this.logger.log(this.hasCustomButton());
 
     this.isLastPage.set(
       this.checkIfLastPage(this.currentPage(), this.pagesArray)
     );
+
+    // Log Current Rive Image
+    for (const obj of this.currentPageObjects) {
+      if (obj.type === 'rive') {
+        this.logger.log(`~> ${obj.value.src}`);
+        this.logger.log(obj.value);
+      }
+    }
   }
 
   getCurrentProgress(countPages: number, currentPage: number): string {
     const progress = (currentPage / (countPages - 1)) * 100;
-    this.logger.log('progress - ' + progress);
+    // this.logger.log('progress - ' + progress);
     return progress.toString();
   }
 
   nextPage() {
     this.currentPage.set(this.currentPage() + 1);
     this.setCurrentPage();
-    this.logger.log(this.currentPage());
+    this.logger.log(`Page: ${this.currentPage()}`);
   }
 
   previousPage() {
     this.currentPage.set(this.currentPage() - 1);
     this.setCurrentPage();
-    this.logger.log(this.currentPage());
+    this.logger.log(`Page: ${this.currentPage()}`);
   }
 
   checkIfCustomButton(object: any): boolean {
-    this.logger.log(`~~>> current Object = ${object.key}`);
-    this.logger.log(`~~>> current Object = ${object.value.bs_buttons_custom}`);
+    // this.logger.log(`~~>> current Object = ${object.key}`);
+    // this.logger.log(`~~>> current Object = ${object.value.bs_buttons_custom}`);
 
     const localHasCustomButton = object.value.bs_buttons_custom !== undefined;
 
-    this.logger.log(localHasCustomButton);
+    // this.logger.log(localHasCustomButton);
 
     return localHasCustomButton;
   }

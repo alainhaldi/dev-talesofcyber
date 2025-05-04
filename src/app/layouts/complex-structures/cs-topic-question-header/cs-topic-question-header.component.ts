@@ -7,12 +7,7 @@ import { BsHeadingComponent } from '../../base-structures/bs-heading/bs-heading.
 
 @Component({
   selector: 'app-cs-topic-question-header',
-  imports: [
-    BsTitleComponent,
-    BsTextComponent,
-    BsButtonComponent,
-    BsHeadingComponent,
-  ],
+  imports: [BsTitleComponent, BsTextComponent, BsButtonComponent],
   templateUrl: './cs-topic-question-header.component.html',
   styleUrl: './cs-topic-question-header.component.scss',
 })
