@@ -8,6 +8,7 @@
 ## Prios
 
 - Storyies -> Check content & restructure -> Rive always first
+- External Info Page make not scrollable inception
 
 ## Bugs
 

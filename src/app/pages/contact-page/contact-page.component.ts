@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, signal } from '@angular/core';
 import { CsToolbarComponent } from '../../layouts/complex-structures/cs-toolbar/cs-toolbar.component';
 import { CsHeadingbarComponent } from '../../layouts/complex-structures/cs-headingbar/cs-headingbar.component';
 import { BsHeadingComponent } from '../../layouts/base-structures/bs-heading/bs-heading.component';
@@ -27,4 +27,14 @@ export class ContactPageComponent {
   pathToAdress = 'contact_page.infos.adress';
   pathToEmail = 'contact_page.infos.email';
   pathToLink = 'contact_page.infos.bs_link_1';
+  src = signal('../../../../assets/contact-page/');
+  portrait = signal('portrait.png');
+
+  onChangePortrait() {
+    if (this.portrait() === 'portrait.png') {
+      this.portrait.set('handsome.png');
+    } else if (this.portrait() === 'handsome.png') {
+      this.portrait.set('portrait.png');
+    }
+  }
 }
