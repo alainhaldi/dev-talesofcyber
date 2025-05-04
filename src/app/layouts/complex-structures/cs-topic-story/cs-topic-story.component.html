@@ -6,7 +6,7 @@
   </div>
   <div class="wrapper-content">
     <!-- Dynamic Content -->
-    @for (obj of currentPageObjects; track obj.key) { @switch (obj.type) {
+    @for (obj of currentPageObjects; track obj.id) { @switch (obj.type) {
     <!-- Heading Component -->
     @case ('heading') {
     <app-bs-heading

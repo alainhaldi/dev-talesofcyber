@@ -27,6 +27,7 @@
 - Instead of paths, variables and co, pass down to the bs components the whole json object. All json extraction logic should be in the bs component
 - Improve Button Component - only 2 button (with/without Routing) -> Size configure only with css
 - Make a Export Methode wich creates Arrays from JSOn Objects so there are not 2 implementations needed anymore (cs question dialog & cs story)
+- Add Model Interface for each bs component and replace the type in cs story page component with this model
 
 ## Features
 

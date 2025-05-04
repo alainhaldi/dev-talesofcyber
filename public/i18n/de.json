@@ -242,7 +242,7 @@
           "page_2": {
             "bs_rive_1": {
               "size": "M",
-              "src": "assets/story-page/p1.riv",
+              "src": "assets/story-page/passwords/p1.riv",
               "stateMachines": {
                 "StateMachine_1": "State Machine 1"
               }
@@ -261,7 +261,7 @@
           "page_3": {
             "bs_rive_1": {
               "size": "M",
-              "src": "assets/story-page/p2.riv",
+              "src": "assets/story-page/passwords/p2.riv",
               "stateMachines": {
                 "StateMachine_1": "State Machine 1"
               }
@@ -276,7 +276,7 @@
           "page_4": {
             "bs_rive_1": {
               "size": "M",
-              "src": "assets/story-page/p3.riv",
+              "src": "assets/story-page/passwords/p3.riv",
               "stateMachines": {
                 "StateMachine_1": "State Machine 1"
               }
@@ -291,7 +291,7 @@
           "page_5": {
             "bs_rive_1": {
               "size": "M",
-              "src": "assets/story-page/p4.riv",
+              "src": "assets/story-page/passwords/p4.riv",
               "stateMachines": {
                 "StateMachine_1": "State Machine 1"
               }

@@ -49,7 +49,8 @@ export class CsTopicStoryComponent implements OnInit {
 
   // All pages inclunding page 0
   pagesArray: { key: string; value: any }[] = [];
-  currentPageObjects: { key: string; type: string; value: any }[] = [];
+  currentPageObjects: { key: string; type: string; value: any; id: string }[] =
+    [];
 
   constructor(private logger: LoggerService) {}
 
@@ -107,7 +108,7 @@ export class CsTopicStoryComponent implements OnInit {
           : key.startsWith('bs_rive_text')
           ? 'rive-text'
           : key.startsWith('bs_rive')
-          ? ((value = value as RiveObject), 'rive') // Future: Remove Type and identifie with Value wich Object it is
+          ? ((value = value as RiveObject), 'rive')
           : key.startsWith('bs_link')
           ? 'link'
           : key.startsWith('bs_bullets')
@@ -116,7 +117,10 @@ export class CsTopicStoryComponent implements OnInit {
           ? 'term'
           : 'unknown';
 
-        return { key, type, value };
+        // Needs unique ID otherwise angular wont render the component new since it thinks it didnt change
+        const id = `${key}-${this.currentPage()}`;
+
+        return { key, type, value, id };
       }
     );
     // this.logger.log('---->>' + currentPageObj.key);
