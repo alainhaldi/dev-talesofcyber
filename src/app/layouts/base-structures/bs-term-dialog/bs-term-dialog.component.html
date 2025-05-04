@@ -1,8 +1,11 @@
 <!-- <app-bs-title title="{{ localPathToQuestion() | translate }}"></app-bs-title> -->
-<app-bs-title title="{{ localTerm() }}"></app-bs-title>
+<app-bs-heading
+  class="custom-question-heading"
+  heading="{{ localTerm() }}"
+></app-bs-heading>
 <mat-dialog-content class="dialog">
   <app-bs-text text="{{ localDescription() }}"></app-bs-text>
 </mat-dialog-content>
-<mat-dialog-actions align="end">
-  <button mat-dialog-close>Schliessen</button>
+<mat-dialog-actions align="center">
+  <button class="custom-close-button" mat-dialog-close>Schliessen</button>
 </mat-dialog-actions>

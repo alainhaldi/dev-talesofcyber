@@ -1,19 +1,31 @@
-<mat-list>
-  @for(id of questionPages[currentPageIdx]; let j = $index; track j) {
-  <mat-list-item>
-    <button (click)="openDialog(id)">
-      <app-bs-heading
-        [heading]="
-          pathToQuestions() + '.question_' + id + '.bs_heading_question'
-        "
-      ></app-bs-heading>
-    </button>
-  </mat-list-item>
-  <mat-divider></mat-divider>
-  }
-</mat-list>
-<div class="container-buttons">
+<div class="questions-wrapper">
+  <div class="header-spacer-container"></div>
+  <mat-list>
+    @for(id of questionPages[currentPageIdx]; let j = $index; track j) {
+    <mat-list-item class="custom-list-item">
+      <button class="questions-button" (click)="openDialog(id)">
+        <div class="question-wrapper">
+          <app-bs-heading
+            [heading]="
+              pathToQuestions() + '.question_' + id + '.bs_heading_question'
+            "
+          ></app-bs-heading>
+        </div>
+      </button>
+    </mat-list-item>
+    <mat-divider class="custom-divider"></mat-divider>
+    }
+  </mat-list>
+</div>
+<div class="button-wrapper">
   @for(page of questionPages; let i = $index; track i) {
-  <button (click)="setPage(i)">{{ i + 1 }}</button>
+  <button
+    class="button-pages"
+    [ngClass]="{ active: i === currentPageIdx }"
+    (click)="setPage(i)"
+  >
+    {{ i + 1 }}
+  </button>
   }
 </div>
+<div class="footer-spacer-container"></div>

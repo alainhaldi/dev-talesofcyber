@@ -1,5 +1,5 @@
 <app-cs-toolbar [showBackIcon]="true"></app-cs-toolbar>
-<div>
+<div class="root">
   @for(obj of cardsJsonObjects; track obj.key){
   <app-cs-external-card
     name="{{ obj.value.bs_heading_name_1 }}"

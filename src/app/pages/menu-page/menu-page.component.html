@@ -1,10 +1,16 @@
 <app-cs-toolbar [showLanguages]="true" [showCloseIcon]="true"></app-cs-toolbar>
-<ul>
-  @for(item of menuItems; track item) {
-  <li>
-    <a [routerLink]="item.link">
-      <app-bs-title [title]="item.label"></app-bs-title>
-    </a>
-  </li>
-  }
-</ul>
+<app-bs-spacer-container class="c-spacer-container"></app-bs-spacer-container>
+<div class="container-body">
+  <ul>
+    @for(item of menuItems; track item) {
+    <li>
+      <a [routerLink]="item.link">
+        <app-bs-title
+          class="title-menu-points"
+          [title]="item.label"
+        ></app-bs-title>
+      </a>
+    </li>
+    }
+  </ul>
+</div>

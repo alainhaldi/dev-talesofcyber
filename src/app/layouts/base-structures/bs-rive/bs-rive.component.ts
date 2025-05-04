@@ -8,6 +8,7 @@ import {
 } from '@angular/core';
 import { Rive } from '@rive-app/canvas';
 import { LoggerService } from '../../../core/logger.service';
+import { RiveObject } from '../../../models/rive-model';
 
 @Component({
   selector: 'app-bs-rive',
@@ -16,61 +17,58 @@ import { LoggerService } from '../../../core/logger.service';
   styleUrl: './bs-rive.component.scss',
 })
 export class BsRiveComponent implements OnInit {
-  size = input.required<string>();
-  width = signal(0);
-  height = signal(0);
-  src = input.required<string>();
-  stateMachines = input.required<string[]>();
+  riveObject = input.required<RiveObject>();
+  widthCanvas = signal(0);
+  heightCanvas = signal(0);
 
   // Rive animation
   @ViewChild('riveCanvas', { static: false })
   riveCanvas?: ElementRef<HTMLCanvasElement>;
 
-  constructor(private logger: LoggerService) {}
+  constructor(private logger: LoggerService) {
+    this.logger.log('~~--~~> Konstruktor');
+  }
 
   ngOnInit(): void {
-    this.getSize(this.size());
+    this.heightCanvas.set(this.getSize(this.riveObject().size).height);
+    this.widthCanvas.set(this.getSize(this.riveObject().size).width);
+    this.logger.log('~~--~~> ngOnInit');
   }
 
   ngAfterViewInit() {
-    this.logger.log(`-> Rive File src: ${this.src()}`);
-    this.logger.log(`-> Rive File State Machines: ${this.stateMachines()}`);
+    this.logger.log('~~--~~> ngAfterViewInit');
     if (!this.riveCanvas) return;
 
     const canvas = this.riveCanvas.nativeElement;
+
+    // High resolution
+    canvas.width = this.widthCanvas() * 2;
+    canvas.height = this.heightCanvas() * 2;
+    canvas.style.width = this.widthCanvas() + 'px';
+    canvas.style.height = this.heightCanvas() + 'px';
+
     new Rive({
-      src: this.src(), // place .riv file inside /src/assets/
+      src: this.riveObject().src,
       canvas,
-      stateMachines: this.stateMachines(),
+      stateMachines: this.riveObject().stateMachines,
       autoplay: true,
     });
-
-    this.logger.log(this.height());
-    this.logger.log(this.width());
   }
 
-  getSize(size: string) {
+  getSize(size: string): { height: number; width: number } {
     switch (size) {
       case 'L':
-        this.height.set(300);
-        this.width.set(324);
-        break;
+        return { height: 300, width: 324 };
       case 'M':
-        this.height.set(124);
-        this.width.set(324);
-        break;
+        return { height: 124, width: 324 };
       case 'S':
-        this.height.set(30);
-        this.width.set(30);
-        break;
+        return { height: 30, width: 30 };
       case 'Topic':
-        this.height.set(240);
-        this.width.set(187);
-        break;
+        return { height: 187, width: 240 };
       case 'Hero':
-        this.height.set(390);
-        this.width.set(270);
-        break;
+        return { height: 270, width: 270 };
+      default:
+        return { height: 0, width: 0 };
     }
   }
 }

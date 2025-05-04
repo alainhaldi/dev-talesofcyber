@@ -1,6 +1,7 @@
-.c-rive-container {
-    display: flex;
-    justify-content: center;  /* horizontal zentriert */
-    align-items: center;      /* vertikal zentriert */
-    background-color: green; /* optional */
-  }
+canvas {
+  // height: 100%;     
+  // background-color: rgb(255, 0, 225);
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}

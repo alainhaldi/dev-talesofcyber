@@ -1,17 +1,30 @@
 .c-toolbar {
-    height: 7vh;
-    background-color: antiquewhite;
-    
+  height: 7dvh;
+  height: 7vh;
+  background-color: var(--red-dark);
+  padding-right: var(--padding-border);
+  padding-left: var(--padding-border);
 }
 
 .c-spacer {
-    flex: 1 1 auto;
-  }
+  flex: 1 1 auto;
+}
 
+.c-icon-button{
+  color: var(--red-icons);
+}
 
-  .c-icon-button{
-    background-color: green;
-    color: rebeccapurple;
-  }
+// Language
+a {
+  color: var(--red-icons);
+  text-decoration: none; 
+  font-size: var(--font-size-text);
+}
   
+.divider {
+  color: var(--red-icons);
+  font-size: var(--font-size-text);
+  padding-left: 3px;
+  padding-right: 3px;
+}
   

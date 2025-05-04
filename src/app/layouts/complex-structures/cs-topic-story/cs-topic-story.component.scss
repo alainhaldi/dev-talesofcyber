@@ -1,4 +1,83 @@
-.container-buttons {
-    background-color: aqua;
+.root {
+    background-color: var(--white);
+    height: 93dvh;
+    padding-left: var(--padding-border);
+    padding-right: var(--padding-border);
+}
+
+.wrapper-progress-bar {
+    // background-color: aquamarine;
+    height: 4dvh;
+    padding-top: 2dvh;
+    // display: flex;
+    // align-items: center;
+}
+
+.wrapper-rive{
+    // background-color: yellow;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+    // height: 140px;
+}
+
+.wrapper-content {
+    // background-color: cadetblue;
+    height: 68dvh;
+    padding-top: 3dvh;
+}
+
+.wrapper-text {
+    // background-color: yellow;
+    // padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.wrapper-heading {
+    // background-color: yellow;
+    // padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.wrapper-term {
+    // background-color: rgb(64, 255, 0);
+    // padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.wrapper-buttons {
+    // background-color: aqua;
+    height: 13dvh;  
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-button-left{
+    // background-color: maroon;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-button-right{
+    // background-color: orange;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-custom-button {
+// background-color: rgb(255, 166, 0);
+flex-grow: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.footer-spacer-container{
+    height: 3dvh;
+    // background-color: rgb(251, 0, 255);
 }
 

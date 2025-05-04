@@ -9,7 +9,7 @@
   "external_links_page": {
     "card_1": {
       "bs_heading_name_1": "BDO",
-      "name_logo_file": "demo.png",
+      "name_logo_file": "bdo.png",
       "bs_text_description_1": "Du möchtest dein Netzwerk auf Schwachstellen prüfen lassen, dich und dein Team im Bereich Cyber Awareness schulen, eine Phishing-Kampagne durchführen oder eine Beratung zu einem Cyber-Thema erhalten? Dann bist du hier genau richtig.",
       "bs_link_1": {
         "bs_text_before": "",
@@ -20,7 +20,7 @@
     },
     "card_2": {
       "bs_heading_name_1": "Bundesamt für Cybersicherheit",
-      "name_logo_file": "demo.png",
+      "name_logo_file": "bacs.png",
       "bs_text_description_1": "Du möchtest mehr über aktuelle Zahlen und Statistiken zu den Cyber-Gefahren in der Schweiz erfahren? Dann bist du hier genau richtig.",
       "bs_link_1": {
         "bs_text_before": "",
@@ -31,18 +31,18 @@
     },
     "card_3": {
       "bs_heading_name_1": "iBarry",
-      "name_logo_file": "demo.png",
+      "name_logo_file": "ibarry.svg",
       "bs_text_description_1": "Du möchtest mehr über Cyber-Gefahren erfahren oder wissen, wie du deine Geräte schützt und sicher im Internet surfst? Dann bist du hier genau richtig.",
       "bs_link_1": {
         "bs_text_before": "",
         "alias": "iBarry besuchen",
-        "url": "https://www.ibarry.ch/de/risiken-im-internet/sextortion/",
+        "url": "https://www.ibarry.ch/de/",
         "bs_text_after": ""
       }
     },
     "card_4": {
       "bs_heading_name_1": "Security Awareness Insider",
-      "name_logo_file": "demo.png",
+      "name_logo_file": "sai.png",
       "bs_text_description_1": "Du möchtest spannende Einblicke im Bereich Cyber Security Awareness erhalten? Dann bist du hier genau richtig.",
       "bs_link_1": {
         "bs_text_before": "",
@@ -53,7 +53,7 @@
     },
     "card_5": {
       "bs_heading_name_1": "Europol",
-      "name_logo_file": "demo.png",
+      "name_logo_file": "europol.png",
       "bs_text_description_1": "Du möchtest mehr über Cyber-Gefahren und andere Sicherheitsrisiken erfahren? Dann bist du hier genau richtig.",
       "bs_link_1": {
         "bs_text_before": "",
@@ -64,7 +64,7 @@
     },
     "card_6": {
       "bs_heading_name_1": "Cyber Sicherheits Agentur",
-      "name_logo_file": "demo.png",
+      "name_logo_file": "csabw.png",
       "bs_text_description_1": "Du möchtest mehr Informationen zu Cyber-Gefahren erhalten und diese in Form kurzer Factsheets herunterladen und lesen? Dann bist du hier genau richtig.",
       "bs_link_1": {
         "bs_text_before": "",
@@ -121,6 +121,13 @@
         "story_end": {
           "page_end": {
             "bs_heading_1": "Gratulation!!",
+            "bs_rive_1": {
+              "size": "L",
+              "src": "assets/home-page/hero_image.riv",
+              "stateMachines": {
+                "StateMachine_1": "State Machine 1"
+              }
+            },
             "bs_buttons_custom": {
               "bs_button_1": {
                 "button_text_inside_1": "Beenden"
@@ -242,33 +249,33 @@
           "page_2": {
             "bs_rive_1": {
               "size": "M",
-              "src": "assets/home-page/hero_image.riv",
+              "src": "assets/story-page/passwords/p1.riv",
               "stateMachines": {
                 "StateMachine_1": "State Machine 1"
               }
             },
             "bs_text_1": "Es ist ein ruhiger Abend. Wie so oft sitzt Maria gemütlich auf dem Sofa und schaut fern, als plötzlich ihr Telefon klingelt.",
             "bs_rive_text_1": {
-              "src": "assets/home-page/hero_image.riv",
+              "src": "assets/story-page/passwords/story.riv",
               "text": "Merkwürdig, ein Anruf von meiner besten Kollegin zu dieser Uhrzeit?"
             },
             "bs_text_2": "Geschockt hört Maria ihrer Kollegin zu, die sich lautstark beschwert. Sie ist wütend, weil Maria angeblich Werbung für seltsame Produkte auf ihrem Social-Media-Account gepostet hat.",
             "bs_rive_text_2": {
-              "src": "assets/home-page/hero_image.riv",
+              "src": "assets/story-page/passwords/story.riv",
               "text": "Wie kann das sein? So etwas würde ich doch niemals posten!"
             }
           },
           "page_3": {
             "bs_rive_1": {
               "size": "M",
-              "src": "assets/home-page/hero_image.riv",
+              "src": "assets/story-page/passwords/p2.riv",
               "stateMachines": {
                 "StateMachine_1": "State Machine 1"
               }
             },
             "bs_text_1": "Schnell loggt sich Maria in ihren Account ein - und traut ihren Augen nicht: Tatsächlich sind dort seltsame Bilder auf ihrem Profil zu sehen.",
             "bs_rive_text_1": {
-              "src": "assets/home-page/hero_image.riv",
+              "src": "assets/story-page/passwords/story.riv",
               "text": "Oh nein! Ich wurde gehackt!"
             },
             "bs_text_2": "Sofort ändert Maria ihr Passwort. Aus Angst vor weiteren Angriffen wählt sie diesmal ein wirklich starkes und einzigartiges Passwort."
@@ -276,14 +283,14 @@
           "page_4": {
             "bs_rive_1": {
               "size": "M",
-              "src": "assets/home-page/hero_image.riv",
+              "src": "assets/story-page/passwords/p3.riv",
               "stateMachines": {
                 "StateMachine_1": "State Machine 1"
               }
             },
             "bs_text_1": "Maria löscht die seltsamen Beiträge und informiert ihre Freunde. Trotz des Schocks beginnt sie sich langsam wieder zu beruhigen.",
             "bs_rive_text_1": {
-              "src": "assets/home-page/hero_image.riv",
+              "src": "assets/story-page/passwords/story.riv",
               "text": "Das ist ja gerade nochmal gut gegangen."
             },
             "bs_text_2": "Erleichtert lässt sich Maria wieder aufs Sofa sinken und schaut weiter fern. Doch plötzlich klingelt erneut ihr Handy."
@@ -291,7 +298,7 @@
           "page_5": {
             "bs_rive_1": {
               "size": "M",
-              "src": "assets/home-page/hero_image.riv",
+              "src": "assets/story-page/passwords/p4.riv",
               "stateMachines": {
                 "StateMachine_1": "State Machine 1"
               }
@@ -323,7 +330,6 @@
             }
           },
           "page_7": {
-            "bs_heading_1": "Vor zwei Wochen...",
             "bs_rive_1": {
               "size": "M",
               "src": "assets/home-page/hero_image.riv",
@@ -331,6 +337,7 @@
                 "StateMachine_1": "State Machine 1"
               }
             },
+            "bs_heading_1": "Vor zwei Wochen...",
             "bs_term_1": {
               "bs_text_before": "Hackern ist es gelungen, eine Million Passwörter von der Social-Media-Plattform HeadBook zu stehlen. Mit diesen Daten erstellten sie eine sogenannte ",
               "term": "Passwortliste",
@@ -345,9 +352,8 @@
               "description": "...Beschreibung Folgt...",
               "bs_text_after": " starten."
             },
-
             "bs_rive_1": {
-              "size": "M",
+              "size": "L",
               "src": "assets/home-page/hero_image.riv",
               "stateMachines": {
                 "StateMachine_1": "State Machine 1"
@@ -380,7 +386,7 @@
             },
             "bs_term_1": {
               "bs_text_before": "Damit Maria sich die vielen neuen Passwörter merken kann, nutzt sie einen ",
-              "term": "Passwortmanager",
+              "term": "Passwortmanager.",
               "description": "...Beschreibung Folgt...",
               "bs_text_after": ""
             },
@@ -405,7 +411,7 @@
             "bs_buttons_custom": {
               "bs_button_1": {
                 "button_text_inside_1": "Bestätigen",
-                "button_text_above_1": "Ich werde starke, einzigartige Passwörter verwenden."
+                "button_text_above_1": "Ich werde starke Passwörter verwenden."
               }
             }
           }

@@ -1,0 +1,14 @@
+// Style in Global CSS
+
+.custom-close-button {
+    all: unset;
+    background-color: var(--red-bright);
+    color: var(--white);
+    height: 28px;
+    width: 110px;
+    border-radius: var(--border-radius);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--font-size-subtext);
+}

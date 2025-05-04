@@ -1,37 +1,45 @@
-<app-bs-title title="{{ localPathToQuestion() | translate }}"></app-bs-title>
-<mat-dialog-content class="dialog">
-  @for (obj of answerArray; track obj.key) { @switch (obj.type) {
-  <!-- Heading Component -->
-  @case ('heading') {
-  <app-bs-heading
-    heading="{{ localPathToAnswer() + '.' + obj.key }}"
-  ></app-bs-heading>
-  }
-  <!-- Text Component -->
-  @case ('text') {
-  <app-bs-text text="{{ localPathToAnswer() + '.' + obj.key }}"></app-bs-text>
-  <!-- Bullet Component -->
-  } @case ('bullets') {
-  <app-bs-bullets
-    pathToBullets="{{ localPathToAnswer() + '.' + obj.key }}"
-  ></app-bs-bullets>
-  <!-- Rive Component -->
-  } @case ('rive') {
-  <app-bs-rive
-    size="M"
-    src="assets/home-page/hero_image.riv"
-    [stateMachines]="['State Machine 1']"
-  ></app-bs-rive>
-  <!-- <app-bs-rive
+<div class="root">
+  <div class="heading-wrapper">
+    <app-bs-heading
+      class="custom-question-heading"
+      heading="{{ localPathToQuestion() | translate }}"
+    ></app-bs-heading>
+  </div>
+  <mat-dialog-content>
+    @for (obj of answerArray; track obj.key) { @switch (obj.type) {
+    <!-- Heading Component -->
+    @case ('heading') {
+    <app-bs-heading
+      class="custom-answer-heading"
+      heading="{{ localPathToAnswer() + '.' + obj.key }}"
+    ></app-bs-heading>
+    }
+    <!-- Text Component -->
+    @case ('text') {
+    <app-bs-text text="{{ localPathToAnswer() + '.' + obj.key }}"></app-bs-text>
+    <!-- Bullet Component -->
+    } @case ('bullets') {
+    <app-bs-bullets
+      pathToBullets="{{ localPathToAnswer() + '.' + obj.key }}"
+    ></app-bs-bullets>
+    <!-- Rive Component -->
+    } @case ('rive') {
+    <!-- <app-bs-rive
+      size="M"
+      src="assets/home-page/hero_image.riv"
+      [stateMachines]="['State Machine 1']"
+    ></app-bs-rive> -->
+    <!-- <app-bs-rive
   pathToRive="{{ `${localPathToAnswer()}.${obj.key}`}}"
   ></app-bs-rive> -->
-  <!-- Link Component -->
-  } @case ('link') {
-  <app-bs-link
-    pathToLink="{{ `${localPathToAnswer()}.${obj.key}`}}"
-  ></app-bs-link>
-  }} }
-</mat-dialog-content>
-<mat-dialog-actions align="end">
-  <button mat-dialog-close>Schliessen</button>
-</mat-dialog-actions>
+    <!-- Link Component -->
+    } @case ('link') {
+    <app-bs-link
+      pathToLink="{{ `${localPathToAnswer()}.${obj.key}`}}"
+    ></app-bs-link>
+    }} }
+  </mat-dialog-content>
+  <mat-dialog-actions align="center">
+    <button class="custom-close-button" mat-dialog-close>Schliessen</button>
+  </mat-dialog-actions>
+</div>

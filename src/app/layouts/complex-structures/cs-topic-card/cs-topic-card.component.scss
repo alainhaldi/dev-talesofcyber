@@ -1,9 +1,23 @@
 .container-card {
-    background-color: cadetblue;
-    height: 300px;
-    width: 300px;
+    background-color: var(--red-dark);
+    overflow: hidden;
+    height: 260px;
+    width: 240px;
+    border-radius: var(--border-radius);
 }
 
 .container-card-text {
-    background-color: lightgreen;
+    padding-left: 12px;
+    
 }
+
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+.title-topic{
+    color: var(--white);
+}
+
+// .description-topic{color: var(--white);}

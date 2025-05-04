@@ -1,17 +1,16 @@
 import { Component, Inject, signal } from '@angular/core';
-import { BsTitleComponent } from '../bs-title/bs-title.component';
-import { TranslatePipe } from '@ngx-translate/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MAT_DIALOG_DATA, MatDialogModule } from '@angular/material/dialog';
 import { BsTextComponent } from '../bs-text/bs-text.component';
+import { BsHeadingComponent } from '../bs-heading/bs-heading.component';
 
 @Component({
   selector: 'app-bs-term-dialog',
   imports: [
     MatButtonModule,
     MatDialogModule,
-    BsTitleComponent,
     BsTextComponent,
+    BsHeadingComponent,
   ],
   templateUrl: './bs-term-dialog.component.html',
   styleUrl: './bs-term-dialog.component.scss',

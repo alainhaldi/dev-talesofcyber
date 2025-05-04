@@ -3,6 +3,7 @@ import { BsTitleComponent } from '../../base-structures/bs-title/bs-title.compon
 import { BsTextComponent } from '../../base-structures/bs-text/bs-text.component';
 import { BsButtonComponent } from '../../base-structures/bs-button/bs-button.component';
 import { getTopicDescription, getTopicTitle } from '../../../topics.config';
+import { BsHeadingComponent } from '../../base-structures/bs-heading/bs-heading.component';
 
 @Component({
   selector: 'app-cs-topic-question-header',

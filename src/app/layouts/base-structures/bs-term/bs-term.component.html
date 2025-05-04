@@ -1,3 +1,11 @@
-<app-bs-text text="{{ text_before() }}"></app-bs-text>
-<button (click)="openDialog(term(), description())">{{ term() }}</button>
-<app-bs-text text="{{ text_after() }}"></app-bs-text>
+<span class="root" style="display: inline">
+  <app-bs-text style="display: inline" text="{{ text_before() }}"></app-bs-text>
+  <button
+    class="term-button"
+    style="display: inline"
+    (click)="openDialog(term(), description())"
+  >
+    {{ term() }}
+  </button>
+  <app-bs-text style="display: inline" text="{{ text_after() }}"></app-bs-text>
+</span>

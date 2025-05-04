@@ -12,7 +12,6 @@ import { CsTopicQuestionsComponent } from '../../layouts/complex-structures/cs-t
   imports: [
     CommonModule,
     CsToolbarComponent,
-    BsSpacerContainerComponent,
     CsTopicQuestionHeaderComponent,
     CsTopicQuestionsComponent,
   ],

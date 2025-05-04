@@ -9,5 +9,5 @@ import { LanguageService } from './core/language.service';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  constructor(private readonly languageService: LanguageService) {}
+  // constructor(private readonly languageService: LanguageService) {}
 }

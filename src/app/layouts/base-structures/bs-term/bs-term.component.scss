@@ -1,0 +1,13 @@
+.root{
+    // background-color: yellow;
+    // display: flex;
+}
+
+.term-button {
+    all: unset;
+    font-size: var(--font-size-text);
+    color: var(--red-bright);
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}

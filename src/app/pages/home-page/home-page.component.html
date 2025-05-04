@@ -1,25 +1,29 @@
 <app-cs-toolbar [showMenuIcon]="true"></app-cs-toolbar>
-<app-bs-spacer-container></app-bs-spacer-container>
-<app-bs-rive
-  size="Hero"
-  src="assets/home-page/hero_image.riv"
-  [stateMachines]="['State Machine 1']"
-></app-bs-rive>
-<app-bs-spacer-container></app-bs-spacer-container>
-<div class="container-title-button">
-  <app-bs-title title="{{ pathToTitleHotTopics }}" [isH1]="true"></app-bs-title>
-  <span class="c-spacer"></span>
-  <app-bs-button
-    text="{{ pathToButtonAllTopics }}"
-    [isLarge]="false"
-  ></app-bs-button>
+
+<div class="root-container">
+  <div class="hero-wrapper">
+    <app-bs-rive [riveObject]="riveObj"></app-bs-rive>
+  </div>
+
+  <div class="heading-hot-topic-container">
+    <app-bs-title
+      class="title-hot-topic"
+      title="{{ pathToTitleHotTopics }}"
+      [isH1]="true"
+    ></app-bs-title>
+    <span class="c-spacer"></span>
+    <!-- <app-bs-button
+      text="{{ pathToButtonAllTopics }}"
+      [isLarge]="false"
+    ></app-bs-button> -->
+  </div>
+
+  <div class="cards-hot-topic-container">
+    @for (hot_topic of local_hot_topics; track hot_topic.topicId) {
+    <app-cs-topic-card
+      topicId="{{ hot_topic.topicId }}"
+      urlId="{{ hot_topic.urlId }}"
+    ></app-cs-topic-card>
+    }
+  </div>
 </div>
-<div class="container-hot-topics">
-  @for (hot_topic of local_hot_topics; track hot_topic.topicId) {
-  <app-cs-topic-card
-    topicId="{{ hot_topic.topicId }}"
-    urlId="{{ hot_topic.urlId }}"
-  ></app-cs-topic-card>
-  }
-</div>
-<app-bs-spacer-container></app-bs-spacer-container>

@@ -1,10 +1,14 @@
-<div class="container-header">
+<div class="wrapper-container">
   <div>
     <app-bs-title title="{{ topicTitle() }}"></app-bs-title>
-    <app-bs-text text="{{ topicDescription() }}"></app-bs-text>
+    <app-bs-text
+      class="description-topic-header"
+      text="{{ topicDescription() }}"
+    ></app-bs-text>
   </div>
   <div>
     <app-bs-button
+      class="story-button"
       text="{{ pathToStoryButton() }}"
       [isLarge]="false"
       [activatedRouterlink]="true"

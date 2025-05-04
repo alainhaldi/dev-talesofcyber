@@ -21,7 +21,6 @@ import { LoggerService } from '../../../core/logger.service';
     BsBulletsComponent,
     BsTextComponent,
     BsHeadingComponent,
-    BsTitleComponent,
     BsRiveComponent,
     BsLinkComponent,
   ],

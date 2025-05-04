@@ -1,6 +1,6 @@
 # TalesOfCyber
 
-This readme is seperated in two chapters.
+This readme is seperated in three chapters.
 
 ## Manage Content
 
@@ -13,3 +13,7 @@ Chapter one **Manage Content** is relevant whenever the topics, stories or langu
 Chapter two **Developement** is relevant whenever new components or new pages are needed. In that case coding is relevant and necessarily.
 
 - [Developement](docs/developement.md)
+
+## Design
+
+- [Design](docs/design.md)
