@@ -16,7 +16,11 @@
     }
     <!-- Text Component -->
     @case ('text') {
-    <app-bs-text text="{{ localPathToAnswer() + '.' + obj.key }}"></app-bs-text>
+    <div class="wrapper-text">
+      <app-bs-text
+        text="{{ localPathToAnswer() + '.' + obj.key }}"
+      ></app-bs-text>
+    </div>
     <!-- Bullet Component -->
     } @case ('bullets') {
     <app-bs-bullets

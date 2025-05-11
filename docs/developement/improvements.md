@@ -7,7 +7,6 @@
 
 ## Prios
 
-- Storyies -> Bullet of Secret Tipp & Last Story Page Title
 - Add Descriptions of Terms
 - Check all Story Content
 - Add correct Images
@@ -16,6 +15,11 @@
 
 - Translation -> term, img-text, button components
 - Story -> If 2 Rive-Text Components, the seccond dosent gt removed when nextPag() -> only Safari issue, Brave works (when zoom in safari, it dissapears)
+
+## Design
+
+- App bar while refresh, shouldnt get pulled down
+- Storyies -> Bullet of Secret Tipp & Last Story Page Title
 
 ## Restructuring
 
