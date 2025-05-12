@@ -19,7 +19,7 @@
     "@angular/material": "^19.2.10",
     "@angular/platform-browser": "^19.2.0",
     "@angular/platform-browser-dynamic": "^19.2.0",
-    "@angular/router": "^19.2.0",
+    "@angular/router": "^19.2.10",
     "@ngx-translate/core": "^16.0.4",
     "@ngx-translate/http-loader": "^16.0.1",
     "@rive-app/canvas": "^2.27.0",
