@@ -22,8 +22,20 @@ Make sure your jsonId matches with the ID in the **language.json** file
 }
 ```
 
-!! How to implement the hot topic picture??
+### Hot Topic Picture
+
+Make sure you named your Rive File the same way as the **urlId** of your hot topic
+
+```bash
+secret-topic.riv
+```
+
+Add the Rive file to the assetes folder and it will be automatically be displayed in the hot topic card
+
+```bash
+src/assets/hot-topics/secret-topic.riv
+```
 
 ## Remove Hot Topic
 
-For removing, you simply have to delete the hot topic from the **hot_topics** array.
+For removing, you simply have to delete the hot topic from the **hot_topics** array and additionaly, remove the Picture of the **assets/hot-topics** folder

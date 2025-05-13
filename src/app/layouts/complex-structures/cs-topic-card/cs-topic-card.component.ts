@@ -4,7 +4,6 @@ import { BsTitleComponent } from '../../base-structures/bs-title/bs-title.compon
 import { BsTextComponent } from '../../base-structures/bs-text/bs-text.component';
 import { RouterLink } from '@angular/router';
 import { getTopicDescription, getTopicTitle } from '../../../topics.config';
-import { BsHeadingComponent } from '../../base-structures/bs-heading/bs-heading.component';
 import { RiveObject } from '../../../models/rive-model';
 
 @Component({
@@ -20,7 +19,7 @@ export class CsTopicCardComponent implements OnInit {
   pathToDescription = signal('');
   riveObj: RiveObject = {
     size: 'Topic',
-    src: 'assets/home-page/topic.riv',
+    src: '',
     stateMachines: ['State Machine 1'],
   };
 
@@ -30,5 +29,6 @@ export class CsTopicCardComponent implements OnInit {
   ngOnInit() {
     this.pathToTitle.set(getTopicTitle(this.topicId()));
     this.pathToDescription.set(getTopicDescription(this.topicId()));
+    this.riveObj.src = `assets/home-page/hot-topics/${this.urlId()}.riv`;
   }
 }

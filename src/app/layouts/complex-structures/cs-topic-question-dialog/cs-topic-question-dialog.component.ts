@@ -21,7 +21,6 @@ import { LoggerService } from '../../../core/logger.service';
     BsBulletsComponent,
     BsTextComponent,
     BsHeadingComponent,
-    BsRiveComponent,
     BsLinkComponent,
   ],
   templateUrl: './cs-topic-question-dialog.component.html',

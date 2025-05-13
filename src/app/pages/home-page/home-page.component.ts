@@ -25,7 +25,7 @@ export class HomePageComponent {
   local_hot_topics = hot_topics;
   riveObj: RiveObject = {
     size: 'Hero',
-    src: 'assets/home-page/hero2.riv',
+    src: 'assets/home-page/hero.riv',
     stateMachines: ['State Machine 1'],
   };
 }

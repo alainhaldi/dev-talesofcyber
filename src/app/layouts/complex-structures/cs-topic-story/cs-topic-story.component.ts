@@ -108,7 +108,14 @@ export class CsTopicStoryComponent implements OnInit {
           : key.startsWith('bs_rive_text')
           ? 'rive-text'
           : key.startsWith('bs_rive')
-          ? ((value = value as RiveObject), 'rive')
+          ? // ? ((value = value as RiveObject), 'rive')
+            // Dummy Rive Object
+            ((value = {
+              size: 'M',
+              src: 'assets/demo/demo-m.riv',
+              stateMachines: ['State Machine 1'],
+            } as RiveObject),
+            'rive')
           : key.startsWith('bs_link')
           ? 'link'
           : key.startsWith('bs_bullets')
