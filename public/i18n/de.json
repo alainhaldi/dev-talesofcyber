@@ -113,7 +113,7 @@
             "bs_term_1": {
               "bs_text_before": "Wörter welche ",
               "term": "unterstrichen",
-              "description": "Unterstreichen bedeutet ein Wort ...",
+              "description": "Unterstreichen bedeutet, etwas hervorzuheben - entweder durch einen Strich unter einem Wort oder indem man inhaltlich die Wichtigkeit betont. Es dient dazu, die Aufmerksamkeit gezielt zu lenken.",
               "bs_text_after": " sind, können Angeklickt werden um eine Erklärung zu erhalten."
             }
           }
@@ -230,7 +230,7 @@
           "question_10": {
             "bs_heading_question": "Was ist die Multi-Faktor-Authentifizierung (MFA)?",
             "answer": {
-              "bs_text_1": "Stell dir MFA wie einen Wachhund vor: Selbst wenn jemand deinen Hausschlüssel (also dein Passwort) hat, lässt dich nur der Wachhund rein - weil er genau weiss, wer der echte Besitzer ist.",
+              "bs_text_1": "Stell dir MFA wie einen Wachhund vor: Selbst wenn jemand deinen Hausschlüssel (also dein Passwort) hat, kommt er nicht am Wachhund vorbei.",
               "bs_text_2": "Technisch bedeutet das: Neben deinem Passwort brauchst du noch einen zweiten Faktor - zum Beispiel einen Code auf deinem Smartphone. Erst wenn du diesen bestätigst, bekommst du Zugriff. Das macht es für Angreifer deutlich schwerer, in deinen Account zu gelangen."
             }
           }
@@ -341,7 +341,7 @@
             "bs_term_1": {
               "bs_text_before": "Hackern ist es gelungen, eine Million Passwörter von der Social-Media-Plattform HeadBook zu stehlen. Mit diesen Daten erstellten sie eine sogenannte ",
               "term": "Passwortliste",
-              "description": "...Beschreibung Passwortliste...",
+              "description": "Eine Passwortliste ist wie eine Einkaufsliste - nur stehen statt Milch und Brot gestohlene Passwörter darauf. Solche Listen können riesig sein. Die bekannteste Passwortliste, RockYou2024, enthält rund 10 Milliarden gestohlene Passwörter.",
               "bs_text_after": " Das ist für viele eine ernste Bedrohung - denn noch immer nutzen viele Menschen dasselbe Passwort für mehrere Dienste, so auch Maria."
             }
           },
@@ -349,7 +349,7 @@
             "bs_term_1": {
               "bs_text_before": "Hacker hingegen lieben solche Passwortlisten - damit können sie ganz einfach einen sogenannten ",
               "term": "Brute-Force-Angriff",
-              "description": "...Beschreibung Folgt...",
+              "description": "Bei einem Brute-Force-Angriff versuchen Kriminelle, dein Passwort durch blosses Ausprobieren zu erraten. Sie starten mit dem ersten Passwort auf einer Liste - ist es falsch, probieren sie das nächste, dann das nächste, und so weiter. Dieser Prozess klingt mühsam, aber moderne Computer sind so schnell, dass sie einfache Passwörter in wenigen Minuten oder Stunden knacken können. Um davor sicher zu sein, solltest du einzigartige, komplizierte und lange Passwörter (16 Zeichen) verwenden.",
               "bs_text_after": " starten."
             },
             "bs_rive_1": {
@@ -387,13 +387,13 @@
             "bs_term_1": {
               "bs_text_before": "Damit Maria sich die vielen neuen Passwörter merken kann, nutzt sie einen ",
               "term": "Passwortmanager.",
-              "description": "...Beschreibung Folgt...",
+              "description": "Ein Passwortmanager ist wie eine Bank - nur für Passwörter statt Geld. Der Vorteil: Diese „Bank“ hast du immer dabei, auf deinem Smartphone. So hast du jederzeit sicheren Zugriff auf all deine Passwörter.",
               "bs_text_after": ""
             },
             "bs_term_2": {
               "bs_text_before": "Zusätzlich aktiviert sie überall die ",
               "term": "Multi-Faktor-Authentifizierung",
-              "description": "...Beschreibung Folgt...",
+              "description": "Stell dir MFA wie einen Wachhund vor: Selbst wenn jemand deinen Hausschlüssel (also dein Passwort) hat, kommt er nicht am Wachhund vorbei. Technisch bedeutet das: Neben deinem Passwort brauchst du noch einen zweiten Faktor - zum Beispiel einen Code auf deinem Smartphone. Erst wenn du diesen bestätigst, bekommst du Zugriff. Das macht es für Angreifer deutlich schwerer, in deinen Account zu gelangen.",
               "bs_text_after": ", um bestmöglich geschützt zu sein."
             }
           },

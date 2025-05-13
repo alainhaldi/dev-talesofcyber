@@ -7,14 +7,9 @@
 
 ## Prios
 
-- Add Descriptions of Terms
-- Check all Story Content
-- Add correct Images
-
 ## Bugs
 
 - Translation -> term, img-text, button components
-- Story -> If 2 Rive-Text Components, the seccond dosent gt removed when nextPag() -> only Safari issue, Brave works (when zoom in safari, it dissapears)
 
 ## Design
 
@@ -34,6 +29,7 @@
 - Improve Button Component - only 2 button (with/without Routing) -> Size configure only with css
 - Make a Export Methode wich creates Arrays from JSOn Objects so there are not 2 implementations needed anymore (cs question dialog & cs story)
 - Add Model Interface for each bs component and replace the type in cs story page component with this model
+- Consider choosing .png over .rive in Stories, this might increase the loading speed of the file?
 
 ## Features
 

@@ -29,6 +29,6 @@ export class CsTopicCardComponent implements OnInit {
   ngOnInit() {
     this.pathToTitle.set(getTopicTitle(this.topicId()));
     this.pathToDescription.set(getTopicDescription(this.topicId()));
-    this.riveObj.src = `assets/hot-topics/${this.urlId()}.riv`;
+    this.riveObj.src = `assets/home-page/hot-topics/${this.urlId()}.riv`;
   }
 }
